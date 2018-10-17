@@ -1,0 +1,2209 @@
+---------------------------------------------------------------
+[ 2018-09-19T09:47:40+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html [运行时间：0.246973s][吞吐率：4.05req/s] [内存消耗：3,096.26kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/team_1/t/2011_Edinburgh.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_K523013',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_coding.html [ array (
+  0 => 'res_3_0',
+  1 => 'res_3_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'res_3_2',
+  6 => 'res_3_3',
+  7 => 'res_3_4',
+  8 => 'res_3_5',
+  9 => 'res_3_6',
+  10 => 'res_3_7',
+  11 => 'filename_3',
+  12 => 'len',
+  13 => 'color',
+  14 => 'color_1',
+  15 => 'color_2',
+  16 => 'color_3',
+  17 => 'arr1',
+  18 => 'arr2',
+  19 => 'arr3',
+  20 => 'arr5',
+  21 => 'color_4',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003449s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.004107s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.016617s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.001372s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001667s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.002837s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001999s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.000966s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001882s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.001052s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001239s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.001377s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001348s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' LIMIT 1 [ RunTime:0.000429s ]
+[ sql ] [ SQL ] select
+		uniprot.Uniprot_id,
+		uniprot.Protein_Name,
+		uniprot.Gene_Name,
+		uniprot.Species,
+		uniprot.Function,
+        uniprot.Interaction,
+        uniprot.Keywords,
+        uniprot.Sequence,
+        uniprot.Uniprot_Link,
+        igem_uniprot.Part_Locus,
+        igem_uniprot.Protein_Locus
+		from igem_uniprot,uniprot
+		where igem_uniprot.iGEM_ID='BBa_K523013' and igem_uniprot.Uniprot_id=uniprot.Uniprot_id [ RunTime:0.001476s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_K523013' [ RunTime:0.108525s ]
+[ sql ] [ SQL ] select
+                            go.Uniprot_id,
+                            go.Qualifier,
+                            go.GO_Term,
+                            go.Evidence,
+                            go.Reference
+                            from go,uniprot where go.Uniprot_id='O30611' and uniprot.Uniprot_id='O30611' [ RunTime:0.002476s ]
+[ sql ] [ SQL ] select
+                            go.Uniprot_id,
+                            go.Qualifier,
+                            go.GO_Term,
+                            go.Evidence,
+                            go.Reference
+                            from go,uniprot where go.Uniprot_id='P42212' and uniprot.Uniprot_id='P42212' [ RunTime:0.002309s ]
+[ sql ] [ SQL ] select reference.reference,reference.title,reference.abstract from reference where reference.uniprot_id='O30611' [ RunTime:0.001862s ]
+[ sql ] [ SQL ] select feature_key.feature_key,feature_key.position,feature_key.description from feature_key where feature_key.uniprot_id='O30611' [ RunTime:0.002655s ]
+[ sql ] [ SQL ] select reference.reference,reference.title,reference.abstract from reference where reference.uniprot_id='P42212' [ RunTime:0.002848s ]
+[ sql ] [ SQL ] select feature_key.feature_key,feature_key.position,feature_key.description from feature_key where feature_key.uniprot_id='P42212' [ RunTime:0.001583s ]
+---------------------------------------------------------------
+[ 2018-09-19T09:48:16+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html [运行时间：0.289961s][吞吐率：3.45req/s] [内存消耗：3,096.35kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/team_1/t/2011_Edinburgh.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_K523013',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_coding.html [ array (
+  0 => 'res_3_0',
+  1 => 'res_3_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'res_3_2',
+  6 => 'res_3_3',
+  7 => 'res_3_4',
+  8 => 'res_3_5',
+  9 => 'res_3_6',
+  10 => 'res_3_7',
+  11 => 'filename_3',
+  12 => 'len',
+  13 => 'color',
+  14 => 'color_1',
+  15 => 'color_2',
+  16 => 'color_3',
+  17 => 'arr1',
+  18 => 'arr2',
+  19 => 'arr3',
+  20 => 'arr5',
+  21 => 'color_4',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012439s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.002401s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.024311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.001690s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.002006s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001414s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.002146s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.001579s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.002397s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.001552s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001734s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.001642s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.002213s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' LIMIT 1 [ RunTime:0.000793s ]
+[ sql ] [ SQL ] select
+		uniprot.Uniprot_id,
+		uniprot.Protein_Name,
+		uniprot.Gene_Name,
+		uniprot.Species,
+		uniprot.Function,
+        uniprot.Interaction,
+        uniprot.Keywords,
+        uniprot.Sequence,
+        uniprot.Uniprot_Link,
+        igem_uniprot.Part_Locus,
+        igem_uniprot.Protein_Locus
+		from igem_uniprot,uniprot
+		where igem_uniprot.iGEM_ID='BBa_K523013' and igem_uniprot.Uniprot_id=uniprot.Uniprot_id [ RunTime:0.002155s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_K523013' [ RunTime:0.138210s ]
+[ sql ] [ SQL ] select
+                            go.Uniprot_id,
+                            go.Qualifier,
+                            go.GO_Term,
+                            go.Evidence,
+                            go.Reference
+                            from go,uniprot where go.Uniprot_id='O30611' and uniprot.Uniprot_id='O30611' [ RunTime:0.001762s ]
+[ sql ] [ SQL ] select
+                            go.Uniprot_id,
+                            go.Qualifier,
+                            go.GO_Term,
+                            go.Evidence,
+                            go.Reference
+                            from go,uniprot where go.Uniprot_id='P42212' and uniprot.Uniprot_id='P42212' [ RunTime:0.001234s ]
+[ sql ] [ SQL ] select reference.reference,reference.title,reference.abstract from reference where reference.uniprot_id='O30611' [ RunTime:0.001239s ]
+[ sql ] [ SQL ] select feature_key.feature_key,feature_key.position,feature_key.description from feature_key where feature_key.uniprot_id='O30611' [ RunTime:0.001600s ]
+[ sql ] [ SQL ] select reference.reference,reference.title,reference.abstract from reference where reference.uniprot_id='P42212' [ RunTime:0.001878s ]
+[ sql ] [ SQL ] select feature_key.feature_key,feature_key.position,feature_key.description from feature_key where feature_key.uniprot_id='P42212' [ RunTime:0.001578s ]
+---------------------------------------------------------------
+[ 2018-09-19T09:48:32+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html [运行时间：0.208551s][吞吐率：4.79req/s] [内存消耗：3,092.27kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/team_1/t/2011_Edinburgh.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_K523013',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_coding.html [ array (
+  0 => 'res_3_0',
+  1 => 'res_3_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'res_3_2',
+  6 => 'res_3_3',
+  7 => 'res_3_4',
+  8 => 'res_3_5',
+  9 => 'res_3_6',
+  10 => 'res_3_7',
+  11 => 'filename_3',
+  12 => 'len',
+  13 => 'color',
+  14 => 'color_1',
+  15 => 'color_2',
+  16 => 'color_3',
+  17 => 'arr1',
+  18 => 'arr2',
+  19 => 'arr3',
+  20 => 'arr5',
+  21 => 'color_4',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001232s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.001716s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.020406s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.001153s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001221s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.000667s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001450s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.000893s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001217s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001057s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001355s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' LIMIT 1 [ RunTime:0.000480s ]
+[ sql ] [ SQL ] select
+		uniprot.Uniprot_id,
+		uniprot.Protein_Name,
+		uniprot.Gene_Name,
+		uniprot.Species,
+		uniprot.Function,
+        uniprot.Interaction,
+        uniprot.Keywords,
+        uniprot.Sequence,
+        uniprot.Uniprot_Link,
+        igem_uniprot.Part_Locus,
+        igem_uniprot.Protein_Locus
+		from igem_uniprot,uniprot
+		where igem_uniprot.iGEM_ID='BBa_K523013' and igem_uniprot.Uniprot_id=uniprot.Uniprot_id [ RunTime:0.002030s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_K523013' [ RunTime:0.115894s ]
+[ sql ] [ SQL ] select
+                            go.Uniprot_id,
+                            go.Qualifier,
+                            go.GO_Term,
+                            go.Evidence,
+                            go.Reference
+                            from go,uniprot where go.Uniprot_id='O30611' and uniprot.Uniprot_id='O30611' [ RunTime:0.001636s ]
+[ sql ] [ SQL ] select
+                            go.Uniprot_id,
+                            go.Qualifier,
+                            go.GO_Term,
+                            go.Evidence,
+                            go.Reference
+                            from go,uniprot where go.Uniprot_id='P42212' and uniprot.Uniprot_id='P42212' [ RunTime:0.001357s ]
+[ sql ] [ SQL ] select reference.reference,reference.title,reference.abstract from reference where reference.uniprot_id='O30611' [ RunTime:0.001397s ]
+[ sql ] [ SQL ] select feature_key.feature_key,feature_key.position,feature_key.description from feature_key where feature_key.uniprot_id='O30611' [ RunTime:0.001620s ]
+[ sql ] [ SQL ] select reference.reference,reference.title,reference.abstract from reference where reference.uniprot_id='P42212' [ RunTime:0.001355s ]
+[ sql ] [ SQL ] select feature_key.feature_key,feature_key.position,feature_key.description from feature_key where feature_key.uniprot_id='P42212' [ RunTime:0.002710s ]
+---------------------------------------------------------------
+[ 2018-09-19T09:48:50+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html [运行时间：0.257473s][吞吐率：3.88req/s] [内存消耗：3,088.09kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/team_1/t/2011_Edinburgh.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_K523013',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_coding.html [ array (
+  0 => 'res_3_0',
+  1 => 'res_3_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'res_3_2',
+  6 => 'res_3_3',
+  7 => 'res_3_4',
+  8 => 'res_3_5',
+  9 => 'res_3_6',
+  10 => 'res_3_7',
+  11 => 'filename_3',
+  12 => 'len',
+  13 => 'color',
+  14 => 'color_1',
+  15 => 'color_2',
+  16 => 'color_3',
+  17 => 'arr1',
+  18 => 'arr2',
+  19 => 'arr3',
+  20 => 'arr5',
+  21 => 'color_4',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001684s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.003398s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.021277s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.001248s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001413s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001134s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001794s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.002233s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001593s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.000895s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001159s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.001025s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001345s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' LIMIT 1 [ RunTime:0.000512s ]
+[ sql ] [ SQL ] select
+		uniprot.Uniprot_id,
+		uniprot.Protein_Name,
+		uniprot.Gene_Name,
+		uniprot.Species,
+		uniprot.Function,
+        uniprot.Interaction,
+        uniprot.Keywords,
+        uniprot.Sequence,
+        uniprot.Uniprot_Link,
+        igem_uniprot.Part_Locus,
+        igem_uniprot.Protein_Locus
+		from igem_uniprot,uniprot
+		where igem_uniprot.iGEM_ID='BBa_K523013' and igem_uniprot.Uniprot_id=uniprot.Uniprot_id [ RunTime:0.001439s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_K523013' [ RunTime:0.154052s ]
+[ sql ] [ SQL ] select
+                            go.Uniprot_id,
+                            go.Qualifier,
+                            go.GO_Term,
+                            go.Evidence,
+                            go.Reference
+                            from go,uniprot where go.Uniprot_id='O30611' and uniprot.Uniprot_id='O30611' [ RunTime:0.002060s ]
+[ sql ] [ SQL ] select
+                            go.Uniprot_id,
+                            go.Qualifier,
+                            go.GO_Term,
+                            go.Evidence,
+                            go.Reference
+                            from go,uniprot where go.Uniprot_id='P42212' and uniprot.Uniprot_id='P42212' [ RunTime:0.001195s ]
+[ sql ] [ SQL ] select reference.reference,reference.title,reference.abstract from reference where reference.uniprot_id='O30611' [ RunTime:0.001250s ]
+[ sql ] [ SQL ] select feature_key.feature_key,feature_key.position,feature_key.description from feature_key where feature_key.uniprot_id='O30611' [ RunTime:0.002329s ]
+[ sql ] [ SQL ] select reference.reference,reference.title,reference.abstract from reference where reference.uniprot_id='P42212' [ RunTime:0.001976s ]
+[ sql ] [ SQL ] select feature_key.feature_key,feature_key.position,feature_key.description from feature_key where feature_key.uniprot_id='P42212' [ RunTime:0.001231s ]
+---------------------------------------------------------------
+[ 2018-09-19T09:51:42+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html [运行时间：0.237378s][吞吐率：4.21req/s] [内存消耗：3,086.75kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/team_1/t/2011_Edinburgh.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_K523013',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_coding.html [ array (
+  0 => 'res_3_0',
+  1 => 'res_3_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'res_3_2',
+  6 => 'res_3_3',
+  7 => 'res_3_4',
+  8 => 'res_3_5',
+  9 => 'res_3_6',
+  10 => 'res_3_7',
+  11 => 'filename_3',
+  12 => 'len',
+  13 => 'color',
+  14 => 'color_1',
+  15 => 'color_2',
+  16 => 'color_3',
+  17 => 'arr1',
+  18 => 'arr3',
+  19 => 'arr5',
+  20 => 'color_4',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001741s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.001685s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.036251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.002201s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.002227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001437s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.002298s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.001349s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.002126s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.001572s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001682s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.001801s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.002024s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' LIMIT 1 [ RunTime:0.000826s ]
+[ sql ] [ SQL ] select
+		uniprot.Uniprot_id,
+		uniprot.Protein_Name,
+		uniprot.Gene_Name,
+		uniprot.Species,
+		uniprot.Function,
+        uniprot.Interaction,
+        uniprot.Keywords,
+        uniprot.Sequence,
+        uniprot.Uniprot_Link,
+        igem_uniprot.Part_Locus,
+        igem_uniprot.Protein_Locus
+		from igem_uniprot,uniprot
+		where igem_uniprot.iGEM_ID='BBa_K523013' and igem_uniprot.Uniprot_id=uniprot.Uniprot_id [ RunTime:0.002150s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_K523013' [ RunTime:0.105352s ]
+[ sql ] [ SQL ] select
+                            go.Uniprot_id,
+                            go.Qualifier,
+                            go.GO_Term,
+                            go.Evidence,
+                            go.Reference
+                            from go,uniprot where go.Uniprot_id='O30611' and uniprot.Uniprot_id='O30611' [ RunTime:0.001574s ]
+[ sql ] [ SQL ] select
+                            go.Uniprot_id,
+                            go.Qualifier,
+                            go.GO_Term,
+                            go.Evidence,
+                            go.Reference
+                            from go,uniprot where go.Uniprot_id='P42212' and uniprot.Uniprot_id='P42212' [ RunTime:0.001270s ]
+[ sql ] [ SQL ] select reference.reference,reference.title,reference.abstract from reference where reference.uniprot_id='O30611' [ RunTime:0.001248s ]
+[ sql ] [ SQL ] select feature_key.feature_key,feature_key.position,feature_key.description from feature_key where feature_key.uniprot_id='O30611' [ RunTime:0.001479s ]
+[ sql ] [ SQL ] select reference.reference,reference.title,reference.abstract from reference where reference.uniprot_id='P42212' [ RunTime:0.001194s ]
+[ sql ] [ SQL ] select feature_key.feature_key,feature_key.position,feature_key.description from feature_key where feature_key.uniprot_id='P42212' [ RunTime:0.000990s ]
+---------------------------------------------------------------
+[ 2018-09-19T09:59:17+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html [运行时间：0.329602s][吞吐率：3.03req/s] [内存消耗：3,086.84kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/team_1/t/2011_Edinburgh.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_K523013',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_coding.html [ array (
+  0 => 'res_3_0',
+  1 => 'res_3_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'res_3_2',
+  6 => 'res_3_3',
+  7 => 'res_3_4',
+  8 => 'res_3_5',
+  9 => 'res_3_6',
+  10 => 'res_3_7',
+  11 => 'filename_3',
+  12 => 'len',
+  13 => 'color',
+  14 => 'color_1',
+  15 => 'color_2',
+  16 => 'color_3',
+  17 => 'arr1',
+  18 => 'arr3',
+  19 => 'arr5',
+  20 => 'color_4',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002210s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.010423s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.021107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.001132s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001262s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001078s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001163s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.000825s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001307s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.000925s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001070s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.000852s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001107s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' LIMIT 1 [ RunTime:0.000425s ]
+[ sql ] [ SQL ] select
+		uniprot.Uniprot_id,
+		uniprot.Protein_Name,
+		uniprot.Gene_Name,
+		uniprot.Species,
+		uniprot.Function,
+        uniprot.Interaction,
+        uniprot.Keywords,
+        uniprot.Sequence,
+        uniprot.Uniprot_Link,
+        igem_uniprot.Part_Locus,
+        igem_uniprot.Protein_Locus
+		from igem_uniprot,uniprot
+		where igem_uniprot.iGEM_ID='BBa_K523013' and igem_uniprot.Uniprot_id=uniprot.Uniprot_id [ RunTime:0.001167s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_K523013' [ RunTime:0.179902s ]
+[ sql ] [ SQL ] select
+                            go.Uniprot_id,
+                            go.Qualifier,
+                            go.GO_Term,
+                            go.Evidence,
+                            go.Reference
+                            from go,uniprot where go.Uniprot_id='O30611' and uniprot.Uniprot_id='O30611' [ RunTime:0.008284s ]
+[ sql ] [ SQL ] select
+                            go.Uniprot_id,
+                            go.Qualifier,
+                            go.GO_Term,
+                            go.Evidence,
+                            go.Reference
+                            from go,uniprot where go.Uniprot_id='P42212' and uniprot.Uniprot_id='P42212' [ RunTime:0.004604s ]
+[ sql ] [ SQL ] select reference.reference,reference.title,reference.abstract from reference where reference.uniprot_id='O30611' [ RunTime:0.002831s ]
+[ sql ] [ SQL ] select feature_key.feature_key,feature_key.position,feature_key.description from feature_key where feature_key.uniprot_id='O30611' [ RunTime:0.002168s ]
+[ sql ] [ SQL ] select reference.reference,reference.title,reference.abstract from reference where reference.uniprot_id='P42212' [ RunTime:0.002013s ]
+[ sql ] [ SQL ] select feature_key.feature_key,feature_key.position,feature_key.description from feature_key where feature_key.uniprot_id='P42212' [ RunTime:0.001322s ]
+---------------------------------------------------------------
+[ 2018-09-19T10:07:23+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html [运行时间：0.294871s][吞吐率：3.39req/s] [内存消耗：2,957.52kb] [文件加载：54]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/team_1/t/2011_Edinburgh.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_K523013',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011862s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.001788s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.020997s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.001368s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001981s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001498s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001812s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.001208s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001984s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.001147s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.001219s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001749s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' LIMIT 1 [ RunTime:0.000763s ]
+[ sql ] [ SQL ] select
+		uniprot.Uniprot_id,
+		uniprot.Protein_Name,
+		uniprot.Gene_Name,
+		uniprot.Species,
+		uniprot.Function,
+        uniprot.Interaction,
+        uniprot.Keywords,
+        uniprot.Sequence,
+        uniprot.Uniprot_Link,
+        igem_uniprot.Part_Locus,
+        igem_uniprot.Protein_Locus
+		from igem_uniprot,uniprot
+		where igem_uniprot.iGEM_ID='BBa_K523013' and igem_uniprot.Uniprot_id=uniprot.Uniprot_id [ RunTime:0.001851s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_K523013' [ RunTime:0.173132s ]
+[ error ] [2]explode() expects parameter 2 to be string, array given[D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php:299]
+---------------------------------------------------------------
+[ 2018-09-19T10:08:23+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html [运行时间：0.253463s][吞吐率：3.95req/s] [内存消耗：2,957.49kb] [文件加载：54]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/team_1/t/2011_Edinburgh.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_K523013',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015730s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.009683s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.021858s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.001467s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001530s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001170s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001887s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.001075s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001694s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.001064s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001162s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.001102s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001533s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' LIMIT 1 [ RunTime:0.000513s ]
+[ sql ] [ SQL ] select
+		uniprot.Uniprot_id,
+		uniprot.Protein_Name,
+		uniprot.Gene_Name,
+		uniprot.Species,
+		uniprot.Function,
+        uniprot.Interaction,
+        uniprot.Keywords,
+        uniprot.Sequence,
+        uniprot.Uniprot_Link,
+        igem_uniprot.Part_Locus,
+        igem_uniprot.Protein_Locus
+		from igem_uniprot,uniprot
+		where igem_uniprot.iGEM_ID='BBa_K523013' and igem_uniprot.Uniprot_id=uniprot.Uniprot_id [ RunTime:0.002369s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_K523013' [ RunTime:0.144105s ]
+[ error ] [8]未定义数组索引: Protein_Locus[D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php:299]
+---------------------------------------------------------------
+[ 2018-09-19T10:09:07+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html [运行时间：0.289205s][吞吐率：3.46req/s] [内存消耗：3,087.25kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/team_1/t/2011_Edinburgh.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_K523013',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_coding.html [ array (
+  0 => 'res_3_0',
+  1 => 'res_3_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'res_3_2',
+  6 => 'res_3_3',
+  7 => 'res_3_4',
+  8 => 'res_3_5',
+  9 => 'res_3_6',
+  10 => 'res_3_7',
+  11 => 'filename_3',
+  12 => 'len',
+  13 => 'color',
+  14 => 'color_1',
+  15 => 'color_2',
+  16 => 'color_3',
+  17 => 'arr1',
+  18 => 'arr3',
+  19 => 'arr5',
+  20 => 'color_4',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014903s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.010129s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.034637s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.002039s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.002474s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001796s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.002951s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.001892s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.002733s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.001617s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001917s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.001718s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.002477s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' LIMIT 1 [ RunTime:0.000914s ]
+[ sql ] [ SQL ] select
+		uniprot.Uniprot_id,
+		uniprot.Protein_Name,
+		uniprot.Gene_Name,
+		uniprot.Species,
+		uniprot.Function,
+        uniprot.Interaction,
+        uniprot.Keywords,
+        uniprot.Sequence,
+        uniprot.Uniprot_Link,
+        igem_uniprot.Part_Locus,
+        igem_uniprot.Protein_Locus
+		from igem_uniprot,uniprot
+		where igem_uniprot.iGEM_ID='BBa_K523013' and igem_uniprot.Uniprot_id=uniprot.Uniprot_id [ RunTime:0.004406s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_K523013' [ RunTime:0.149299s ]
+[ sql ] [ SQL ] select
+                            go.Uniprot_id,
+                            go.Qualifier,
+                            go.GO_Term,
+                            go.Evidence,
+                            go.Reference
+                            from go,uniprot where go.Uniprot_id='O30611' and uniprot.Uniprot_id='O30611' [ RunTime:0.001890s ]
+[ sql ] [ SQL ] select
+                            go.Uniprot_id,
+                            go.Qualifier,
+                            go.GO_Term,
+                            go.Evidence,
+                            go.Reference
+                            from go,uniprot where go.Uniprot_id='P42212' and uniprot.Uniprot_id='P42212' [ RunTime:0.001630s ]
+[ sql ] [ SQL ] select reference.reference,reference.title,reference.abstract from reference where reference.uniprot_id='O30611' [ RunTime:0.001032s ]
+[ sql ] [ SQL ] select feature_key.feature_key,feature_key.position,feature_key.description from feature_key where feature_key.uniprot_id='O30611' [ RunTime:0.001480s ]
+[ sql ] [ SQL ] select reference.reference,reference.title,reference.abstract from reference where reference.uniprot_id='P42212' [ RunTime:0.001493s ]
+[ sql ] [ SQL ] select feature_key.feature_key,feature_key.position,feature_key.description from feature_key where feature_key.uniprot_id='P42212' [ RunTime:0.001359s ]
+---------------------------------------------------------------
+[ 2018-09-19T10:09:49+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html [运行时间：0.195193s][吞吐率：5.12req/s] [内存消耗：3,087.16kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/team_1/t/2011_Edinburgh.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_K523013',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_coding.html [ array (
+  0 => 'res_3_0',
+  1 => 'res_3_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'res_3_2',
+  6 => 'res_3_3',
+  7 => 'res_3_4',
+  8 => 'res_3_5',
+  9 => 'res_3_6',
+  10 => 'res_3_7',
+  11 => 'filename_3',
+  12 => 'len',
+  13 => 'color',
+  14 => 'color_1',
+  15 => 'color_2',
+  16 => 'color_3',
+  17 => 'arr1',
+  18 => 'arr3',
+  19 => 'arr5',
+  20 => 'color_4',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001091s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.008869s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.023150s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.000884s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001524s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.000820s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001560s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.000864s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001397s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.001872s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001692s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' LIMIT 1 [ RunTime:0.000558s ]
+[ sql ] [ SQL ] select
+		uniprot.Uniprot_id,
+		uniprot.Protein_Name,
+		uniprot.Gene_Name,
+		uniprot.Species,
+		uniprot.Function,
+        uniprot.Interaction,
+        uniprot.Keywords,
+        uniprot.Sequence,
+        uniprot.Uniprot_Link,
+        igem_uniprot.Part_Locus,
+        igem_uniprot.Protein_Locus
+		from igem_uniprot,uniprot
+		where igem_uniprot.iGEM_ID='BBa_K523013' and igem_uniprot.Uniprot_id=uniprot.Uniprot_id [ RunTime:0.001671s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_K523013' [ RunTime:0.094626s ]
+[ sql ] [ SQL ] select
+                            go.Uniprot_id,
+                            go.Qualifier,
+                            go.GO_Term,
+                            go.Evidence,
+                            go.Reference
+                            from go,uniprot where go.Uniprot_id='O30611' and uniprot.Uniprot_id='O30611' [ RunTime:0.002597s ]
+[ sql ] [ SQL ] select
+                            go.Uniprot_id,
+                            go.Qualifier,
+                            go.GO_Term,
+                            go.Evidence,
+                            go.Reference
+                            from go,uniprot where go.Uniprot_id='P42212' and uniprot.Uniprot_id='P42212' [ RunTime:0.002097s ]
+[ sql ] [ SQL ] select reference.reference,reference.title,reference.abstract from reference where reference.uniprot_id='O30611' [ RunTime:0.001813s ]
+[ sql ] [ SQL ] select feature_key.feature_key,feature_key.position,feature_key.description from feature_key where feature_key.uniprot_id='O30611' [ RunTime:0.002602s ]
+[ sql ] [ SQL ] select reference.reference,reference.title,reference.abstract from reference where reference.uniprot_id='P42212' [ RunTime:0.001784s ]
+[ sql ] [ SQL ] select feature_key.feature_key,feature_key.position,feature_key.description from feature_key where feature_key.uniprot_id='P42212' [ RunTime:0.001170s ]
+---------------------------------------------------------------
+[ 2018-09-19T10:10:03+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html [运行时间：0.200625s][吞吐率：4.98req/s] [内存消耗：3,087.25kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/team_1/t/2011_Edinburgh.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_K523013',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_coding.html [ array (
+  0 => 'res_3_0',
+  1 => 'res_3_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'res_3_2',
+  6 => 'res_3_3',
+  7 => 'res_3_4',
+  8 => 'res_3_5',
+  9 => 'res_3_6',
+  10 => 'res_3_7',
+  11 => 'filename_3',
+  12 => 'len',
+  13 => 'color',
+  14 => 'color_1',
+  15 => 'color_2',
+  16 => 'color_3',
+  17 => 'arr1',
+  18 => 'arr3',
+  19 => 'arr5',
+  20 => 'color_4',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001207s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.009622s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.021620s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.001008s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001382s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.000848s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001717s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.001030s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.002283s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.000923s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001085s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.000882s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001353s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' LIMIT 1 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] select
+		uniprot.Uniprot_id,
+		uniprot.Protein_Name,
+		uniprot.Gene_Name,
+		uniprot.Species,
+		uniprot.Function,
+        uniprot.Interaction,
+        uniprot.Keywords,
+        uniprot.Sequence,
+        uniprot.Uniprot_Link,
+        igem_uniprot.Part_Locus,
+        igem_uniprot.Protein_Locus
+		from igem_uniprot,uniprot
+		where igem_uniprot.iGEM_ID='BBa_K523013' and igem_uniprot.Uniprot_id=uniprot.Uniprot_id [ RunTime:0.001313s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_K523013' [ RunTime:0.099194s ]
+[ sql ] [ SQL ] select
+                            go.Uniprot_id,
+                            go.Qualifier,
+                            go.GO_Term,
+                            go.Evidence,
+                            go.Reference
+                            from go,uniprot where go.Uniprot_id='O30611' and uniprot.Uniprot_id='O30611' [ RunTime:0.002037s ]
+[ sql ] [ SQL ] select
+                            go.Uniprot_id,
+                            go.Qualifier,
+                            go.GO_Term,
+                            go.Evidence,
+                            go.Reference
+                            from go,uniprot where go.Uniprot_id='P42212' and uniprot.Uniprot_id='P42212' [ RunTime:0.001252s ]
+[ sql ] [ SQL ] select reference.reference,reference.title,reference.abstract from reference where reference.uniprot_id='O30611' [ RunTime:0.001298s ]
+[ sql ] [ SQL ] select feature_key.feature_key,feature_key.position,feature_key.description from feature_key where feature_key.uniprot_id='O30611' [ RunTime:0.001681s ]
+[ sql ] [ SQL ] select reference.reference,reference.title,reference.abstract from reference where reference.uniprot_id='P42212' [ RunTime:0.001309s ]
+[ sql ] [ SQL ] select feature_key.feature_key,feature_key.position,feature_key.description from feature_key where feature_key.uniprot_id='P42212' [ RunTime:0.001061s ]
+---------------------------------------------------------------
+[ 2018-09-19T10:21:55+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html [运行时间：0.290825s][吞吐率：3.44req/s] [内存消耗：3,087.16kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/team_1/t/2011_Edinburgh.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_K523013',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_coding.html [ array (
+  0 => 'res_3_0',
+  1 => 'res_3_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'res_3_2',
+  6 => 'res_3_3',
+  7 => 'res_3_4',
+  8 => 'res_3_5',
+  9 => 'res_3_6',
+  10 => 'res_3_7',
+  11 => 'filename_3',
+  12 => 'len',
+  13 => 'color',
+  14 => 'color_1',
+  15 => 'color_2',
+  16 => 'color_3',
+  17 => 'arr1',
+  18 => 'arr3',
+  19 => 'arr5',
+  20 => 'color_4',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002106s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.005295s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.025903s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.001646s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.002115s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001623s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.002135s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.001769s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.002130s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.001389s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001502s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.001376s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001863s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' LIMIT 1 [ RunTime:0.000804s ]
+[ sql ] [ SQL ] select
+		uniprot.Uniprot_id,
+		uniprot.Protein_Name,
+		uniprot.Gene_Name,
+		uniprot.Species,
+		uniprot.Function,
+        uniprot.Interaction,
+        uniprot.Keywords,
+        uniprot.Sequence,
+        uniprot.Uniprot_Link,
+        igem_uniprot.Part_Locus,
+        igem_uniprot.Protein_Locus
+		from igem_uniprot,uniprot
+		where igem_uniprot.iGEM_ID='BBa_K523013' and igem_uniprot.Uniprot_id=uniprot.Uniprot_id [ RunTime:0.001904s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_K523013' [ RunTime:0.157590s ]
+[ sql ] [ SQL ] select
+                            go.Uniprot_id,
+                            go.Qualifier,
+                            go.GO_Term,
+                            go.Evidence,
+                            go.Reference
+                            from go,uniprot where go.Uniprot_id='O30611' and uniprot.Uniprot_id='O30611' [ RunTime:0.001926s ]
+[ sql ] [ SQL ] select
+                            go.Uniprot_id,
+                            go.Qualifier,
+                            go.GO_Term,
+                            go.Evidence,
+                            go.Reference
+                            from go,uniprot where go.Uniprot_id='P42212' and uniprot.Uniprot_id='P42212' [ RunTime:0.001407s ]
+[ sql ] [ SQL ] select reference.reference,reference.title,reference.abstract from reference where reference.uniprot_id='O30611' [ RunTime:0.001342s ]
+[ sql ] [ SQL ] select feature_key.feature_key,feature_key.position,feature_key.description from feature_key where feature_key.uniprot_id='O30611' [ RunTime:0.002156s ]
+[ sql ] [ SQL ] select reference.reference,reference.title,reference.abstract from reference where reference.uniprot_id='P42212' [ RunTime:0.001646s ]
+[ sql ] [ SQL ] select feature_key.feature_key,feature_key.position,feature_key.description from feature_key where feature_key.uniprot_id='P42212' [ RunTime:0.001098s ]
+---------------------------------------------------------------
+[ 2018-09-19T10:21:58+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/search/by_func.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/by_func.html [运行时间：0.031528s][吞吐率：31.72req/s] [内存消耗：1,989.42kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'by_func',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Search->by_func[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\search\by_func.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T10:22:01+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/search/by_id
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/by_id [运行时间：0.030154s][吞吐率：33.16req/s] [内存消耗：1,989.07kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'by_id',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_func.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Search->by_id[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\search\by_id.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T10:22:56+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/search/submitone.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/submitone.html [运行时间：0.065341s][吞吐率：15.30req/s] [内存消耗：2,190.16kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'submitone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '21',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:12345',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_id',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'POT1_1',
+  'kind' => 'Epd_ID',
+)
+[ info ] [ RUN ] app\index\controller\Search->submitOne[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\brick.html [ array (
+  0 => 'res',
+  1 => 'kind',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011868s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] select igem_epd.Epd_id,igem_epd.iGEM_ID from igem_epd where igem_epd.Epd_id='POT1_1' [ RunTime:0.001333s ]
+---------------------------------------------------------------
+[ 2018-09-19T10:23:20+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/search/submitone.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/submitone.html [运行时间：0.084294s][吞吐率：11.86req/s] [内存消耗：2,849.17kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'submitone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '33',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:12345',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_id',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'ECK120009897',
+  'kind' => 'Regulondb_ID',
+)
+[ info ] [ RUN ] app\index\controller\Search->submitOne[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\brick.html [ array (
+  0 => 'res',
+  1 => 'kind',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011104s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_regulondb` [ RunTime:0.002576s ]
+[ sql ] [ SQL ] SELECT * FROM `igem_regulondb` WHERE  `Regulondb_ID` LIKE '%ECK120009897%' [ RunTime:0.004805s ]
+---------------------------------------------------------------
+[ 2018-09-19T10:23:23+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_M39007.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_M39007.html [运行时间：0.288691s][吞吐率：3.46req/s] [内存消耗：3,256.59kb] [文件加载：54]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submitone.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_M39007',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_promoter.html [ array (
+  0 => 'res_1_0',
+  1 => 'res_1_1',
+  2 => 'res_1_2',
+  3 => 'res_1_3',
+  4 => 'res_1_4',
+  5 => 'res_1_5',
+  6 => 'a',
+  7 => 'b',
+  8 => 'id',
+  9 => 'filename_1',
+  10 => 'len',
+  11 => 'color',
+  12 => 'color_1',
+  13 => 'color_2',
+  14 => 'color_3',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001279s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.001018s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_M39007' [ RunTime:0.001853s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.001172s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_M39007' [ RunTime:0.001577s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001128s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_M39007' [ RunTime:0.002269s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.001084s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_M39007' [ RunTime:0.002974s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.001308s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_M39007' [ RunTime:0.001710s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.001307s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_M39007' [ RunTime:0.001716s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_M39007' LIMIT 1 [ RunTime:0.000709s ]
+[ sql ] [ SQL ] select regulondb.Regulondb_id, regulondb.Promoter_Name, regulondb.Promoter_Strand, regulondb.Sigma_Factor, regulondb.Sequence,regulondb.Note from regulondb,igem_regulondb where igem_regulondb.iGEM_ID='BBa_M39007' and igem_regulondb.Regulondb_id=regulondb.Regulondb_id [ RunTime:0.000878s ]
+[ sql ] [ SQL ] select promec.Promoter_Name,
+        promec.reference,
+		promec.Title,
+		promec.Keywords,
+		promec.Sequence from igem_promec,promec where igem_promec.iGEM_ID='BBa_M39007' and igem_promec.Promoter_Name=promec.Promoter_Name [ RunTime:0.001935s ]
+[ sql ] [ SQL ] select epd.Epd_id,
+		epd.Gene_Name,
+		epd.Description,
+		epd.Species,
+		epd.Thich_Region,
+		epd.Sequence,
+		epd.Epd_Link 
+		from epd,igem_epd 
+		where igem_epd.iGEM_ID='BBa_M39007' and igem_epd.Epd_id=epd.Epd_id [ RunTime:0.000657s ]
+[ sql ] [ SQL ] select
+		phage.Phage_Name,
+		phage.Promoter_Number,
+		phage.Description,
+		phage.Complement,
+		phage.Sequence,
+        phage.Gene_Locus
+		from igem_phage,phage
+		where igem_phage.iGEM_ID='BBa_M39007' and igem_phage.Phage_Name=phage.Phage_Name and igem_phage.Promoter_number=phage.Promoter_Number [ RunTime:0.001483s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_M39007' [ RunTime:0.158560s ]
+---------------------------------------------------------------
+[ 2018-09-19T10:24:04+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/search/submitone.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/submitone.html [运行时间：0.077344s][吞吐率：12.93req/s] [内存消耗：2,917.95kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'submitone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '25',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:12345',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_id',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'P04483',
+  'kind' => 'Uniprot_ID',
+)
+[ info ] [ RUN ] app\index\controller\Search->submitOne[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\brick.html [ array (
+  0 => 'res',
+  1 => 'kind',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001672s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_uniprot` [ RunTime:0.002336s ]
+[ sql ] [ SQL ] SELECT * FROM `igem_uniprot` WHERE  `Uniprot_ID` LIKE '%P04483%' [ RunTime:0.013756s ]
+---------------------------------------------------------------
+[ 2018-09-19T10:24:17+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/search/submitone.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/submitone.html [运行时间：0.049123s][吞吐率：20.36req/s] [内存消耗：2,917.95kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'submitone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '25',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'origin' => 'http://localhost:12345',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_id',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'P04483',
+  'kind' => 'Uniprot_ID',
+)
+[ info ] [ RUN ] app\index\controller\Search->submitOne[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\brick.html [ array (
+  0 => 'res',
+  1 => 'kind',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001273s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_uniprot` [ RunTime:0.000934s ]
+[ sql ] [ SQL ] SELECT * FROM `igem_uniprot` WHERE  `Uniprot_ID` LIKE '%P04483%' [ RunTime:0.008866s ]
+---------------------------------------------------------------
+[ 2018-09-19T10:24:39+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_K1456026.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_K1456026.html [运行时间：0.241391s][吞吐率：4.14req/s] [内存消耗：3,058.86kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submitone.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_K1456026',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_coding.html [ array (
+  0 => 'res_3_0',
+  1 => 'res_3_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'res_3_2',
+  6 => 'res_3_3',
+  7 => 'res_3_4',
+  8 => 'res_3_5',
+  9 => 'res_3_6',
+  10 => 'res_3_7',
+  11 => 'filename_3',
+  12 => 'len',
+  13 => 'color',
+  14 => 'color_1',
+  15 => 'color_2',
+  16 => 'color_3',
+  17 => 'arr1',
+  18 => 'arr3',
+  19 => 'arr5',
+  20 => 'color_4',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001398s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.000917s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_K1456026' [ RunTime:0.009347s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.001303s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_K1456026' [ RunTime:0.001795s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001408s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_K1456026' [ RunTime:0.001847s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.001191s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K1456026' [ RunTime:0.001617s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.001006s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_K1456026' [ RunTime:0.001474s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.001240s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_K1456026' [ RunTime:0.001577s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K1456026' LIMIT 1 [ RunTime:0.000759s ]
+[ sql ] [ SQL ] select
+		uniprot.Uniprot_id,
+		uniprot.Protein_Name,
+		uniprot.Gene_Name,
+		uniprot.Species,
+		uniprot.Function,
+        uniprot.Interaction,
+        uniprot.Keywords,
+        uniprot.Sequence,
+        uniprot.Uniprot_Link,
+        igem_uniprot.Part_Locus,
+        igem_uniprot.Protein_Locus
+		from igem_uniprot,uniprot
+		where igem_uniprot.iGEM_ID='BBa_K1456026' and igem_uniprot.Uniprot_id=uniprot.Uniprot_id [ RunTime:0.001298s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_K1456026' [ RunTime:0.147557s ]
+[ sql ] [ SQL ] select
+                            go.Uniprot_id,
+                            go.Qualifier,
+                            go.GO_Term,
+                            go.Evidence,
+                            go.Reference
+                            from go,uniprot where go.Uniprot_id='P04483' and uniprot.Uniprot_id='P04483' [ RunTime:0.002721s ]
+[ sql ] [ SQL ] select reference.reference,reference.title,reference.abstract from reference where reference.uniprot_id='P04483' [ RunTime:0.002615s ]
+[ sql ] [ SQL ] select feature_key.feature_key,feature_key.position,feature_key.description from feature_key where feature_key.uniprot_id='P04483' [ RunTime:0.002703s ]
+---------------------------------------------------------------
+[ 2018-09-19T10:30:07+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/search/submitone.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/submitone.html [运行时间：0.159634s][吞吐率：6.26req/s] [内存消耗：3,103.03kb] [文件加载：54]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'submitone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '25',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'origin' => 'http://localhost:12345',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_id',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'P04483',
+  'kind' => 'Uniprot_ID',
+)
+[ info ] [ RUN ] app\index\controller\Search->submitOne[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\brick.html [ array (
+  0 => 'res',
+  1 => 'kind',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013095s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_uniprot` [ RunTime:0.001850s ]
+[ sql ] [ SQL ] SELECT * FROM `igem_uniprot` WHERE  `Uniprot_ID` LIKE '%P04483%' [ RunTime:0.033151s ]
+---------------------------------------------------------------
+[ 2018-09-19T10:30:14+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/search/by_id.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/by_id.html [运行时间：0.043215s][吞吐率：23.14req/s] [内存消耗：1,989.21kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'by_id',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submitone.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Search->by_id[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\search\by_id.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T10:30:29+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/search/submitone.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/submitone.html [运行时间：0.067893s][吞吐率：14.73req/s] [内存消耗：2,847.98kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'submitone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '27',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:12345',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_id.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'FP002325',
+  'kind' => 'Uniprot_ID',
+)
+[ info ] [ RUN ] app\index\controller\Search->submitOne[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\brick.html [ array (
+  0 => 'res',
+  1 => 'kind',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001675s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_uniprot` [ RunTime:0.001961s ]
+[ sql ] [ SQL ] SELECT * FROM `igem_uniprot` WHERE  `Uniprot_ID` LIKE '%FP002325%' [ RunTime:0.012778s ]
+---------------------------------------------------------------
+[ 2018-09-19T10:30:38+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/search/by_id.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/by_id.html [运行时间：0.032236s][吞吐率：31.02req/s] [内存消耗：1,989.21kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'by_id',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submitone.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Search->by_id[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\search\by_id.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T10:30:42+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/search/submitone.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/submitone.html [运行时间：0.046895s][吞吐率：21.32req/s] [内存消耗：2,917.95kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'submitone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '25',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:12345',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_id.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'P04483',
+  'kind' => 'Uniprot_ID',
+)
+[ info ] [ RUN ] app\index\controller\Search->submitOne[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\brick.html [ array (
+  0 => 'res',
+  1 => 'kind',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001025s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_uniprot` [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SELECT * FROM `igem_uniprot` WHERE  `Uniprot_ID` LIKE '%P04483%' [ RunTime:0.007199s ]
+---------------------------------------------------------------
+[ 2018-09-19T10:30:47+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/search/by_id.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/by_id.html [运行时间：0.032584s][吞吐率：30.69req/s] [内存消耗：1,989.21kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'by_id',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submitone.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Search->by_id[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\search\by_id.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T10:30:51+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/search/submitone.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/submitone.html [运行时间：0.111113s][吞吐率：9.00req/s] [内存消耗：2,850.10kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'submitone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '28',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:12345',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_id.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_K1641208',
+  'kind' => 'iGEM_ID',
+)
+[ info ] [ RUN ] app\index\controller\Search->submitOne[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\brick.html [ array (
+  0 => 'res',
+  1 => 'kind',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017161s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `team_parts` [ RunTime:0.001610s ]
+[ sql ] [ SQL ] SELECT * FROM `team_parts` WHERE  `iGEM_ID` LIKE '%BBa_K1641208%' [ RunTime:0.051078s ]
+---------------------------------------------------------------
+[ 2018-09-19T10:33:26+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/search/submitone.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/submitone.html [运行时间：0.064903s][吞吐率：15.41req/s] [内存消耗：2,190.20kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'submitone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '22',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:12345',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_id.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'ACO2',
+  'kind' => 'Gene_Name',
+)
+[ info ] [ RUN ] app\index\controller\Search->submitOne[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\brick.html [ array (
+  0 => 'res',
+  1 => 'kind',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001315s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] select igem_epd.iGEM_ID from igem_epd,epd where epd.Gene_Name='ACO2' and epd.Epd_id=igem_epd.Epd_id [ RunTime:0.001132s ]
+[ sql ] [ SQL ] select igem_uniprot.iGEM_ID from igem_uniprot, uniprot where uniprot.Gene_Name='ACO2' and uniprot.Uniprot_id=igem_uniprot.Uniprot_id [ RunTime:0.020478s ]
+---------------------------------------------------------------
+[ 2018-09-19T10:33:28+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/search/by_id.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/by_id.html [运行时间：0.051305s][吞吐率：19.49req/s] [内存消耗：2,160.80kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'by_id',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submitone.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Search->by_id[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\search\by_id.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T19:39:39+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/
+[ info ] localhost:12345/DataBase/THINKPHP/public/ [运行时间：0.370007s][吞吐率：2.70req/s] [内存消耗：1,960.64kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T19:39:40+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/search/by_func.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/by_func.html [运行时间：0.038688s][吞吐率：25.85req/s] [内存消耗：1,984.52kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'by_func',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Search->by_func[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\search\by_func.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-19T19:39:43+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/search/submittwo.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html [运行时间：0.216005s][吞吐率：4.63req/s] [内存消耗：2,204.47kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'submittwo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:12345',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_func.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'func' => 'cellulose GFP',
+)
+[ info ] [ RUN ] app\index\controller\Search->submitTwo[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\team.html [ array (
+  0 => 'res',
+  1 => 'count',
+  2 => 'result',
+  3 => 'a',
+  4 => 'func',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031768s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM wiki_information where Description like '%cellulose%' and Description like '%GFP%' [ RunTime:0.077341s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_SDSZ_China' [ RunTime:0.010274s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_US_AFRL_CarrollHS' [ RunTime:0.001644s ]
+---------------------------------------------------------------
+[ 2018-09-19T19:39:45+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/team_1/t/2016_SDSZ_China.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/team_1/t/2016_SDSZ_China.html [运行时间：0.181756s][吞吐率：5.50req/s] [内存消耗：3,350.68kb] [文件加载：58]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'team_1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  't' => '2016_SDSZ_China',
+)
+[ info ] [ RUN ] app\index\controller\Display->team_1[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\team_1.html [ array (
+  0 => 'res',
+  1 => 't',
+  2 => 'count',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013595s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `team_parts` [ RunTime:0.015195s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `team_parts` WHERE  `Submit_team` = '2016_SDSZ_China' LIMIT 1 [ RunTime:0.004097s ]
+[ sql ] [ SQL ] SELECT * FROM `team_parts` WHERE  `Submit_team` = '2016_SDSZ_China' LIMIT 0,20 [ RunTime:0.002811s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `team_parts` WHERE  `Submit_team` = '2016_SDSZ_China' LIMIT 1 [ RunTime:0.001222s ]
+---------------------------------------------------------------
+[ 2018-09-19T19:39:46+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_K1979000.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_K1979000.html [运行时间：0.295733s][吞吐率：3.38req/s] [内存消耗：3,085.34kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/team_1/t/2016_SDSZ_China.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_K1979000',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_coding.html [ array (
+  0 => 'res_3_0',
+  1 => 'res_3_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'res_3_2',
+  6 => 'res_3_3',
+  7 => 'res_3_4',
+  8 => 'res_3_5',
+  9 => 'res_3_6',
+  10 => 'res_3_7',
+  11 => 'filename_3',
+  12 => 'len',
+  13 => 'color',
+  14 => 'color_1',
+  15 => 'color_2',
+  16 => 'color_3',
+  17 => 'arr1',
+  18 => 'arr3',
+  19 => 'arr5',
+  20 => 'color_4',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001306s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.001596s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_K1979000' [ RunTime:0.006973s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.002186s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_K1979000' [ RunTime:0.002356s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.002086s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_K1979000' [ RunTime:0.002962s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.001905s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K1979000' [ RunTime:0.002715s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.001737s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_K1979000' [ RunTime:0.001714s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.001809s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_K1979000' [ RunTime:0.001933s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K1979000' LIMIT 1 [ RunTime:0.000862s ]
+[ sql ] [ SQL ] select
+		uniprot.Uniprot_id,
+		uniprot.Protein_Name,
+		uniprot.Gene_Name,
+		uniprot.Species,
+		uniprot.Function,
+        uniprot.Interaction,
+        uniprot.Keywords,
+        uniprot.Sequence,
+        uniprot.Uniprot_Link,
+        igem_uniprot.Part_Locus,
+        igem_uniprot.Protein_Locus
+		from igem_uniprot,uniprot
+		where igem_uniprot.iGEM_ID='BBa_K1979000' and igem_uniprot.Uniprot_id=uniprot.Uniprot_id [ RunTime:0.003613s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_K1979000' [ RunTime:0.165433s ]
+[ sql ] [ SQL ] select
+                            go.Uniprot_id,
+                            go.Qualifier,
+                            go.GO_Term,
+                            go.Evidence,
+                            go.Reference
+                            from go,uniprot where go.Uniprot_id='P0AEB2' and uniprot.Uniprot_id='P0AEB2' [ RunTime:0.002498s ]
+[ sql ] [ SQL ] select reference.reference,reference.title,reference.abstract from reference where reference.uniprot_id='P0AEB2' [ RunTime:0.002414s ]
+[ sql ] [ SQL ] select feature_key.feature_key,feature_key.position,feature_key.description from feature_key where feature_key.uniprot_id='P0AEB2' [ RunTime:0.002061s ]
+---------------------------------------------------------------
+[ 2018-09-19T19:45:07+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_K1979000.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_K1979000.html [运行时间：0.201285s][吞吐率：4.97req/s] [内存消耗：3,357.89kb] [文件加载：54]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/team_1/t/2016_SDSZ_China.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_K1979000',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_coding.html [ array (
+  0 => 'res_3_0',
+  1 => 'res_3_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'res_3_2',
+  6 => 'res_3_3',
+  7 => 'res_3_4',
+  8 => 'res_3_5',
+  9 => 'res_3_6',
+  10 => 'res_3_7',
+  11 => 'filename_3',
+  12 => 'len',
+  13 => 'color',
+  14 => 'color_1',
+  15 => 'color_2',
+  16 => 'color_3',
+  17 => 'arr1',
+  18 => 'arr3',
+  19 => 'arr5',
+  20 => 'color_4',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001559s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.001137s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_K1979000' [ RunTime:0.010355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_K1979000' [ RunTime:0.001251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.000882s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_K1979000' [ RunTime:0.001606s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.000808s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K1979000' [ RunTime:0.001408s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.000765s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_K1979000' [ RunTime:0.001129s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.000930s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_K1979000' [ RunTime:0.001164s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K1979000' LIMIT 1 [ RunTime:0.000515s ]
+[ sql ] [ SQL ] select
+		uniprot.Uniprot_id,
+		uniprot.Protein_Name,
+		uniprot.Gene_Name,
+		uniprot.Species,
+		uniprot.Function,
+        uniprot.Interaction,
+        uniprot.Keywords,
+        uniprot.Sequence,
+        uniprot.Uniprot_Link,
+        igem_uniprot.Part_Locus,
+        igem_uniprot.Protein_Locus
+		from igem_uniprot,uniprot
+		where igem_uniprot.iGEM_ID='BBa_K1979000' and igem_uniprot.Uniprot_id=uniprot.Uniprot_id [ RunTime:0.001662s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_K1979000' [ RunTime:0.104769s ]
+[ sql ] [ SQL ] select
+                            go.Uniprot_id,
+                            go.Qualifier,
+                            go.GO_Term,
+                            go.Evidence,
+                            go.Reference
+                            from go,uniprot where go.Uniprot_id='P0AEB2' and uniprot.Uniprot_id='P0AEB2' [ RunTime:0.002717s ]
+[ sql ] [ SQL ] select reference.reference,reference.title,reference.abstract from reference where reference.uniprot_id='P0AEB2' [ RunTime:0.003041s ]
+[ sql ] [ SQL ] select feature_key.feature_key,feature_key.position,feature_key.description from feature_key where feature_key.uniprot_id='P0AEB2' [ RunTime:0.002185s ]

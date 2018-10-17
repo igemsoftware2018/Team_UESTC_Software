@@ -1,0 +1,1288 @@
+---------------------------------------------------------------
+[ 2018-10-04T21:51:50+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/
+[ info ] localhost:12345/DataBase/THINKPHP/public/ [运行时间：0.603383s][吞吐率：1.66req/s] [内存消耗：1,960.73kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-04T21:51:51+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/catalog/catalog_1.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_1.html [运行时间：0.084884s][吞吐率：11.78req/s] [内存消耗：1,968.60kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalog_1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Catalog->catalog_1[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_1.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-04T21:51:53+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/catalog/catalogtype/type/promoter.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalogtype/type/promoter.html [运行时间：0.303424s][吞吐率：3.30req/s] [内存消耗：5,430.09kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalogtype',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'promoter',
+)
+[ info ] [ RUN ] app\index\controller\Catalog->CatalogType[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_2.html [ array (
+  0 => 'res',
+  1 => 'count',
+  2 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.105818s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] select iGEM_ID,Description,Nickname,Submit_team,iGEM_Link from promoter [ RunTime:0.101380s ]
+---------------------------------------------------------------
+[ 2018-10-04T21:53:12+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/catalog/catalogtype/type/promoter.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalogtype/type/promoter.html [运行时间：0.058510s][吞吐率：17.09req/s] [内存消耗：5,430.09kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalogtype',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'promoter',
+)
+[ info ] [ RUN ] app\index\controller\Catalog->CatalogType[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_2.html [ array (
+  0 => 'res',
+  1 => 'count',
+  2 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010281s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] select iGEM_ID,Description,Nickname,Submit_team,iGEM_Link from promoter [ RunTime:0.008531s ]
+---------------------------------------------------------------
+[ 2018-10-04T21:53:47+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/catalog/catalogall/type/promoter.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalogall/type/promoter.html [运行时间：0.213192s][吞吐率：4.69req/s] [内存消耗：7,266.14kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalogall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/catalog/catalogtype/type/promoter.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'promoter',
+)
+[ info ] [ RUN ] app\index\controller\Catalog->CatalogAll[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_all.html [ array (
+  0 => 'res',
+  1 => 'count',
+  2 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001043s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] select iGEM_ID,Description,Nickname,Submit_team,iGEM_Link from promoter [ RunTime:0.008975s ]
+---------------------------------------------------------------
+[ 2018-10-04T21:54:07+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_I0500.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_I0500.html [运行时间：0.438553s][吞吐率：2.28req/s] [内存消耗：3,105.58kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/catalog/catalogall/type/promoter.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_I0500',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_promoter.html [ array (
+  0 => 'res_1_0',
+  1 => 'res_1_1',
+  2 => 'res_1_2',
+  3 => 'res_1_3',
+  4 => 'res_1_4',
+  5 => 'res_1_5',
+  6 => 'a',
+  7 => 'b',
+  8 => 'id',
+  9 => 'filename_1',
+  10 => 'len',
+  11 => 'arr_2',
+  12 => 'arr_4',
+  13 => 'color',
+  14 => 'color_1',
+  15 => 'color_2',
+  16 => 'color_3',
+  17 => 'color_4',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010863s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.012245s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_I0500' [ RunTime:0.010064s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.003132s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_I0500' [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.003543s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_I0500' [ RunTime:0.001061s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.003248s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_I0500' [ RunTime:0.002215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.003543s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_I0500' [ RunTime:0.002123s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.003268s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_I0500' [ RunTime:0.001537s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dna` [ RunTime:0.002818s ]
+[ sql ] [ SQL ] SELECT * FROM `dna` WHERE  `iGEM_ID` = 'BBa_I0500' [ RunTime:0.001649s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_domains` [ RunTime:0.002890s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_domains` WHERE  `iGEM_ID` = 'BBa_I0500' [ RunTime:0.002358s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `reporters` [ RunTime:0.003204s ]
+[ sql ] [ SQL ] SELECT * FROM `reporters` WHERE  `iGEM_ID` = 'BBa_I0500' [ RunTime:0.002676s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_I0500' LIMIT 1 [ RunTime:0.001147s ]
+[ sql ] [ SQL ] select regulondb.Regulondb_id, regulondb.Promoter_Name, regulondb.Promoter_Strand, regulondb.Sigma_Factor, regulondb.Sequence,regulondb.Note, igem_regulondb.Part_Locus from regulondb,igem_regulondb where igem_regulondb.iGEM_ID='BBa_I0500' and igem_regulondb.Regulondb_id=regulondb.Regulondb_id [ RunTime:0.008360s ]
+[ sql ] [ SQL ] select promec.Promoter_Name,
+        promec.reference,
+		promec.Title,
+		promec.Keywords,
+		promec.Sequence,igem_promec.Part_Locus from igem_promec,promec where igem_promec.iGEM_ID='BBa_I0500' and igem_promec.Promoter_Name=promec.Promoter_Name [ RunTime:0.006146s ]
+[ sql ] [ SQL ] select epd.Epd_id,
+		epd.Gene_Name,
+		epd.Description,
+		epd.Species,
+		epd.Thich_Region,
+		epd.Sequence,
+		epd.Epd_Link 
+		from epd,igem_epd 
+		where igem_epd.iGEM_ID='BBa_I0500' and igem_epd.Epd_id=epd.Epd_id [ RunTime:0.006989s ]
+[ sql ] [ SQL ] select
+		phage.Phage_Name,
+		phage.Promoter_Number,
+		phage.Description,
+		phage.Complement,
+		phage.Sequence,
+        phage.Gene_Locus
+		from igem_phage,phage
+		where igem_phage.iGEM_ID='BBa_I0500' and igem_phage.Phage_Name=phage.Phage_Name and igem_phage.Promoter_number=phage.Promoter_Number [ RunTime:0.005225s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_I0500' [ RunTime:0.105697s ]
+---------------------------------------------------------------
+[ 2018-10-04T21:54:22+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/catalog/catalog_1.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_1.html [运行时间：0.028105s][吞吐率：35.58req/s] [内存消耗：1,968.87kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalog_1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_I0500.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Catalog->catalog_1[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_1.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-04T21:54:23+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/search/by_key.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/by_key.html [运行时间：0.139487s][吞吐率：7.17req/s] [内存消耗：2,219.66kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'by_key',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Search->by_key[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\search\by_key.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-04T21:54:29+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/search/by_key.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/by_key.html [运行时间：0.023026s][吞吐率：43.43req/s] [内存消耗：2,046.84kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'by_key',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_key.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Search->by_key[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\search\by_key.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-04T21:54:30+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/catalog/catalog_1.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_1.html [运行时间：0.031763s][吞吐率：31.48req/s] [内存消耗：1,968.82kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalog_1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_key.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Catalog->catalog_1[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_1.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-04T21:56:38+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/catalog/catalog_1.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_1.html [运行时间：0.032338s][吞吐率：30.92req/s] [内存消耗：1,969.07kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalog_1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_key.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Catalog->catalog_1[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_1.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-04T22:49:06+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/catalog/catalog_1.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_1.html [运行时间：0.813475s][吞吐率：1.23req/s] [内存消耗：1,968.87kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalog_1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_B1204.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Catalog->catalog_1[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_1.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-04T22:50:59+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/catalog/catalog_1.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_1.html [运行时间：0.104908s][吞吐率：9.53req/s] [内存消耗：2,154.27kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalog_1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_B1204.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Catalog->catalog_1[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_1.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-04T22:52:37+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/catalog/catalog_1.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_1.html [运行时间：0.082590s][吞吐率：12.11req/s] [内存消耗：2,154.27kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalog_1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_B1204.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Catalog->catalog_1[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_1.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-04T22:52:56+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/catalog/catalog_1.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_1.html [运行时间：0.032859s][吞吐率：30.43req/s] [内存消耗：2,154.27kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalog_1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_B1204.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Catalog->catalog_1[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_1.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-04T22:53:00+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/catalog/catalogtype/type/promoter_prediction.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalogtype/type/promoter_prediction.html [运行时间：0.153044s][吞吐率：6.53req/s] [内存消耗：2,083.28kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalogtype',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'promoter_prediction',
+)
+[ info ] [ RUN ] app\index\controller\Catalog->CatalogType[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.043006s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'field list'[D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\library\think\db\Connection.php:390]
+---------------------------------------------------------------
+[ 2018-10-04T23:05:38+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/catalog/catalog_1.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_1.html [运行时间：0.032838s][吞吐率：30.45req/s] [内存消耗：2,154.27kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalog_1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_B1204.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Catalog->catalog_1[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_1.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-04T23:05:39+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/catalog/catalogtype_pre/type/promoter_prediction.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalogtype_pre/type/promoter_prediction.html [运行时间：0.024665s][吞吐率：40.54req/s] [内存消耗：1,921.72kb] [文件加载：48]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalogtype_pre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'promoter_prediction',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-04T23:05:53+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/catalog/catalogtype_pre/type/promoter_prediction.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalogtype_pre/type/promoter_prediction.html [运行时间：0.048654s][吞吐率：20.55req/s] [内存消耗：2,085.31kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalogtype_pre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'promoter_prediction',
+)
+[ info ] [ RUN ] app\index\controller\Catalog->CatalogType_pre[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001132s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'field list'[D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\library\think\db\Connection.php:390]
+---------------------------------------------------------------
+[ 2018-10-04T23:06:58+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/catalog/catalogtype_pre/type/promoter_prediction.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalogtype_pre/type/promoter_prediction.html [运行时间：0.117671s][吞吐率：8.50req/s] [内存消耗：8,957.21kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalogtype_pre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'promoter_prediction',
+)
+[ info ] [ RUN ] app\index\controller\Catalog->CatalogType_pre[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_2.html [ array (
+  0 => 'res',
+  1 => 'count',
+  2 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001113s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] select * from promoter_prediction [ RunTime:0.020952s ]
+[ error ] [0]语法解析错误: syntax error, unexpected 'else' (T_ELSE), expecting end of file[D:\Apache24\htdocs\DataBase\THINKPHP\runtime\temp\f8be330cfdd49a0d5a5714700400e767.php:139]
+---------------------------------------------------------------
+[ 2018-10-04T23:07:13+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/catalog/catalogtype_pre/type/promoter_prediction.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalogtype_pre/type/promoter_prediction.html [运行时间：0.077245s][吞吐率：12.95req/s] [内存消耗：8,957.21kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalogtype_pre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'promoter_prediction',
+)
+[ info ] [ RUN ] app\index\controller\Catalog->CatalogType_pre[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_2.html [ array (
+  0 => 'res',
+  1 => 'count',
+  2 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013342s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] select * from promoter_prediction [ RunTime:0.015296s ]
+[ error ] [0]语法解析错误: syntax error, unexpected 'else' (T_ELSE), expecting end of file[D:\Apache24\htdocs\DataBase\THINKPHP\runtime\temp\f8be330cfdd49a0d5a5714700400e767.php:139]
+---------------------------------------------------------------
+[ 2018-10-04T23:09:01+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/catalog/catalogtype_pre/type/promoter_prediction.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalogtype_pre/type/promoter_prediction.html [运行时间：0.069602s][吞吐率：14.37req/s] [内存消耗：9,080.00kb] [文件加载：51]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalogtype_pre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'promoter_prediction',
+)
+[ info ] [ RUN ] app\index\controller\Catalog->CatalogType_pre[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_2.html [ array (
+  0 => 'res',
+  1 => 'count',
+  2 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002914s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] select * from promoter_prediction [ RunTime:0.019634s ]
+---------------------------------------------------------------
+[ 2018-10-04T23:34:08+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/catalog/catalogtype_pre/type/promoter_prediction.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalogtype_pre/type/promoter_prediction.html [运行时间：0.080771s][吞吐率：12.38req/s] [内存消耗：9,080.48kb] [文件加载：51]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalogtype_pre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'promoter_prediction',
+)
+[ info ] [ RUN ] app\index\controller\Catalog->CatalogType_pre[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_2.html [ array (
+  0 => 'res',
+  1 => 'count',
+  2 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012535s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] select * from promoter_prediction [ RunTime:0.016222s ]
+---------------------------------------------------------------
+[ 2018-10-04T23:34:13+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/catalog/catalog_type.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_type.html [运行时间：0.050134s][吞吐率：19.95req/s] [内存消耗：8,853.59kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalog_type',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '24',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:12345',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/catalog/catalogtype_pre/type/promoter_prediction.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'promoter_prediction',
+)
+[ info ] [ RUN ] app\index\controller\Catalog->catalog_type[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_2.html [ array (
+  0 => 'res',
+  1 => 'count',
+  2 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001137s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] select * from promoter_prediction [ RunTime:0.014274s ]
+---------------------------------------------------------------
+[ 2018-10-04T23:34:15+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/catalog/catalogall/type/promoter_prediction.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalogall/type/promoter_prediction.html [运行时间：0.091047s][吞吐率：10.98req/s] [内存消耗：8,837.85kb] [文件加载：53]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalogall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_type.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'promoter_prediction',
+)
+[ info ] [ RUN ] app\index\controller\Catalog->CatalogAll[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_all.html [ array (
+  0 => 'res',
+  1 => 'count',
+  2 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010196s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] select * from promoter_prediction [ RunTime:0.015454s ]
+[ error ] [8]未定义数组索引: iGEM_ID[D:\Apache24\htdocs\DataBase\THINKPHP\runtime\temp\e32aecd4a14b54ad4b2ad92ca46a8e3e.php:129]
+---------------------------------------------------------------
+[ 2018-10-04T23:36:12+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/catalog/catalog_type.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_type.html [运行时间：0.059329s][吞吐率：16.86req/s] [内存消耗：8,853.59kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalog_type',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '24',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'origin' => 'http://localhost:12345',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/catalog/catalogtype_pre/type/promoter_prediction.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'promoter_prediction',
+)
+[ info ] [ RUN ] app\index\controller\Catalog->catalog_type[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_2.html [ array (
+  0 => 'res',
+  1 => 'count',
+  2 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001043s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] select * from promoter_prediction [ RunTime:0.016973s ]
+---------------------------------------------------------------
+[ 2018-10-04T23:36:14+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/catalog/catalogall/type/promoter_prediction.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalogall/type/promoter_prediction.html [运行时间：0.075285s][吞吐率：13.28req/s] [内存消耗：9,011.73kb] [文件加载：55]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalogall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_type.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'promoter_prediction',
+)
+[ info ] [ RUN ] app\index\controller\Catalog->CatalogAll[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_all.html [ array (
+  0 => 'res',
+  1 => 'count',
+  2 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001514s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] select * from promoter_prediction [ RunTime:0.017178s ]
+[ error ] [8]未定义数组索引: iGEM_ID[D:\Apache24\htdocs\DataBase\THINKPHP\runtime\temp\e32aecd4a14b54ad4b2ad92ca46a8e3e.php:129]
+---------------------------------------------------------------
+[ 2018-10-04T23:36:16+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/catalog/catalogall/type/promoter_prediction.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalogall/type/promoter_prediction.html [运行时间：0.075997s][吞吐率：13.16req/s] [内存消耗：8,838.10kb] [文件加载：53]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalogall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_type.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'promoter_prediction',
+)
+[ info ] [ RUN ] app\index\controller\Catalog->CatalogAll[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_all.html [ array (
+  0 => 'res',
+  1 => 'count',
+  2 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010803s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] select * from promoter_prediction [ RunTime:0.016084s ]
+[ error ] [8]未定义数组索引: iGEM_ID[D:\Apache24\htdocs\DataBase\THINKPHP\runtime\temp\e32aecd4a14b54ad4b2ad92ca46a8e3e.php:129]
+---------------------------------------------------------------
+[ 2018-10-04T23:36:22+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/catalog/catalog_type.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_type.html [运行时间：0.052870s][吞吐率：18.91req/s] [内存消耗：8,853.20kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalog_type',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '24',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:12345',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_type.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'promoter_prediction',
+)
+[ info ] [ RUN ] app\index\controller\Catalog->catalog_type[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_2.html [ array (
+  0 => 'res',
+  1 => 'count',
+  2 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001024s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] select * from promoter_prediction [ RunTime:0.016584s ]
+---------------------------------------------------------------
+[ 2018-10-04T23:36:23+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/catalog/catalogall/type/promoter_prediction.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalogall/type/promoter_prediction.html [运行时间：0.064806s][吞吐率：15.43req/s] [内存消耗：8,837.85kb] [文件加载：53]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalogall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_type.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'promoter_prediction',
+)
+[ info ] [ RUN ] app\index\controller\Catalog->CatalogAll[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_all.html [ array (
+  0 => 'res',
+  1 => 'count',
+  2 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010448s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] select * from promoter_prediction [ RunTime:0.016389s ]
+[ error ] [8]未定义数组索引: iGEM_ID[D:\Apache24\htdocs\DataBase\THINKPHP\runtime\temp\e32aecd4a14b54ad4b2ad92ca46a8e3e.php:129]
+---------------------------------------------------------------
+[ 2018-10-04T23:37:31+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/catalog/catalogall/type/promoter_prediction.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalogall/type/promoter_prediction.html [运行时间：0.239759s][吞吐率：4.17req/s] [内存消耗：17,148.42kb] [文件加载：51]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalogall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_type.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'promoter_prediction',
+)
+[ info ] [ RUN ] app\index\controller\Catalog->CatalogAll[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_all.html [ array (
+  0 => 'res',
+  1 => 'count',
+  2 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011688s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] select * from promoter_prediction [ RunTime:0.016202s ]
+---------------------------------------------------------------
+[ 2018-10-04T23:37:38+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/catalog/catalog_type.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_type.html [运行时间：0.046098s][吞吐率：21.69req/s] [内存消耗：2,310.04kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalog_type',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '8',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:12345',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/catalog/catalogall/type/promoter_prediction.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'rbs',
+)
+[ info ] [ RUN ] app\index\controller\Catalog->catalog_type[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_2.html [ array (
+  0 => 'res',
+  1 => 'count',
+  2 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001078s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] select iGEM_ID,Description,Nickname,Submit_team,iGEM_Link from rbs [ RunTime:0.003746s ]
+---------------------------------------------------------------
+[ 2018-10-04T23:37:40+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/catalog/catalogall/type/rbs.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalogall/type/rbs.html [运行时间：0.038788s][吞吐率：25.78req/s] [内存消耗：2,309.71kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalogall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_type.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'rbs',
+)
+[ info ] [ RUN ] app\index\controller\Catalog->CatalogAll[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_all.html [ array (
+  0 => 'res',
+  1 => 'count',
+  2 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001107s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] select iGEM_ID,Description,Nickname,Submit_team,iGEM_Link from rbs [ RunTime:0.002805s ]
+---------------------------------------------------------------
+[ 2018-10-04T23:37:42+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/catalog/catalog_type.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_type.html [运行时间：0.054860s][吞吐率：18.23req/s] [内存消耗：8,853.45kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalog_type',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '24',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:12345',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/catalog/catalogall/type/rbs.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'promoter_prediction',
+)
+[ info ] [ RUN ] app\index\controller\Catalog->catalog_type[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_2.html [ array (
+  0 => 'res',
+  1 => 'count',
+  2 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001070s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] select * from promoter_prediction [ RunTime:0.015983s ]
+---------------------------------------------------------------
+[ 2018-10-04T23:37:44+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/catalog/catalogall/type/promoter_prediction.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/catalog/catalogall/type/promoter_prediction.html [运行时间：0.214919s][吞吐率：4.65req/s] [内存消耗：12,877.41kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'catalog',
+    2 => 'catalogall',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/catalog/catalog_type.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'promoter_prediction',
+)
+[ info ] [ RUN ] app\index\controller\Catalog->CatalogAll[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Catalog.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\catalog\catalog_all.html [ array (
+  0 => 'res',
+  1 => 'count',
+  2 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002127s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] select * from promoter_prediction [ RunTime:0.015270s ]

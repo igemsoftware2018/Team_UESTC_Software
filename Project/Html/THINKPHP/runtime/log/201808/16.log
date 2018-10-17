@@ -1,0 +1,754 @@
+---------------------------------------------------------------
+[ 2018-08-16T00:00:07+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010529s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.001892s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:08+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001371s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.001759s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:08+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001290s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.002209s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:08+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001414s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.001832s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:13+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001589s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.001760s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:13+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001395s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.001785s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:14+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001349s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.002740s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:14+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011556s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.001876s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:14+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011277s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.001845s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:14+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001686s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.001727s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:17+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001674s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.001796s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:17+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011113s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.001167s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:17+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001355s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000732s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:37+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001783s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000918s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:37+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010910s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.001843s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:38+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012092s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.001698s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:38+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001283s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000840s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:38+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011243s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000879s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:38+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001343s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000871s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:38+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010750s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000828s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:39+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011320s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000867s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:39+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001978s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000737s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:41+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001386s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000709s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:41+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001506s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000949s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:42+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001977s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000878s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:42+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002025s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.001839s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:42+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001262s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000757s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:42+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001424s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000772s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:42+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001404s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000887s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:42+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001617s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000731s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:43+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001494s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000910s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:00:43+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001868s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000932s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:02:40+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011688s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000954s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:02:40+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001438s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000774s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:02:40+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001388s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.001156s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:02:41+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001593s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000836s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:02:41+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011050s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000853s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:02:41+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010435s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000823s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:02:41+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001218s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000811s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:02:41+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010963s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000812s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:02:41+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011986s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000787s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:02:42+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001536s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000867s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:02:42+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001912s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000778s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:02:54+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010327s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `epd` [ RunTime:0.000806s ]
+[ sql ] [ SQL ] SELECT * FROM `epd` WHERE  `Epd_id` LIKE '%ao%' [ RunTime:0.000544s ]
+---------------------------------------------------------------
+[ 2018-08-16T00:02:58+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002010s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SELECT * FROM `igem_epd` WHERE  `iGEM_ID` LIKE '%ao%' [ RunTime:0.000612s ]
+---------------------------------------------------------------
+[ 2018-08-16T00:03:01+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010992s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.000844s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` LIKE '%ao%' [ RunTime:0.013471s ]
+---------------------------------------------------------------
+[ 2018-08-16T00:04:36+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001961s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.001317s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:04:37+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001333s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000757s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:04:37+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010538s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000863s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:04:37+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001951s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000764s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:04:38+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001772s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bio-master.--请选择--' doesn't exist
+---------------------------------------------------------------
+[ 2018-08-16T00:04:40+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001434s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `epd` [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SELECT * FROM `epd` WHERE  `Epd_id` LIKE '%ac%' [ RunTime:0.009575s ]
+---------------------------------------------------------------
+[ 2018-08-16T00:04:46+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001360s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `epd` [ RunTime:0.000804s ]
+[ sql ] [ SQL ] SELECT * FROM `epd` WHERE  `Epd_id` LIKE '%ac%' [ RunTime:0.000551s ]
+---------------------------------------------------------------
+[ 2018-08-16T00:04:54+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001504s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `epd` [ RunTime:0.000870s ]
+[ sql ] [ SQL ] SELECT * FROM `epd` WHERE  `Epd_id` LIKE '%a1%' [ RunTime:0.000585s ]
+---------------------------------------------------------------
+[ 2018-08-16T00:05:23+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001643s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `epd` [ RunTime:0.000926s ]
+[ sql ] [ SQL ] SELECT * FROM `epd` WHERE  `Epd_id` LIKE '%a1%' [ RunTime:0.000600s ]
+---------------------------------------------------------------
+[ 2018-08-16T00:05:26+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011115s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.001021s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:05:27+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011698s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000828s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'iGEM_ID' in 'where clause'
+---------------------------------------------------------------
+[ 2018-08-16T00:07:56+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002601s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `uniprot` [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SELECT * FROM `uniprot` WHERE  `Uniprot_id` LIKE '%ac%' [ RunTime:0.041479s ]
+---------------------------------------------------------------
+[ 2018-08-16T00:08:01+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001464s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.008552s ]
+[ sql ] [ SQL ] SELECT * FROM `igem_epd` WHERE  `iGEM_ID` LIKE '%ac%' [ RunTime:0.002077s ]
+---------------------------------------------------------------
+[ 2018-08-16T00:08:04+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012240s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `epd` [ RunTime:0.001405s ]
+[ sql ] [ SQL ] SELECT * FROM `epd` WHERE  `Epd_id` LIKE '%ac%' [ RunTime:0.010118s ]
+---------------------------------------------------------------
+[ 2018-08-16T00:08:53+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001605s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `epd` [ RunTime:0.000809s ]
+[ sql ] [ SQL ] SELECT * FROM `epd` WHERE  `Epd_id` LIKE '%ac%' [ RunTime:0.000582s ]
+---------------------------------------------------------------
+[ 2018-08-16T00:32:16+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001776s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `phage` [ RunTime:0.000918s ]
+[ sql ] [ SQL ] SELECT * FROM `phage` WHERE  `phage_Name` LIKE '%bac%' [ RunTime:0.000447s ]
+---------------------------------------------------------------
+[ 2018-08-16T10:25:43+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]语法解析错误: syntax error, unexpected '}', expecting ';'
+---------------------------------------------------------------
+[ 2018-08-16T10:27:51+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]语法解析错误: syntax error, unexpected '}', expecting ';'
+---------------------------------------------------------------
+[ 2018-08-16T10:29:54+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]类的属性不存在:app\index\model\Composite_parts->wiki_information
+---------------------------------------------------------------
+[ 2018-08-16T10:29:55+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]类的属性不存在:app\index\model\Composite_parts->wiki_information
+---------------------------------------------------------------
+[ 2018-08-16T10:30:02+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]类的属性不存在:app\index\model\Composite_parts->wiki_information
+---------------------------------------------------------------
+[ 2018-08-16T10:30:17+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]类的属性不存在:app\index\model\Composite_parts->wiki_information
+---------------------------------------------------------------
+[ 2018-08-16T10:30:17+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]类的属性不存在:app\index\model\Composite_parts->wiki_information
+---------------------------------------------------------------
+[ 2018-08-16T10:31:50+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]类的属性不存在:app\index\model\Composite_parts->wiki_information
+---------------------------------------------------------------
+[ 2018-08-16T10:33:29+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]致命错误: Undefined class constant 'all'
+---------------------------------------------------------------
+[ 2018-08-16T10:33:30+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]致命错误: Undefined class constant 'all'
+---------------------------------------------------------------
+[ 2018-08-16T10:33:30+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]致命错误: Undefined class constant 'all'
+---------------------------------------------------------------
+[ 2018-08-16T10:34:05+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]致命错误: Class 'app\index\controller\Wiki_information' not found
+---------------------------------------------------------------
+[ 2018-08-16T10:34:06+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]致命错误: Class 'app\index\controller\Wiki_information' not found
+---------------------------------------------------------------
+[ 2018-08-16T10:34:06+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]致命错误: Class 'app\index\controller\Wiki_information' not found
+---------------------------------------------------------------
+[ 2018-08-16T10:34:06+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]致命错误: Class 'app\index\controller\Wiki_information' not found
+---------------------------------------------------------------
+[ 2018-08-16T10:34:06+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]致命错误: Class 'app\index\controller\Wiki_information' not found
+---------------------------------------------------------------
+[ 2018-08-16T10:34:07+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]致命错误: Class 'app\index\controller\Wiki_information' not found
+---------------------------------------------------------------
+[ 2018-08-16T10:34:15+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]致命错误: Class 'app\index\controller\Wiki_information' not found
+---------------------------------------------------------------
+[ 2018-08-16T10:36:13+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]致命错误: Class 'app\index\controller\Wiki_information' not found
+---------------------------------------------------------------
+[ 2018-08-16T10:36:14+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]致命错误: Class 'app\index\controller\Wiki_information' not found
+---------------------------------------------------------------
+[ 2018-08-16T10:36:14+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]致命错误: Class 'app\index\controller\Wiki_information' not found
+---------------------------------------------------------------
+[ 2018-08-16T10:40:50+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting function (T_FUNCTION) or const (T_CONST)
+---------------------------------------------------------------
+[ 2018-08-16T10:42:46+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.059112s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.004796s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.004275s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 0,5 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000907s ]
+---------------------------------------------------------------
+[ 2018-08-16T10:42:48+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011745s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.002303s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001005s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 5,5 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000901s ]
+---------------------------------------------------------------
+[ 2018-08-16T10:42:49+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001412s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001852s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 10,5 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000684s ]
+---------------------------------------------------------------
+[ 2018-08-16T10:42:50+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.002246s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 15,5 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.002096s ]
+---------------------------------------------------------------
+[ 2018-08-16T10:43:01+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001348s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001731s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 15,5 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000650s ]
+---------------------------------------------------------------
+[ 2018-08-16T10:43:22+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001426s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001898s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 15,5 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000940s ]
+---------------------------------------------------------------
+[ 2018-08-16T10:44:48+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ error ] [0]致命错误: Undefined class constant 'all'
+---------------------------------------------------------------
+[ 2018-08-16T10:45:37+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001520s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.005986s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` [ RunTime:0.017746s ]
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-08-16T10:45:47+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002168s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001907s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `composite_parts` LIMIT 1 [ RunTime:0.018446s ]
+---------------------------------------------------------------
+[ 2018-08-16T10:47:06+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001539s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001797s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` [ RunTime:0.011958s ]
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-08-16T10:47:31+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001453s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001996s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` [ RunTime:0.012637s ]
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-08-16T10:47:32+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001440s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001931s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` [ RunTime:0.015161s ]
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-08-16T10:48:45+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001564s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.002282s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` [ RunTime:0.011883s ]
+[ error ] [0]类型错误: Argument 1 passed to think\Model::getRelationData() must be an instance of think\model\Relation, array given, called in D:\Apache24\htdocs\数据库\THINKPHP\thinkphp\library\think\Model.php on line 620
+---------------------------------------------------------------
+[ 2018-08-16T10:50:10+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001351s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001762s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B1101' [ RunTime:0.000482s ]
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-08-16T10:50:10+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002595s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001688s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B1101' [ RunTime:0.000360s ]
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-08-16T10:51:07+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001319s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001393s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B1101' LIMIT 1 [ RunTime:0.005558s ]
+---------------------------------------------------------------
+[ 2018-08-16T10:52:20+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001480s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.000885s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B1101' LIMIT 1 [ RunTime:0.000389s ]
+[ error ] [0]类的属性不存在:app\index\model\Composite_parts->wiki_information
+---------------------------------------------------------------
+[ 2018-08-16T10:54:44+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ error ] [0]类的属性不存在:app\index\model\Composite_parts->wiki_information
+---------------------------------------------------------------
+[ 2018-08-16T10:54:45+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ error ] [0]类的属性不存在:app\index\model\Composite_parts->wiki_information
+---------------------------------------------------------------
+[ 2018-08-16T10:55:41+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]类的属性不存在:app\index\model\Composite_parts->wiki_information
+---------------------------------------------------------------
+[ 2018-08-16T10:55:44+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]类的属性不存在:app\index\model\Composite_parts->wiki_information
+---------------------------------------------------------------
+[ 2018-08-16T10:55:44+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]类的属性不存在:app\index\model\Composite_parts->wiki_information
+---------------------------------------------------------------
+[ 2018-08-16T10:58:16+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001687s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001843s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B1101' LIMIT 1 [ RunTime:0.000514s ]
+[ error ] [0]致命错误: Class 'app\index\model\WikiInformation' not found
+---------------------------------------------------------------
+[ 2018-08-16T10:58:17+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001473s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001675s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B1101' LIMIT 1 [ RunTime:0.000390s ]
+[ error ] [0]致命错误: Class 'app\index\model\WikiInformation' not found
+---------------------------------------------------------------
+[ 2018-08-16T10:58:31+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010893s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.002354s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B1101' LIMIT 1 [ RunTime:0.000466s ]
+[ error ] [0]致命错误: Class 'app\index\model\WikiInformation' not found
+---------------------------------------------------------------
+[ 2018-08-16T10:58:32+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002929s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.003124s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B1101' LIMIT 1 [ RunTime:0.000376s ]
+[ error ] [0]致命错误: Class 'app\index\model\WikiInformation' not found
+---------------------------------------------------------------
+[ 2018-08-16T10:58:50+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]语法解析错误: syntax error, unexpected 'return' (T_RETURN)
+---------------------------------------------------------------
+[ 2018-08-16T10:58:51+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]语法解析错误: syntax error, unexpected 'return' (T_RETURN)
+---------------------------------------------------------------
+[ 2018-08-16T10:58:56+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012605s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001924s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B1101' LIMIT 1 [ RunTime:0.000253s ]
+---------------------------------------------------------------
+[ 2018-08-16T11:01:36+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001796s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001830s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B1101' LIMIT 1 [ RunTime:0.000445s ]
+[ error ] [0]致命错误: Class 'app\index\model\WikiInformation' not found
+---------------------------------------------------------------
+[ 2018-08-16T11:05:18+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001470s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.000829s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B1101' LIMIT 1 [ RunTime:0.000429s ]
+[ error ] [0]类的属性不存在:app\index\model\Composite_parts->wiki_information
+---------------------------------------------------------------
+[ 2018-08-16T11:05:19+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001859s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B1101' LIMIT 1 [ RunTime:0.000342s ]
+[ error ] [0]类的属性不存在:app\index\model\Composite_parts->wiki_information
+---------------------------------------------------------------
+[ 2018-08-16T11:08:24+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010553s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.000921s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B1101' LIMIT 1 [ RunTime:0.000402s ]
+[ error ] [0]类的属性不存在:app\index\model\Composite_parts->wiki_information
+---------------------------------------------------------------
+[ 2018-08-16T11:08:24+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001431s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001370s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B1101' LIMIT 1 [ RunTime:0.000376s ]
+[ error ] [0]类的属性不存在:app\index\model\Composite_parts->wiki_information
+---------------------------------------------------------------
+[ 2018-08-16T11:12:30+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001892s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.000793s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B1101' LIMIT 1 [ RunTime:0.000357s ]
+[ error ] [0]类的属性不存在:app\index\model\Composite_parts->wiki_information
+---------------------------------------------------------------
+[ 2018-08-16T11:12:31+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001420s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B1101' LIMIT 1 [ RunTime:0.000316s ]
+[ error ] [0]类的属性不存在:app\index\model\Composite_parts->wiki_information
+---------------------------------------------------------------
+[ 2018-08-16T11:16:01+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011405s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.002528s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiauitv' LIMIT 1 [ RunTime:0.000423s ]
+---------------------------------------------------------------
+[ 2018-08-16T11:16:29+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010538s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.002799s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiquitv' LIMIT 1 [ RunTime:0.000554s ]
+---------------------------------------------------------------
+[ 2018-08-16T11:16:30+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011207s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000825s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiquitv' LIMIT 1 [ RunTime:0.000372s ]
+---------------------------------------------------------------
+[ 2018-08-16T11:17:25+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001378s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000783s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiquitv' LIMIT 1 [ RunTime:0.000442s ]
+---------------------------------------------------------------
+[ 2018-08-16T11:17:29+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001529s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000887s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiquitv' LIMIT 1 [ RunTime:0.000411s ]
+---------------------------------------------------------------
+[ 2018-08-16T11:18:21+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011202s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000787s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiquity' LIMIT 1 [ RunTime:0.000420s ]
+---------------------------------------------------------------
+[ 2018-08-16T11:18:47+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001953s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000814s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiquity' LIMIT 1 [ RunTime:0.000354s ]
+---------------------------------------------------------------
+[ 2018-08-16T11:20:38+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012477s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.005681s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiquity' LIMIT 1 [ RunTime:0.000460s ]
+[ error ] [0]类的属性不存在:app\index\model\Wiki_information->composite_parts
+---------------------------------------------------------------
+[ 2018-08-16T11:21:46+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003721s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001096s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiquity' LIMIT 1 [ RunTime:0.000339s ]
+[ error ] [0]致命错误: Class 'app\index\model\CompositeParts' not found
+---------------------------------------------------------------
+[ 2018-08-16T11:21:46+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011808s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000752s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiquity' LIMIT 1 [ RunTime:0.000420s ]
+[ error ] [0]致命错误: Class 'app\index\model\CompositeParts' not found
+---------------------------------------------------------------
+[ 2018-08-16T11:22:34+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001328s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001814s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiquity' LIMIT 1 [ RunTime:0.000362s ]
+---------------------------------------------------------------
+[ 2018-08-16T11:22:52+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001549s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.002127s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiquity' LIMIT 1 [ RunTime:0.000472s ]
+[ error ] [0]类的属性不存在:app\index\model\Wiki_information->composite_parts
+---------------------------------------------------------------
+[ 2018-08-16T11:23:19+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010864s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.002010s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiquity' LIMIT 1 [ RunTime:0.000437s ]
+[ error ] [0]类的属性不存在:app\index\model\Wiki_information->composite_parts
+---------------------------------------------------------------
+[ 2018-08-16T11:23:19+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001468s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001922s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiquity' LIMIT 1 [ RunTime:0.000367s ]
+[ error ] [0]类的属性不存在:app\index\model\Wiki_information->composite_parts
+---------------------------------------------------------------
+[ 2018-08-16T11:27:33+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002211s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.002088s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiquity' LIMIT 1 [ RunTime:0.000488s ]
+[ error ] [0]致命错误: Class 'app\index\model\CompositeParts' not found
+---------------------------------------------------------------
+[ 2018-08-16T11:27:33+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011308s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.003418s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiquity' LIMIT 1 [ RunTime:0.000472s ]
+[ error ] [0]致命错误: Class 'app\index\model\CompositeParts' not found
+---------------------------------------------------------------
+[ 2018-08-16T11:27:33+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001864s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000871s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiquity' LIMIT 1 [ RunTime:0.000411s ]
+[ error ] [0]致命错误: Class 'app\index\model\CompositeParts' not found
+---------------------------------------------------------------
+[ 2018-08-16T11:34:16+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002381s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001063s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiquity' LIMIT 1 [ RunTime:0.000435s ]
+[ error ] [0]类的属性不存在:app\index\model\Wiki_information->compositeParts
+---------------------------------------------------------------
+[ 2018-08-16T11:34:17+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001518s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000959s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiquity' LIMIT 1 [ RunTime:0.000452s ]
+[ error ] [0]类的属性不存在:app\index\model\Wiki_information->compositeParts
+---------------------------------------------------------------
+[ 2018-08-16T12:22:46+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]类的属性不存在:app\index\model\Wiki_information->composite_parts
+---------------------------------------------------------------
+[ 2018-08-16T12:22:46+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]类的属性不存在:app\index\model\Wiki_information->composite_parts
+---------------------------------------------------------------
+[ 2018-08-16T12:22:46+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]类的属性不存在:app\index\model\Wiki_information->composite_parts
+---------------------------------------------------------------
+[ 2018-08-16T12:22:46+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]类的属性不存在:app\index\model\Wiki_information->composite_parts
+---------------------------------------------------------------
+[ 2018-08-16T12:22:47+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ error ] [0]类的属性不存在:app\index\model\Wiki_information->composite_parts
+---------------------------------------------------------------
+[ 2018-08-16T12:22:56+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001901s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000908s ]
+[ error ] [0]致命错误: Class 'app\index\model\CompositeParts' not found
+---------------------------------------------------------------
+[ 2018-08-16T12:25:10+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002210s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001538s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiquity' LIMIT 1 [ RunTime:0.000401s ]
+---------------------------------------------------------------
+[ 2018-08-16T12:25:24+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001509s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000727s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiquity' LIMIT 1 [ RunTime:0.000326s ]
+[ error ] [0]类的属性不存在:app\index\model\Wiki_information->Composite_parts
+---------------------------------------------------------------
+[ 2018-08-16T12:40:43+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010956s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000949s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiquity' LIMIT 1 [ RunTime:0.000435s ]
+[ error ] [0]类的属性不存在:app\index\model\Wiki_information->composite_parts
+---------------------------------------------------------------
+[ 2018-08-16T12:40:44+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001399s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000808s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiquity' LIMIT 1 [ RunTime:0.000374s ]
+[ error ] [0]类的属性不存在:app\index\model\Wiki_information->composite_parts
+---------------------------------------------------------------
+[ 2018-08-16T12:40:44+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011394s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001251s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiquity' LIMIT 1 [ RunTime:0.000401s ]
+[ error ] [0]类的属性不存在:app\index\model\Wiki_information->composite_parts
+---------------------------------------------------------------
+[ 2018-08-16T12:40:44+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001444s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000823s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiquity' LIMIT 1 [ RunTime:0.000332s ]
+[ error ] [0]类的属性不存在:app\index\model\Wiki_information->composite_parts
+---------------------------------------------------------------
+[ 2018-08-16T12:40:44+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001493s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.002691s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiquity' LIMIT 1 [ RunTime:0.000740s ]
+[ error ] [0]类的属性不存在:app\index\model\Wiki_information->composite_parts
+---------------------------------------------------------------
+[ 2018-08-16T12:40:44+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011845s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001266s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiquity' LIMIT 1 [ RunTime:0.001019s ]
+[ error ] [0]类的属性不存在:app\index\model\Wiki_information->composite_parts
+---------------------------------------------------------------
+[ 2018-08-16T12:40:44+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001943s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000867s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Submit_team` = '2003_Antiquity' LIMIT 1 [ RunTime:0.000396s ]
+[ error ] [0]类的属性不存在:app\index\model\Wiki_information->composite_parts
+---------------------------------------------------------------
+[ 2018-08-16T14:37:00+08:00 ] 0.0.0.0 POST /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/search/submitone.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002746s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `epd` [ RunTime:0.002548s ]
+[ sql ] [ SQL ] SELECT * FROM `epd` WHERE  `Epd_id` LIKE '%aac%' [ RunTime:0.002078s ]

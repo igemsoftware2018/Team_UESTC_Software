@@ -1,0 +1,728 @@
+---------------------------------------------------------------
+[ 2018-09-27T12:55:16+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/
+[ info ] localhost:12345/DataBase/THINKPHP/public/ [运行时间：1.423863s][吞吐率：0.70req/s] [内存消耗：1,960.73kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-27T12:55:18+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/search/by_key.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/by_key.html [运行时间：0.073687s][吞吐率：13.57req/s] [内存消耗：2,017.75kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'by_key',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Search->by_key[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\search\by_key.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-27T13:14:06+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/search/by_function
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/by_function [运行时间：0.044842s][吞吐率：22.30req/s] [内存消耗：2,017.92kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'by_function',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_key.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Search->by_function[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\search\by_function.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-27T13:14:08+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/search/by_id
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/by_id [运行时间：0.043103s][吞吐率：23.20req/s] [内存消耗：2,189.02kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'by_id',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_function',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Search->by_id[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\search\by_id.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-27T13:14:13+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/search/by_key
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/by_key [运行时间：0.034290s][吞吐率：29.16req/s] [内存消耗：2,017.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'by_key',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_id',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Search->by_key[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\search\by_key.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-27T13:14:17+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/search/submittwo.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html [运行时间：0.272753s][吞吐率：3.67req/s] [内存消耗：2,475.90kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'submittwo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '15',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:12345',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_key',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'keys' => 'cellulose ',
+)
+[ info ] [ RUN ] app\index\controller\Search->submitTwo[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\team.html [ array (
+  0 => 'res',
+  1 => 'count',
+  2 => 'result',
+  3 => 'a',
+  4 => 'keys',
+  5 => 'js',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.097187s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM wiki_information where (Description like '% cellulose %' or Description like '% cellulose%' or Description like '%cellulose %') [ RunTime:0.101435s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Dalhousie' [ RunTime:0.007618s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_HUST-China' [ RunTime:0.001228s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Imperial' [ RunTime:0.001060s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Kyoto' [ RunTime:0.000717s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_TUST_China' [ RunTime:0.000693s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2009_uOttawa' [ RunTime:0.000544s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_Tokyo_Metropolitan' [ RunTime:0.000853s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_TzuChiU_Formosa' [ RunTime:0.000506s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_NYU_Gallatin' [ RunTime:0.000460s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Biwako_Nagahama' [ RunTime:0.000632s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_London_BioHackspace' [ RunTime:0.000428s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_WLC-Milwaukee' [ RunTime:0.000692s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Dalhousie_Halifax_NS' [ RunTime:0.000406s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_NKU_China' [ RunTime:0.000676s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_US_AFRL_CarrollHS' [ RunTime:0.000486s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_Alberta' [ RunTime:0.000429s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Berlin' [ RunTime:0.000458s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_NEAU-China' [ RunTime:0.000427s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Aalto-Helsinki' [ RunTime:0.000451s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_SDU-Denmark' [ RunTime:0.000423s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_Edinburgh' [ RunTime:0.000232s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_Bielefeld-Germany' [ RunTime:0.000629s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_WHU-China' [ RunTime:0.000353s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_BV_CAPS_Kansas' [ RunTime:0.000222s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Penn_State' [ RunTime:0.000704s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Hannover' [ RunTime:0.000317s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_StanfordBrownSpelman' [ RunTime:0.000371s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Aalto-Helsinki' [ RunTime:0.000185s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_BroadRun-NorthernVA' [ RunTime:0.000356s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_ZJU-China' [ RunTime:0.000469s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_British_Columbia' [ RunTime:0.000186s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Guanajuato_Mx' [ RunTime:0.000262s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_SDSZ_China' [ RunTime:0.000695s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Saint_Rose_School_B' [ RunTime:0.000253s ]
+---------------------------------------------------------------
+[ 2018-09-27T13:14:19+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/team_1/t/2017_Dalhousie.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/team_1/t/2017_Dalhousie.html [运行时间：0.105446s][吞吐率：9.48req/s] [内存消耗：3,356.51kb] [文件加载：58]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'team_1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  't' => '2017_Dalhousie',
+)
+[ info ] [ RUN ] app\index\controller\Display->team_1[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\team_1.html [ array (
+  0 => 'res',
+  1 => 't',
+  2 => 'count',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000964s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `team_parts` [ RunTime:0.006843s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `team_parts` WHERE  `Submit_team` = '2017_Dalhousie' LIMIT 1 [ RunTime:0.004294s ]
+[ sql ] [ SQL ] SELECT * FROM `team_parts` WHERE  `Submit_team` = '2017_Dalhousie' LIMIT 0,20 [ RunTime:0.000989s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `team_parts` WHERE  `Submit_team` = '2017_Dalhousie' LIMIT 1 [ RunTime:0.000565s ]
+---------------------------------------------------------------
+[ 2018-09-27T13:14:29+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/team_1/t/2017_Dalhousie.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/team_1/t/2017_Dalhousie.html [运行时间：0.068656s][吞吐率：14.57req/s] [内存消耗：3,592.47kb] [文件加载：60]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'team_1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  't' => '2017_Dalhousie',
+)
+[ info ] [ RUN ] app\index\controller\Display->team_1[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\team_1.html [ array (
+  0 => 'res',
+  1 => 't',
+  2 => 'count',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001025s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `team_parts` [ RunTime:0.002213s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `team_parts` WHERE  `Submit_team` = '2017_Dalhousie' LIMIT 1 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SELECT * FROM `team_parts` WHERE  `Submit_team` = '2017_Dalhousie' LIMIT 0,20 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `team_parts` WHERE  `Submit_team` = '2017_Dalhousie' LIMIT 1 [ RunTime:0.000245s ]
+---------------------------------------------------------------
+[ 2018-09-27T13:15:56+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/predict/pre_in
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/predict/pre_in [运行时间：0.102115s][吞吐率：9.79req/s] [内存消耗：1,677.52kb] [文件加载：45]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'predict',
+    2 => 'pre_in',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-27T13:17:15+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/predict/pre_in
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/predict/pre_in [运行时间：0.048895s][吞吐率：20.45req/s] [内存消耗：2,154.30kb] [文件加载：53]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'predict',
+    2 => 'pre_in',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Predict->pre_in[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Predict.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\predict\pre_in.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: count[D:\Apache24\htdocs\DataBase\THINKPHP\runtime\temp\7a4605b945d10051f39cc9699872c5c0.php:96]
+---------------------------------------------------------------
+[ 2018-09-27T13:17:38+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/predict/pre_in
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/predict/pre_in [运行时间：0.035238s][吞吐率：28.38req/s] [内存消耗：2,130.39kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'predict',
+    2 => 'pre_in',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Predict->pre_in[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Predict.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\predict\pre_in.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-27T13:21:46+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/predict/pre_in
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/predict/pre_in [运行时间：0.053655s][吞吐率：18.64req/s] [内存消耗：2,130.39kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'predict',
+    2 => 'pre_in',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Predict->pre_in[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Predict.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\predict\pre_in.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-27T13:23:13+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/predict/pre_in
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/predict/pre_in [运行时间：0.048319s][吞吐率：20.70req/s] [内存消耗：2,129.89kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'predict',
+    2 => 'pre_in',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Predict->pre_in[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Predict.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\predict\pre_in.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-27T13:23:40+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/predict/pre_in
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/predict/pre_in [运行时间：0.045197s][吞吐率：22.13req/s] [内存消耗：2,128.95kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'predict',
+    2 => 'pre_in',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Predict->pre_in[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Predict.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\predict\pre_in.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-27T13:51:56+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/predict/pre_in
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/predict/pre_in [运行时间：0.033386s][吞吐率：29.95req/s] [内存消耗：2,131.14kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'predict',
+    2 => 'pre_in',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Predict->pre_in[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Predict.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\predict\pre_in.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-27T13:52:30+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/predict/pre_in
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/predict/pre_in [运行时间：0.033619s][吞吐率：29.75req/s] [内存消耗：2,131.14kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'predict',
+    2 => 'pre_in',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Predict->pre_in[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Predict.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\predict\pre_in.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-27T13:52:40+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/predict/pre_in
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/predict/pre_in [运行时间：0.043280s][吞吐率：23.11req/s] [内存消耗：2,131.14kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'predict',
+    2 => 'pre_in',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Predict->pre_in[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Predict.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\predict\pre_in.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-27T13:52:49+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/predict/pre_in
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/predict/pre_in [运行时间：0.030044s][吞吐率：33.28req/s] [内存消耗：2,131.14kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'predict',
+    2 => 'pre_in',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Predict->pre_in[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Predict.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\predict\pre_in.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-27T13:56:00+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/predict/pre_in
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/predict/pre_in [运行时间：0.051007s][吞吐率：19.61req/s] [内存消耗：2,131.14kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'predict',
+    2 => 'pre_in',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Predict->pre_in[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Predict.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\predict\pre_in.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-27T13:56:41+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/predict/pre_in
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/predict/pre_in [运行时间：0.055107s][吞吐率：18.15req/s] [内存消耗：2,131.64kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'predict',
+    2 => 'pre_in',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Predict->pre_in[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Predict.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\predict\pre_in.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-27T13:57:26+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/predict/pre_in
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/predict/pre_in [运行时间：0.027450s][吞吐率：36.43req/s] [内存消耗：2,131.14kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'predict',
+    2 => 'pre_in',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Predict->pre_in[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Predict.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\predict\pre_in.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-27T13:58:20+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/predict/pre_in
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/predict/pre_in [运行时间：0.036930s][吞吐率：27.08req/s] [内存消耗：2,131.14kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'predict',
+    2 => 'pre_in',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Predict->pre_in[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Predict.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\predict\pre_in.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

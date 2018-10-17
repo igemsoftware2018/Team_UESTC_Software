@@ -1,0 +1,402 @@
+@media only screen and (max-width:767px) {
+    .mymenu {
+        position: absolute;
+    }
+    #menu-r {
+        position: absolute;
+        top: 5px;
+        left: 200px
+    }
+    .mycontainer-1 #clu {
+        display: none
+    }
+}
+
+@media only screen and (max-width:993px) {
+    #jug {
+        position: relative;
+        top: 10px
+    }
+    #des {
+        position: relative;
+        top: 10px
+    }
+}
+
+body {
+    min-width: 690px;
+    
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none !important;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+#mynavbar {
+    min-height: 20px;
+    height: 40px
+}
+
+#mynavbar .container {
+    height: 40px;
+}
+
+#mynavbar .container .navbar-brand {
+    height: 40px;
+    line-height: 10px;
+}
+
+#mynavbar .container button {
+    height: 25px
+}
+
+#mynavbar .container ul li a {
+    height: 40px;
+    line-height: 12px;
+}
+
+#mynavbar {
+    margin: 0;
+}
+
+.mymenu {
+    background: url('image/data-top.jpg') no-repeat center top;
+    position: relative;
+    top: 40px;
+    height: 100px;
+    
+}
+
+.mymenu .container {
+    line-height: 96px;
+}
+
+.container span {
+    font-size: 24px;
+    display: inline-block;
+}
+
+.mymenu ul li {
+    float: left;
+    padding: 0 8px;
+    margin: 0 5px;
+
+}
+
+.mymenu ul li:last-child {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.mymenu ul li:first-child {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.mymenu .container ul li a {
+    color: dimgray;
+    font-size: 15px
+}
+
+.mymenu .container ul li a:hover {
+    color: black;
+
+}
+
+.mycontainer-1 {
+
+    position: relative;
+    top: 40px;
+}
+
+.mycontainer-1 ul li {
+
+    background-color: ;
+
+}
+
+
+.mycontainer-1 ul li a {
+
+
+    font-size: 16px
+}
+
+#clu {
+    position: fixed;
+    top: 190px;
+    width: 150px;
+    z-index: 100
+}
+
+#clu .nav li a:hover {
+    color: coral;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+#clu .nav li a:focus {
+
+    background-color: rgba(0, 0, 0, 0)
+}
+
+#clu .active a {
+    color: coral;
+    background-color: rgba(0, 0, 0, 0)
+}
+
+#clu a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -3px;
+    width: 2px;
+    height: 46px;
+    background: #34a0ce;
+    opacity: 0;
+    transition: all .3s;
+}
+
+#clu .active a:before,
+#clu a:hover:before {
+    opacity: 1;
+}
+
+#clu hr {
+    margin: 10px
+}
+
+.mycontainer .col-lg-2,
+.mycontainer .col-md-2,
+.mycontainer .col-sm-2 {
+    padding-left: 0;
+}
+
+.mycontainer {
+    height: 500px;
+    position: relative;
+    top: 40px;
+}
+
+
+.mycontainer ul li {
+
+    height: 36px;
+    padding: 10px;
+    line-height: 16px;
+    border: solid 1px black;
+    border-radius: 0 10px 10px 0;
+
+    background-color: aquamarine;
+}
+
+.mycontainer ul li a {
+    color: black
+}
+
+
+.mybg {
+    height: 754px;
+    position: relative;
+    top: -40px;
+    background: url('image/bg.jpg') no-repeat center center;
+    display: flex;
+    justify-content: center
+}
+
+.mybg .container {
+    position: absolute;
+    top: 350px;
+    color: white;
+    text-align: center;
+
+}
+
+#bt {
+    position: relative;
+    top: 200px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: rgb(0.5, 0.5, 0, 0.4);
+    background-color: rgb(0, 0, 0, 0.2)
+}
+
+#bt:hover {
+    border-color: aliceblue;
+    -webkit-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+
+footer {
+    height: 300px;
+    position: relative;
+    top: 250px;
+    background: url('image/data-foot.jpg');
+    z-index: -1
+}
+
+
+.con-r {
+
+    max-width: 1060px;
+    background-color: aqua;
+    width: 100%;
+    word-wrap: break-word;
+    word-break: break-all;
+
+}
+
+.con-r-1 {
+
+
+    background: center center;
+
+    word-wrap: break-word;
+    word-break: break-all;
+    position: relative;
+    top: 50px;
+}
+
+.hz {
+    background-color: ;
+    margin-top: 30px;
+    position: relative;
+
+    color: ;
+
+}
+
+.hz a {
+    color: #6dabda;
+}
+
+.hz a:hover {
+    color: #6dabda;
+
+}
+
+.hz table {
+    border-color: #6dabda
+}
+
+.col-1,
+.col-2 {
+    min-width: 150px;
+    overflow: hidden;
+}
+
+.pagination li.active {
+    background-color: antiquewhite
+}
+
+
+.title {
+
+    background-color: rgb(0, 0, 0, 0);
+    font-size: 30px;
+    position: relative;
+    margin-top: 30px;
+    top: 20px;
+    height: 50px
+}
+
+.title_1 {
+
+    background-color: rgb(0, 0, 0, 0);
+    font-size: 30px;
+    position: relative;
+    top: 0;
+    height: 120px
+}
+
+.title_1 span {
+    font-size: 50px;
+    position: relative;
+    top: -10px;
+    color:
+}
+
+/*zhili*/
+
+.zhili {
+    font-family: 'Lato';
+    font-weight: 400
+}
+
+.boundary {
+    stroke-dasharray: 2, 2;
+    stroke-width: 2px
+}
+
+.mdlabel {
+    font-size: 8px
+}
+
+.smlabel {
+    font-size: 8px
+}
+
+.white {
+    fill: #fff
+}
+
+.red {
+    fill: rgb(192, 64, 64)
+}
+
+.purple {
+    fill: rgb(192, 64, 192)
+}
+
+.blue {
+    fill: rgb(64, 192, 192)
+}
+
+.green {
+    fill: rgb(64, 192, 64)
+}
+
+.gold {
+    fill: rgb(192, 128, 64)
+}
+
+/*序列图*/
+
+#sites a {
+    color: dimgrey;
+}
+
+#sites a:hover {
+    color: black
+}
+
+/*prediction*/
+@media only screen and (max-width:767px) {
+    #k_res{
+        position: relative;
+        top: 50px;
+        left: -20px
+    } 
+}
+@media only screen and (min-width:767px) {
+    #k_res{
+        position: relative;
+        top: -80px
+    } 
+}
+

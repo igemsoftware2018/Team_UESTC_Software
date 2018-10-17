@@ -1,0 +1,1100 @@
+---------------------------------------------------------------
+[ 2018-09-09T12:53:22+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_I0408.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_I0408.html [运行时间：0.828132s][吞吐率：1.21req/s] [内存消耗：2,980.59kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_I0408',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_composite.html [ array (
+  0 => 'res_2_0',
+  1 => 'res_2_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'filename_2',
+  6 => 'len',
+  7 => 'color',
+  8 => 'color_1',
+  9 => 'color_2',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.036744s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.004122s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.003427s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.002049s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.002589s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001999s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.001261s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.002370s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.002379s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.001851s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.002117s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.002177s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.001646s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_I0408' LIMIT 1 [ RunTime:0.000416s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component,composite_parts where component.iGEM_ID='BBa_I0408' and composite_parts.iGEM_ID='BBa_I0408' [ RunTime:0.003446s ]
+---------------------------------------------------------------
+[ 2018-09-09T12:56:43+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_I0408.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_I0408.html [运行时间：0.122815s][吞吐率：8.14req/s] [内存消耗：3,174.81kb] [文件加载：54]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_I0408',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_composite.html [ array (
+  0 => 'res_2_0',
+  1 => 'res_2_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'filename_2',
+  6 => 'len',
+  7 => 'color',
+  8 => 'color_1',
+  9 => 'color_2',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003720s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.002060s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.001696s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001691s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.001607s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.001798s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.002988s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_I0408' LIMIT 1 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component,composite_parts where component.iGEM_ID='BBa_I0408' and composite_parts.iGEM_ID='BBa_I0408' [ RunTime:0.001800s ]
+---------------------------------------------------------------
+[ 2018-09-09T12:58:07+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_I0408.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_I0408.html [运行时间：0.075354s][吞吐率：13.27req/s] [内存消耗：2,973.16kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_I0408',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_composite.html [ array (
+  0 => 'res_2_0',
+  1 => 'res_2_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'filename_2',
+  6 => 'len',
+  7 => 'color',
+  8 => 'color_1',
+  9 => 'color_2',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001083s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.002079s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.001586s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001556s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.001608s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.001780s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.002714s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_I0408' LIMIT 1 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component,composite_parts where component.iGEM_ID='BBa_I0408' and composite_parts.iGEM_ID='BBa_I0408' [ RunTime:0.001403s ]
+---------------------------------------------------------------
+[ 2018-09-09T12:58:15+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_I0408.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_I0408.html [运行时间：0.051780s][吞吐率：19.31req/s] [内存消耗：2,973.16kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_I0408',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_composite.html [ array (
+  0 => 'res_2_0',
+  1 => 'res_2_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'filename_2',
+  6 => 'len',
+  7 => 'color',
+  8 => 'color_1',
+  9 => 'color_2',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001048s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.005170s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.001817s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001620s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.001596s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.001647s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.001699s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.000724s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_I0408' LIMIT 1 [ RunTime:0.000903s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component,composite_parts where component.iGEM_ID='BBa_I0408' and composite_parts.iGEM_ID='BBa_I0408' [ RunTime:0.001912s ]
+---------------------------------------------------------------
+[ 2018-09-09T12:58:45+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_I0408.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_I0408.html [运行时间：0.058547s][吞吐率：17.08req/s] [内存消耗：2,973.16kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_I0408',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_composite.html [ array (
+  0 => 'res_2_0',
+  1 => 'res_2_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'filename_2',
+  6 => 'len',
+  7 => 'color',
+  8 => 'color_1',
+  9 => 'color_2',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001115s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.001759s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.005126s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001731s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.001624s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.001587s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.001586s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_I0408' LIMIT 1 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component,composite_parts where component.iGEM_ID='BBa_I0408' and composite_parts.iGEM_ID='BBa_I0408' [ RunTime:0.001788s ]
+---------------------------------------------------------------
+[ 2018-09-09T13:00:08+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_I12006.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_I12006.html [运行时间：0.129652s][吞吐率：7.71req/s] [内存消耗：2,981.80kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_I12006',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_promoter.html [ array (
+  0 => 'res_1_0',
+  1 => 'res_1_1',
+  2 => 'res_1_2',
+  3 => 'res_1_3',
+  4 => 'res_1_4',
+  5 => 'res_1_5',
+  6 => 'a',
+  7 => 'b',
+  8 => 'id',
+  9 => 'filename_1',
+  10 => 'len',
+  11 => 'color',
+  12 => 'color_1',
+  13 => 'color_2',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010907s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.002721s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_I12006' [ RunTime:0.000865s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.001743s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_I12006' [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001720s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_I12006' [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.002004s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_I12006' [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.001577s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_I12006' [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.001614s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_I12006' [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_I12006' LIMIT 1 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] select regulondb.Regulondb_id, regulondb.Promoter_Name, regulondb.Promoter_Strand, regulondb.Sigma_Factor, regulondb.Sequence,regulondb.Note from regulondb,igem_regulondb where igem_regulondb.iGEM_ID='BBa_I12006' and igem_regulondb.Regulondb_id=regulondb.Regulondb_id [ RunTime:0.003408s ]
+[ sql ] [ SQL ] select promec.Promoter_Name,
+        promec.reference,
+		promec.Title,
+		promec.Keywords,
+		promec.Sequence from igem_promec,promec where igem_promec.iGEM_ID='BBa_I12006' and igem_promec.Promoter_Name=promec.Promoter_Name [ RunTime:0.004219s ]
+[ sql ] [ SQL ] select epd.Epd_id,
+		epd.Gene_Name,
+		epd.Description,
+		epd.Species,
+		epd.Thich_Region,
+		epd.Sequence,
+		epd.Epd_Link 
+		from epd,igem_epd 
+		where igem_epd.iGEM_ID='BBa_I12006' and igem_epd.Epd_id=epd.Epd_id [ RunTime:0.005279s ]
+[ sql ] [ SQL ] select
+		phage.Phage_Name,
+		phage.Promoter_Number,
+		phage.Description,
+		phage.Complement,
+		phage.Sequence,
+        phage.Gene_Locus
+		from igem_phage,phage
+		where igem_phage.iGEM_ID='BBa_I12006' and igem_phage.Phage_Name=phage.Phage_Name and igem_phage.Promoter_number=phage.Promoter_Number [ RunTime:0.005819s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_I12006' [ RunTime:0.002324s ]
+---------------------------------------------------------------
+[ 2018-09-09T13:03:16+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_I0408.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_I0408.html [运行时间：0.097804s][吞吐率：10.22req/s] [内存消耗：3,198.81kb] [文件加载：54]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_I0408',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_composite.html [ array (
+  0 => 'res_2_0',
+  1 => 'res_2_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'filename_2',
+  6 => 'len',
+  7 => 'color',
+  8 => 'color_1',
+  9 => 'color_2',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001057s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.010463s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.001278s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.001815s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.001262s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001830s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.001355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.001880s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.001620s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.001945s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.001189s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.002194s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_I0408' [ RunTime:0.001334s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_I0408' LIMIT 1 [ RunTime:0.000439s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component,composite_parts where component.iGEM_ID='BBa_I0408' and composite_parts.iGEM_ID='BBa_I0408' [ RunTime:0.003287s ]
+---------------------------------------------------------------
+[ 2018-09-09T13:08:31+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_B0010.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_B0010.html [运行时间：0.090585s][吞吐率：11.04req/s] [内存消耗：3,176.80kb] [文件加载：54]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_B0010',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_terminators.html [ array (
+  0 => 'res_5_0',
+  1 => 'res_5_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'filename_5',
+  6 => 'len',
+  7 => 'color',
+  8 => 'color_1',
+  9 => 'color_2',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001275s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.001765s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_B0010' [ RunTime:0.000881s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.002192s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_B0010' [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.002069s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B0010' [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.001845s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_B0010' [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.001702s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_B0010' [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.002028s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_B0010' [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_B0010' LIMIT 1 [ RunTime:0.000454s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_B0010' [ RunTime:0.001872s ]
+---------------------------------------------------------------
+[ 2018-09-09T13:10:18+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_B0021.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_B0021.html [运行时间：0.065688s][吞吐率：15.22req/s] [内存消耗：2,962.77kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_B0021',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_terminators.html [ array (
+  0 => 'res_5_0',
+  1 => 'res_5_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'filename_5',
+  6 => 'len',
+  7 => 'color',
+  8 => 'color_1',
+  9 => 'color_2',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001162s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.001748s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_B0021' [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.001598s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_B0021' [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001713s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B0021' [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.001908s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_B0021' [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.001849s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_B0021' [ RunTime:0.000886s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.001690s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_B0021' [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_B0021' LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_B0021' [ RunTime:0.001727s ]
+---------------------------------------------------------------
+[ 2018-09-09T13:10:34+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_B1007.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_B1007.html [运行时间：0.078749s][吞吐率：12.70req/s] [内存消耗：2,972.30kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_B1007',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_terminators.html [ array (
+  0 => 'res_5_0',
+  1 => 'res_5_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'filename_5',
+  6 => 'len',
+  7 => 'color',
+  8 => 'color_1',
+  9 => 'color_2',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010774s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.002345s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_B1007' [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.001717s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_B1007' [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.002224s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B1007' [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.002115s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_B1007' [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.001708s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_B1007' [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.001668s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_B1007' [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_B1007' LIMIT 1 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_B1007' [ RunTime:0.001398s ]
+---------------------------------------------------------------
+[ 2018-09-09T13:14:02+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_B0033.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_B0033.html [运行时间：0.293120s][吞吐率：3.41req/s] [内存消耗：3,176.91kb] [文件加载：54]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_B0033',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_rbs.html [ array (
+  0 => 'res_4_0',
+  1 => 'res_4_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'filename_4',
+  6 => 'len',
+  7 => 'color',
+  8 => 'color_1',
+  9 => 'color_2',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001030s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.001831s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_B0033' [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.001835s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_B0033' [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.002270s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B0033' [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.002177s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_B0033' [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.002405s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_B0033' [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.001746s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_B0033' [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_B0033' LIMIT 1 [ RunTime:0.000344s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_B0033' [ RunTime:0.002075s ]
+---------------------------------------------------------------
+[ 2018-09-09T13:14:23+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_J23080.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_J23080.html [运行时间：0.087173s][吞吐率：11.47req/s] [内存消耗：2,957.17kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_J23080',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_rbs.html [ array (
+  0 => 'res_4_0',
+  1 => 'res_4_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'filename_4',
+  6 => 'len',
+  7 => 'color',
+  8 => 'color_1',
+  9 => 'color_2',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011260s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.002011s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_J23080' [ RunTime:0.001245s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.002442s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_J23080' [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001742s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_J23080' [ RunTime:0.000860s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.001693s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_J23080' [ RunTime:0.000785s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.001603s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_J23080' [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.001566s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_J23080' [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_J23080' LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_J23080' [ RunTime:0.002095s ]
+---------------------------------------------------------------
+[ 2018-09-09T13:14:34+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_J61106.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_J61106.html [运行时间：0.082141s][吞吐率：12.17req/s] [内存消耗：2,957.03kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_J61106',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_rbs.html [ array (
+  0 => 'res_4_0',
+  1 => 'res_4_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'filename_4',
+  6 => 'len',
+  7 => 'color',
+  8 => 'color_1',
+  9 => 'color_2',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011460s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.003449s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_J61106' [ RunTime:0.000820s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.001751s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_J61106' [ RunTime:0.000808s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001638s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_J61106' [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.001673s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_J61106' [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.002210s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_J61106' [ RunTime:0.000613s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.002093s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_J61106' [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_J61106' LIMIT 1 [ RunTime:0.000885s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_J61106' [ RunTime:0.001697s ]
+---------------------------------------------------------------
+[ 2018-09-09T13:14:43+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_B0033.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_B0033.html [运行时间：0.060697s][吞吐率：16.48req/s] [内存消耗：2,967.27kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_B0033',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_rbs.html [ array (
+  0 => 'res_4_0',
+  1 => 'res_4_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'filename_4',
+  6 => 'len',
+  7 => 'color',
+  8 => 'color_1',
+  9 => 'color_2',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001098s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.002029s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_B0033' [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.003228s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_B0033' [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001937s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B0033' [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.001815s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_B0033' [ RunTime:0.000602s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.002328s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_B0033' [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.002316s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_B0033' [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_B0033' LIMIT 1 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_B0033' [ RunTime:0.001336s ]
+---------------------------------------------------------------
+[ 2018-09-09T13:21:43+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_B0033.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_B0033.html [运行时间：0.051834s][吞吐率：19.29req/s] [内存消耗：2,967.72kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_B0033',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_rbs.html [ array (
+  0 => 'res_4_0',
+  1 => 'res_4_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'filename_4',
+  6 => 'len',
+  7 => 'color',
+  8 => 'color_1',
+  9 => 'color_2',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001529s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.001206s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_B0033' [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.000932s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_B0033' [ RunTime:0.000993s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001210s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B0033' [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.001043s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_B0033' [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.001212s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_B0033' [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_B0033' [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_B0033' LIMIT 1 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_B0033' [ RunTime:0.000509s ]
+---------------------------------------------------------------
+[ 2018-09-09T13:22:54+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_B0034.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_B0034.html [运行时间：0.064744s][吞吐率：15.45req/s] [内存消耗：2,962.05kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_B0034',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_rbs.html [ array (
+  0 => 'res_4_0',
+  1 => 'res_4_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'filename_4',
+  6 => 'len',
+  7 => 'color',
+  8 => 'color_1',
+  9 => 'color_2',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011438s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.000796s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_B0034' [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_B0034' [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B0034' [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.001742s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_B0034' [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_B0034' [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_B0034' [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_B0034' LIMIT 1 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_B0034' [ RunTime:0.000289s ]
+---------------------------------------------------------------
+[ 2018-09-09T13:27:01+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_B0034.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_B0034.html [运行时间：0.090638s][吞吐率：11.03req/s] [内存消耗：3,168.27kb] [文件加载：54]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_B0034',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_rbs.html [ array (
+  0 => 'res_4_0',
+  1 => 'res_4_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'filename_4',
+  6 => 'len',
+  7 => 'color',
+  8 => 'color_1',
+  9 => 'color_2',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001220s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.001452s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_B0034' [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.000743s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_B0034' [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B0034' [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.001899s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_B0034' [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_B0034' [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_B0034' [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_B0034' LIMIT 1 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_B0034' [ RunTime:0.000300s ]
+---------------------------------------------------------------
+[ 2018-09-09T13:36:23+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_B0016.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_B0016.html [运行时间：0.057773s][吞吐率：17.31req/s] [内存消耗：2,957.76kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_B0016',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_terminators.html [ array (
+  0 => 'res_5_0',
+  1 => 'res_5_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'filename_5',
+  6 => 'len',
+  7 => 'color',
+  8 => 'color_1',
+  9 => 'color_2',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001326s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_B0016' [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.001013s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_B0016' [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.000723s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B0016' [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.000795s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_B0016' [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.000849s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_B0016' [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.000883s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_B0016' [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_B0016' LIMIT 1 [ RunTime:0.000434s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_B0016' [ RunTime:0.000412s ]
+---------------------------------------------------------------
+[ 2018-09-09T13:37:43+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_B0016.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_B0016.html [运行时间：0.074140s][吞吐率：13.49req/s] [内存消耗：3,163.94kb] [文件加载：54]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_B0016',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_terminators.html [ array (
+  0 => 'res_5_0',
+  1 => 'res_5_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'filename_5',
+  6 => 'len',
+  7 => 'color',
+  8 => 'color_1',
+  9 => 'color_2',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011782s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.001034s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_B0016' [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_B0016' [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B0016' [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_B0016' [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.000668s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_B0016' [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.000700s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_B0016' [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_B0016' LIMIT 1 [ RunTime:0.000368s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_B0016' [ RunTime:0.000295s ]

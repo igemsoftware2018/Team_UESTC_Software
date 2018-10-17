@@ -1,0 +1,3161 @@
+---------------------------------------------------------------
+[ 2018-09-07T12:20:11+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/search/by_id.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/by_id.html [运行时间：0.172052s][吞吐率：5.81req/s] [内存消耗：2,158.14kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'by_id',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_K1641208.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Search->by_id[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\search\by_id.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:20:14+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/search/submitone.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/submitone.html [运行时间：0.190042s][吞吐率：5.26req/s] [内存消耗：3,017.97kb] [文件加载：54]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'submitone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '28',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:12345',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_id.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_K1641208',
+  'kind' => 'iGEM_ID',
+)
+[ info ] [ RUN ] app\index\controller\Search->submitOne[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\brick.html [ array (
+  0 => 'res',
+  1 => 'kind',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.047099s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `team_parts` [ RunTime:0.037093s ]
+[ sql ] [ SQL ] SELECT * FROM `team_parts` WHERE  `iGEM_ID` LIKE '%BBa_K1641208%' [ RunTime:0.044178s ]
+---------------------------------------------------------------
+[ 2018-09-07T12:20:18+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_K1641208.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_K1641208.html [运行时间：0.113457s][吞吐率：8.81req/s] [内存消耗：3,167.95kb] [文件加载：54]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submitone.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_K1641208',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_composite.html [ array (
+  0 => 'res_2_0',
+  1 => 'res_2_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'filename_2',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010305s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.003219s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_K1641208' [ RunTime:0.004160s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.003500s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_K1641208' [ RunTime:0.001632s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.002787s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_K1641208' [ RunTime:0.001848s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.002556s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K1641208' [ RunTime:0.001850s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.002654s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_K1641208' [ RunTime:0.001467s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.002307s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_K1641208' [ RunTime:0.001664s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_K1641208' LIMIT 1 [ RunTime:0.000659s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component,composite_parts where component.iGEM_ID='BBa_K1641208' and composite_parts.iGEM_ID='BBa_K1641208' [ RunTime:0.005936s ]
+---------------------------------------------------------------
+[ 2018-09-07T12:20:21+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/search/by_id.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/by_id.html [运行时间：0.041117s][吞吐率：24.32req/s] [内存消耗：1,986.94kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'by_id',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_K1641208.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Search->by_id[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\search\by_id.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:20:23+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/search/by_func
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/by_func [运行时间：0.064523s][吞吐率：15.50req/s] [内存消耗：2,157.57kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'by_func',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_id.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Search->by_func[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\search\by_func.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:20:30+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/search/submittwo.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html [运行时间：0.135027s][吞吐率：7.41req/s] [内存消耗：3,671.59kb] [文件加载：57]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'submittwo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '14',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:12345',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_func',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'func' => 'cellulose',
+)
+[ info ] [ RUN ] app\index\controller\Search->submitTwo[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\team.html [ array (
+  0 => 'res',
+  1 => 'count',
+  2 => 'result',
+  3 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001026s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.003527s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Description` LIKE '%cellulose%' [ RunTime:0.025686s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2009_uOttawa' [ RunTime:0.003343s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_Tokyo_Metropolitan' [ RunTime:0.000749s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_Alberta' [ RunTime:0.000275s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_Edinburgh' [ RunTime:0.000441s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_TzuChiU_Formosa' [ RunTime:0.000413s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_Bielefeld-Germany' [ RunTime:0.000406s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_HUST-China' [ RunTime:0.000412s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_NYU_Gallatin' [ RunTime:0.000227s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_WHU-China' [ RunTime:0.000346s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Biwako_Nagahama' [ RunTime:0.000452s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_BV_CAPS_Kansas' [ RunTime:0.000341s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Penn_State' [ RunTime:0.000975s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Hannover' [ RunTime:0.001273s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Imperial' [ RunTime:0.000225s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_London_BioHackspace' [ RunTime:0.000197s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_StanfordBrownSpelman' [ RunTime:0.000415s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_WLC-Milwaukee' [ RunTime:0.000476s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Aalto-Helsinki' [ RunTime:0.000282s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Berlin' [ RunTime:0.000245s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_BroadRun-NorthernVA' [ RunTime:0.000337s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_MIT' [ RunTime:0.000818s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_NEAU-China' [ RunTime:0.000479s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_ZJU-China' [ RunTime:0.000688s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_British_Columbia' [ RunTime:0.000309s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Dalhousie_Halifax_NS' [ RunTime:0.000470s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Guanajuato_Mx' [ RunTime:0.000507s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Kyoto' [ RunTime:0.000986s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Saint_Rose_School_B' [ RunTime:0.000428s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_SDSZ_China' [ RunTime:0.000173s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Aalto-Helsinki' [ RunTime:0.000474s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Dalhousie' [ RunTime:0.000310s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_NKU_China' [ RunTime:0.000300s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_SDU-Denmark' [ RunTime:0.000374s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_TUST_China' [ RunTime:0.000152s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_US_AFRL_CarrollHS' [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` WHERE  `Description` LIKE '%cellulose%' LIMIT 1 [ RunTime:0.012703s ]
+---------------------------------------------------------------
+[ 2018-09-07T12:20:31+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2017/SDU-Denmark_02.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2017/SDU-Denmark_02.png [运行时间：0.066587s][吞吐率：15.02req/s] [内存消耗：1,562.36kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'SDU-Denmark_02.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:20:31+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2017/US_AFRL_CarrollHS_01.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2017/US_AFRL_CarrollHS_01.png [运行时间：0.054016s][吞吐率：18.51req/s] [内存消耗：1,562.45kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'US_AFRL_CarrollHS_01.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:20:31+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2017/SDU-Denmark_03.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2017/SDU-Denmark_03.png [运行时间：0.052804s][吞吐率：18.94req/s] [内存消耗：1,562.36kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'SDU-Denmark_03.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:20:32+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/team_1/t/2009_uOttawa.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/team_1/t/2009_uOttawa.html [运行时间：0.102459s][吞吐率：9.76req/s] [内存消耗：3,546.63kb] [文件加载：60]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'team_1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  't' => '2009_uOttawa',
+)
+[ info ] [ RUN ] app\index\controller\Display->team_1[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\team_1.html [ array (
+  0 => 'res',
+  1 => 't',
+  2 => 'count',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010441s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `team_parts` [ RunTime:0.001869s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `team_parts` WHERE  `Submit_team` = '2009_uOttawa' LIMIT 1 [ RunTime:0.001079s ]
+[ sql ] [ SQL ] SELECT * FROM `team_parts` WHERE  `Submit_team` = '2009_uOttawa' LIMIT 0,20 [ RunTime:0.000835s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `team_parts` WHERE  `Submit_team` = '2009_uOttawa' LIMIT 1 [ RunTime:0.000465s ]
+---------------------------------------------------------------
+[ 2018-09-07T12:20:35+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2017/SDU-Denmark_02.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2017/SDU-Denmark_02.png [运行时间：0.024857s][吞吐率：40.23req/s] [内存消耗：1,562.36kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'SDU-Denmark_02.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:20:35+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2017/SDU-Denmark_01.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2017/SDU-Denmark_01.png [运行时间：0.026207s][吞吐率：38.16req/s] [内存消耗：1,562.36kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'SDU-Denmark_01.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:20:57+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2017/US_AFRL_CarrollHS_01.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2017/US_AFRL_CarrollHS_01.png [运行时间：0.025150s][吞吐率：39.76req/s] [内存消耗：1,562.45kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'US_AFRL_CarrollHS_01.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:20:57+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2017/SDU-Denmark_03.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2017/SDU-Denmark_03.png [运行时间：0.057089s][吞吐率：17.52req/s] [内存消耗：1,562.36kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'SDU-Denmark_03.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T12:20:57+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/team_1/t/2010_Tokyo_Metropolitan.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/team_1/t/2010_Tokyo_Metropolitan.html [运行时间：0.062026s][吞吐率：16.12req/s] [内存消耗：3,353.80kb] [文件加载：58]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'team_1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  't' => '2010_Tokyo_Metropolitan',
+)
+[ info ] [ RUN ] app\index\controller\Display->team_1[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\team_1.html [ array (
+  0 => 'res',
+  1 => 't',
+  2 => 'count',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008793s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `team_parts` [ RunTime:0.002022s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `team_parts` WHERE  `Submit_team` = '2010_Tokyo_Metropolitan' LIMIT 1 [ RunTime:0.000620s ]
+[ sql ] [ SQL ] SELECT * FROM `team_parts` WHERE  `Submit_team` = '2010_Tokyo_Metropolitan' LIMIT 0,20 [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `team_parts` WHERE  `Submit_team` = '2010_Tokyo_Metropolitan' LIMIT 1 [ RunTime:0.000351s ]
+---------------------------------------------------------------
+[ 2018-09-07T12:20:57+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/team_1/t/2010_Tokyo_Metropolitan.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/team_1/t/2010_Tokyo_Metropolitan.html [运行时间：0.069536s][吞吐率：14.38req/s] [内存消耗：3,353.80kb] [文件加载：58]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'team_1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  't' => '2010_Tokyo_Metropolitan',
+)
+[ info ] [ RUN ] app\index\controller\Display->team_1[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\team_1.html [ array (
+  0 => 'res',
+  1 => 't',
+  2 => 'count',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021791s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `team_parts` [ RunTime:0.002505s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `team_parts` WHERE  `Submit_team` = '2010_Tokyo_Metropolitan' LIMIT 1 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT * FROM `team_parts` WHERE  `Submit_team` = '2010_Tokyo_Metropolitan' LIMIT 0,20 [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `team_parts` WHERE  `Submit_team` = '2010_Tokyo_Metropolitan' LIMIT 1 [ RunTime:0.000387s ]
+---------------------------------------------------------------
+[ 2018-09-07T12:20:57+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/team_1/t/2011_Alberta.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/team_1/t/2011_Alberta.html [运行时间：0.067219s][吞吐率：14.88req/s] [内存消耗：3,311.16kb] [文件加载：58]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'team_1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  't' => '2011_Alberta',
+)
+[ info ] [ RUN ] app\index\controller\Display->team_1[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\team_1.html [ array (
+  0 => 'res',
+  1 => 't',
+  2 => 'count',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001186s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `team_parts` [ RunTime:0.001971s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `team_parts` WHERE  `Submit_team` = '2011_Alberta' LIMIT 1 [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SELECT * FROM `team_parts` WHERE  `Submit_team` = '2011_Alberta' LIMIT 0,20 [ RunTime:0.001428s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `team_parts` WHERE  `Submit_team` = '2011_Alberta' LIMIT 1 [ RunTime:0.000448s ]
+---------------------------------------------------------------
+[ 2018-09-07T12:20:59+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_K612008.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_K612008.html [运行时间：0.128870s][吞吐率：7.76req/s] [内存消耗：3,470.41kb] [文件加载：54]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/team_1/t/2011_Alberta.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_K612008',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_coding.html [ array (
+  0 => 'res_3_0',
+  1 => 'res_3_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'res_3_2',
+  6 => 'res_3_3',
+  7 => 'res_3_4',
+  8 => 'filename_3',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001100s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.001732s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_K612008' [ RunTime:0.003646s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.001935s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_K612008' [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001814s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_K612008' [ RunTime:0.001890s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.002248s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K612008' [ RunTime:0.000872s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.001570s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_K612008' [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.001718s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_K612008' [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K612008' LIMIT 1 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] select
+		uniprot.Uniprot_id,
+		uniprot.Protein_Name,
+		uniprot.Gene_Name,
+		uniprot.Species,
+		uniprot.Function,
+        uniprot.Interaction,
+        uniprot.Keywords,
+        uniprot.Sequence,
+        uniprot.Uniprot_Link
+		from igem_uniprot,uniprot
+		where igem_uniprot.iGEM_ID='BBa_K612008' and igem_uniprot.Uniprot_id=uniprot.Uniprot_id [ RunTime:0.010632s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_K612008' [ RunTime:0.001471s ]
+[ sql ] [ SQL ] select
+            go.Uniprot_id,
+            go.Qualifier,
+            go.GO_Term,
+            go.Evidence,
+            go.Reference
+            from go,uniprot where go.Uniprot_id='P0ADA1' and uniprot.Uniprot_id='P0ADA1' [ RunTime:0.003747s ]
+[ sql ] [ SQL ] select reference.uniprot_id,reference.reference from reference where reference.uniprot_id='P0ADA1' [ RunTime:0.004762s ]
+[ sql ] [ SQL ] select
+            go.Uniprot_id,
+            go.Qualifier,
+            go.GO_Term,
+            go.Evidence,
+            go.Reference
+            from go,uniprot where go.Uniprot_id='P0ADA2' and uniprot.Uniprot_id='P0ADA2' [ RunTime:0.000659s ]
+[ sql ] [ SQL ] select reference.uniprot_id,reference.reference from reference where reference.uniprot_id='P0ADA2' [ RunTime:0.000571s ]
+---------------------------------------------------------------
+[ 2018-09-07T12:21:28+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2017/SDU-Denmark_03.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2017/SDU-Denmark_03.png [运行时间：0.021910s][吞吐率：45.64req/s] [内存消耗：1,562.36kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'SDU-Denmark_03.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T13:56:05+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_K612008.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_K612008.html [运行时间：0.074814s][吞吐率：13.37req/s] [内存消耗：3,466.66kb] [文件加载：54]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/team_1/t/2011_Alberta.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_K612008',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_coding.html [ array (
+  0 => 'res_3_0',
+  1 => 'res_3_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'res_3_2',
+  6 => 'res_3_3',
+  7 => 'res_3_4',
+  8 => 'filename_3',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001215s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.002232s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_K612008' [ RunTime:0.000781s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.001880s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_K612008' [ RunTime:0.001387s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.002282s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_K612008' [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.001681s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K612008' [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.001590s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_K612008' [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.001582s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_K612008' [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K612008' LIMIT 1 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] select
+		uniprot.Uniprot_id,
+		uniprot.Protein_Name,
+		uniprot.Gene_Name,
+		uniprot.Species,
+		uniprot.Function,
+        uniprot.Interaction,
+        uniprot.Keywords,
+        uniprot.Sequence,
+        uniprot.Uniprot_Link
+		from igem_uniprot,uniprot
+		where igem_uniprot.iGEM_ID='BBa_K612008' and igem_uniprot.Uniprot_id=uniprot.Uniprot_id [ RunTime:0.002639s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_K612008' [ RunTime:0.001286s ]
+[ sql ] [ SQL ] select
+            go.Uniprot_id,
+            go.Qualifier,
+            go.GO_Term,
+            go.Evidence,
+            go.Reference
+            from go,uniprot where go.Uniprot_id='P0ADA1' and uniprot.Uniprot_id='P0ADA1' [ RunTime:0.002100s ]
+[ sql ] [ SQL ] select reference.uniprot_id,reference.reference from reference where reference.uniprot_id='P0ADA1' [ RunTime:0.001715s ]
+[ sql ] [ SQL ] select
+            go.Uniprot_id,
+            go.Qualifier,
+            go.GO_Term,
+            go.Evidence,
+            go.Reference
+            from go,uniprot where go.Uniprot_id='P0ADA2' and uniprot.Uniprot_id='P0ADA2' [ RunTime:0.000327s ]
+[ sql ] [ SQL ] select reference.uniprot_id,reference.reference from reference where reference.uniprot_id='P0ADA2' [ RunTime:0.000184s ]
+---------------------------------------------------------------
+[ 2018-09-07T15:59:29+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/search/by_id.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/by_id.html [运行时间：0.040224s][吞吐率：24.86req/s] [内存消耗：1,986.94kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'by_id',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_K612008.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Search->by_id[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\search\by_id.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T15:59:30+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/search/by_seq
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/by_seq [运行时间：0.110419s][吞吐率：9.06req/s] [内存消耗：2,155.70kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'by_seq',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_id.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Search->by_seq[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\search\by_seq.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:00:16+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/display/blast.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/blast.html [运行时间：3.189770s][吞吐率：0.31req/s] [内存消耗：2,219.63kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'blast',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '44',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:12345',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_seq',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'seq' => '1111111111111111111111111111111',
+  'evalue' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Display->blast[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\blast.html [ array (
+  0 => 'lines',
+  1 => 'arr',
+  2 => 'query',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:00:16+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/display/blast.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/blast.html [运行时间：7.114790s][吞吐率：0.14req/s] [内存消耗：2,219.63kb] [文件加载：49]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'blast',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '44',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:12345',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_seq',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'seq' => '1111111111111111111111111111111',
+  'evalue' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Display->blast[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\blast.html [ array (
+  0 => 'lines',
+  1 => 'arr',
+  2 => 'query',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:04:42+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/display/blast.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/blast.html [运行时间：0.382401s][吞吐率：2.62req/s] [内存消耗：2,048.06kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'blast',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '44',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'origin' => 'http://localhost:12345',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_seq',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'seq' => '1111111111111111111111111111111',
+  'evalue' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Display->blast[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\blast.html [ array (
+  0 => 'lines',
+  1 => 'arr',
+  2 => 'query',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:17:28+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/display/blast.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/blast.html [运行时间：0.044130s][吞吐率：22.66req/s] [内存消耗：1,566.69kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'blast',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '44',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'origin' => 'http://localhost:12345',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_seq',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'seq' => '1111111111111111111111111111111',
+  'evalue' => '1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '}'[D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php:356]
+---------------------------------------------------------------
+[ 2018-09-07T16:24:59+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/display/blast.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/blast.html [运行时间：0.160549s][吞吐率：6.23req/s] [内存消耗：2,048.06kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'blast',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '44',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'origin' => 'http://localhost:12345',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_seq',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'seq' => '1111111111111111111111111111111',
+  'evalue' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Display->blast[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\blast.html [ array (
+  0 => 'lines',
+  1 => 'arr',
+  2 => 'query',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:25:01+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/search/by_id.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/by_id.html [运行时间：0.024104s][吞吐率：41.49req/s] [内存消耗：1,986.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'by_id',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/blast.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Search->by_id[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\search\by_id.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:25:02+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/search/by_func
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/by_func [运行时间：0.025874s][吞吐率：38.65req/s] [内存消耗：1,986.63kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'by_func',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_id.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Search->by_func[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\search\by_func.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:25:08+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/search/submittwo.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html [运行时间：0.118044s][吞吐率：8.47req/s] [内存消耗：3,401.50kb] [文件加载：55]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'submittwo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '24',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:12345',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_func',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'func' => 'cellulose cellusose',
+)
+[ info ] [ RUN ] app\index\controller\Search->submitTwo[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\team.html [ array (
+  0 => 'res',
+  1 => 'count',
+  2 => 'result',
+  3 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004120s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.006813s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Description` LIKE '%cellulose%' [ RunTime:0.024489s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2009_uOttawa' [ RunTime:0.002059s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_Tokyo_Metropolitan' [ RunTime:0.000957s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_Alberta' [ RunTime:0.001169s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_Edinburgh' [ RunTime:0.000878s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_TzuChiU_Formosa' [ RunTime:0.000494s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_Bielefeld-Germany' [ RunTime:0.000352s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_HUST-China' [ RunTime:0.000437s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_NYU_Gallatin' [ RunTime:0.000260s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_WHU-China' [ RunTime:0.000256s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Biwako_Nagahama' [ RunTime:0.000289s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_BV_CAPS_Kansas' [ RunTime:0.000243s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Penn_State' [ RunTime:0.000316s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Hannover' [ RunTime:0.000223s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Imperial' [ RunTime:0.000177s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_London_BioHackspace' [ RunTime:0.000156s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_StanfordBrownSpelman' [ RunTime:0.000160s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_WLC-Milwaukee' [ RunTime:0.000252s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Aalto-Helsinki' [ RunTime:0.000164s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Berlin' [ RunTime:0.000183s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_BroadRun-NorthernVA' [ RunTime:0.000165s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_MIT' [ RunTime:0.000166s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_NEAU-China' [ RunTime:0.000159s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_ZJU-China' [ RunTime:0.000251s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_British_Columbia' [ RunTime:0.000325s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Dalhousie_Halifax_NS' [ RunTime:0.000171s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Guanajuato_Mx' [ RunTime:0.000181s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Kyoto' [ RunTime:0.000249s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Saint_Rose_School_B' [ RunTime:0.000288s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_SDSZ_China' [ RunTime:0.000217s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Aalto-Helsinki' [ RunTime:0.000178s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Dalhousie' [ RunTime:0.000223s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_NKU_China' [ RunTime:0.000230s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_SDU-Denmark' [ RunTime:0.000170s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_TUST_China' [ RunTime:0.000148s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_US_AFRL_CarrollHS' [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` WHERE  `Description` LIKE '%cellulose%' LIMIT 1 [ RunTime:0.010252s ]
+---------------------------------------------------------------
+[ 2018-09-07T16:34:35+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/search/submittwo.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html [运行时间：0.103930s][吞吐率：9.62req/s] [内存消耗：3,413.77kb] [文件加载：55]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'submittwo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '24',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'origin' => 'http://localhost:12345',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_func',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'func' => 'cellulose cellusose',
+)
+[ info ] [ RUN ] app\index\controller\Search->submitTwo[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\team.html [ array (
+  0 => 'res',
+  1 => 'count',
+  2 => 'result',
+  3 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001267s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.008588s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Description` LIKE '%cellulose%' [ RunTime:0.020849s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2009_uOttawa' [ RunTime:0.002348s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_Tokyo_Metropolitan' [ RunTime:0.001009s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_Alberta' [ RunTime:0.000389s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_Edinburgh' [ RunTime:0.000618s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_TzuChiU_Formosa' [ RunTime:0.000496s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_Bielefeld-Germany' [ RunTime:0.000471s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_HUST-China' [ RunTime:0.000450s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_NYU_Gallatin' [ RunTime:0.000269s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_WHU-China' [ RunTime:0.000541s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Biwako_Nagahama' [ RunTime:0.000431s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_BV_CAPS_Kansas' [ RunTime:0.000241s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Penn_State' [ RunTime:0.000673s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Hannover' [ RunTime:0.000561s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Imperial' [ RunTime:0.000333s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_London_BioHackspace' [ RunTime:0.000299s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_StanfordBrownSpelman' [ RunTime:0.000536s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_WLC-Milwaukee' [ RunTime:0.000959s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Aalto-Helsinki' [ RunTime:0.000422s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Berlin' [ RunTime:0.000226s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_BroadRun-NorthernVA' [ RunTime:0.000452s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_MIT' [ RunTime:0.000422s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_NEAU-China' [ RunTime:0.000206s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_ZJU-China' [ RunTime:0.000526s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_British_Columbia' [ RunTime:0.000268s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Dalhousie_Halifax_NS' [ RunTime:0.000280s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Guanajuato_Mx' [ RunTime:0.000311s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Kyoto' [ RunTime:0.000278s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Saint_Rose_School_B' [ RunTime:0.000273s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_SDSZ_China' [ RunTime:0.000165s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Aalto-Helsinki' [ RunTime:0.000389s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Dalhousie' [ RunTime:0.000357s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_NKU_China' [ RunTime:0.000451s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_SDU-Denmark' [ RunTime:0.000312s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_TUST_China' [ RunTime:0.000473s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_US_AFRL_CarrollHS' [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` WHERE  `Description` LIKE '%cellulose%' LIMIT 1 [ RunTime:0.010357s ]
+---------------------------------------------------------------
+[ 2018-09-07T16:35:13+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/search/by_id.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/by_id.html [运行时间：0.045726s][吞吐率：21.87req/s] [内存消耗：1,986.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'by_id',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Search->by_id[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\search\by_id.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:35:19+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/search/by_func
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/by_func [运行时间：0.037871s][吞吐率：26.41req/s] [内存消耗：1,986.63kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'by_func',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_id.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Search->by_func[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\search\by_func.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:35:23+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/search/submittwo.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html [运行时间：0.234613s][吞吐率：4.26req/s] [内存消耗：5,880.70kb] [文件加载：55]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'submittwo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:12345',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_func',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'func' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Search->submitTwo[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\team.html [ array (
+  0 => 'res',
+  1 => 'count',
+  2 => 'result',
+  3 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001106s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.004174s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Description` LIKE '%1%' [ RunTime:0.013373s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2009_Alberta' [ RunTime:0.002172s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2009_Bay_Area_RSI' [ RunTime:0.000346s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2009_Brown' [ RunTime:0.000289s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2009_Cambridge' [ RunTime:0.000288s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2009_Chiba' [ RunTime:0.000286s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2009_Duke' [ RunTime:0.000258s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2009_Lethbridge' [ RunTime:0.000270s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2009_MIT' [ RunTime:0.000327s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2009_NYMU-Taipei' [ RunTime:0.000174s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2009_Osaka' [ RunTime:0.000256s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2009_Queens' [ RunTime:0.000235s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2009_Stanford' [ RunTime:0.000601s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2009_Tianjin' [ RunTime:0.001367s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2009_Tokyo_Tech' [ RunTime:0.000363s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2009_Tsinghua' [ RunTime:0.000348s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2009_UNICAMP-Brazil' [ RunTime:0.000353s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2009_Utah_State' [ RunTime:0.000316s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2009_Virginia' [ RunTime:0.000288s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2009_Waterloo' [ RunTime:0.000290s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2009_Wisconsin-Madison' [ RunTime:0.000350s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_Aberdeen_Scotland' [ RunTime:0.000745s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_British_Columbia' [ RunTime:0.000358s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_Chiba' [ RunTime:0.000239s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_Davidson-MissouriW' [ RunTime:0.000234s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_DTU-Denmark' [ RunTime:0.000187s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_Edinburgh' [ RunTime:0.000361s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_EPF_Lausanne' [ RunTime:0.000152s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_GeorgiaTech' [ RunTime:0.000190s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_Heidelberg' [ RunTime:0.000213s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_HKUST' [ RunTime:0.000278s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_Hong_Kong-CUHK' [ RunTime:0.000263s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_INSA-Lyon' [ RunTime:0.000203s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_Johns_Hopkins' [ RunTime:0.000224s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_Kyoto' [ RunTime:0.000258s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_Mexico-UNAM-CINVESTAV' [ RunTime:0.000272s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_Nevada' [ RunTime:0.000892s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_Newcastle' [ RunTime:0.000338s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_NYMU-Taipei' [ RunTime:0.000167s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_Panama' [ RunTime:0.000155s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_RMIT_Australia' [ RunTime:0.000417s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_Sheffield' [ RunTime:0.000176s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_SJTU-BioX-Shanghai' [ RunTime:0.000163s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_St_Andrews' [ RunTime:0.000154s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_Tokyo_Tech' [ RunTime:0.000173s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_Tsinghua' [ RunTime:0.000158s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_TU_Delft' [ RunTime:0.000145s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_USTC' [ RunTime:0.000148s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_Warsaw' [ RunTime:0.000154s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_WashU' [ RunTime:0.000155s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_Cornell' [ RunTime:0.000355s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_Edinburgh' [ RunTime:0.000267s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_GeorgiaTech' [ RunTime:0.000249s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_Grinnell' [ RunTime:0.000253s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_Harvard' [ RunTime:0.000257s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_Minnesota' [ RunTime:0.000171s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_Nevada' [ RunTime:0.000158s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_NTNU_Trondheim' [ RunTime:0.000160s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_NYC_Wetware' [ RunTime:0.000148s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_Osaka' [ RunTime:0.000224s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_Panama' [ RunTime:0.000340s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_Penn_State' [ RunTime:0.000495s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_St_Andrews' [ RunTime:0.000504s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_UANL_Mty-Mexico' [ RunTime:0.001261s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_UCSF' [ RunTime:0.000365s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_UC_Davis' [ RunTime:0.000324s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_UST-Beijing' [ RunTime:0.000323s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_Utah_State' [ RunTime:0.000309s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_Valencia' [ RunTime:0.000341s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_Wisconsin-Madison' [ RunTime:0.000246s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_Alberta' [ RunTime:0.000164s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_Arizona_State' [ RunTime:0.000164s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_Austin_Texas' [ RunTime:0.000367s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_Berkeley' [ RunTime:0.000272s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_Bordeaux' [ RunTime:0.000162s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_BostonU' [ RunTime:0.000159s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_British_Columbia' [ RunTime:0.000163s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_Chalmers-Gothenburg' [ RunTime:0.000157s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_Colorado_State' [ RunTime:0.000177s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_Duke' [ RunTime:0.000161s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_Dundee' [ RunTime:0.000153s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_Edinburgh' [ RunTime:0.000156s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_EPF-Lausanne' [ RunTime:0.000159s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_Gaston_Day_School' [ RunTime:0.000157s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_Grenoble' [ RunTime:0.000159s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_Groningen' [ RunTime:0.000162s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_KAIST_Korea' [ RunTime:0.000304s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_Korea_U_Seoul' [ RunTime:0.000177s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_Kyoto' [ RunTime:0.000199s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_Nevada' [ RunTime:0.000160s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_NTU-Taida' [ RunTime:0.000146s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_Penn_State' [ RunTime:0.000288s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_Rutgers' [ RunTime:0.000159s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_Tec-Monterrey_EKAM' [ RunTime:0.000188s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_Tianjin' [ RunTime:0.000306s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_TMU-Tokyo' [ RunTime:0.000157s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_Trieste' [ RunTime:0.000172s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_TU_Darmstadt' [ RunTime:0.000218s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_UIUC-Illinois' [ RunTime:0.000401s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_ULB-Brussels' [ RunTime:0.000164s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_UNAM_Genomics_Mexico' [ RunTime:0.000159s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_UT_Dallas' [ RunTime:0.000158s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Arizona_State' [ RunTime:0.000241s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_BIT' [ RunTime:0.000177s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Bonn' [ RunTime:0.000160s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_BostonU' [ RunTime:0.000160s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_BV_CAPS_Kansas' [ RunTime:0.000244s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Carnegie_Mellon' [ RunTime:0.000338s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Clemson' [ RunTime:0.000237s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Colombia_Uniandes' [ RunTime:0.000338s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Concordia' [ RunTime:0.000570s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Dundee' [ RunTime:0.000523s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Edinburgh' [ RunTime:0.000162s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_EPF_Lausanne' [ RunTime:0.000161s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Frankfurt' [ RunTime:0.000170s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Goettingen' [ RunTime:0.000477s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Hong_Kong_CUHK' [ RunTime:0.000183s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_HZAU-China' [ RunTime:0.000163s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_IIT_Delhi' [ RunTime:0.000177s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_IIT_Madras' [ RunTime:0.000193s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_ITB_Indonesia' [ RunTime:0.000158s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_ITU_MOBGAM_Turkey' [ RunTime:0.000149s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_KAIT_Japan' [ RunTime:0.000280s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Kent' [ RunTime:0.000335s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_KIT-Kyoto' [ RunTime:0.000319s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Korea_U_Seoul' [ RunTime:0.000243s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_KU_Leuven' [ RunTime:0.000302s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Kyoto' [ RunTime:0.000282s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Lethbridge_Canada' [ RunTime:0.000224s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_LZU-China' [ RunTime:0.000184s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Manchester' [ RunTime:0.000297s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_MCIT_Indianapolis' [ RunTime:0.000271s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_MIT' [ RunTime:0.000334s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_NTU_Taiwan' [ RunTime:0.000542s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_NYMU-Taipei' [ RunTime:0.000390s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Paris_Bettencourt' [ RunTime:0.000622s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Shenzhen_BGIC_ATCG' [ RunTime:0.000265s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Shenzhen_SFLS' [ RunTime:0.000255s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_SYSU-China' [ RunTime:0.000285s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Tokyo_Tech' [ RunTime:0.000178s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_UCLA' [ RunTime:0.000161s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_UESTC' [ RunTime:0.000157s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_UESTC_Life' [ RunTime:0.000157s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_UIUC_Illinois' [ RunTime:0.000283s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_UNITN-Trento' [ RunTime:0.000185s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_USP-Brazil' [ RunTime:0.000161s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_USTC_CHINA' [ RunTime:0.000155s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Warsaw' [ RunTime:0.000154s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Washington' [ RunTime:0.000230s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Waterloo' [ RunTime:0.000368s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_WLC-Milwaukee' [ RunTime:0.000383s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_BostonU' [ RunTime:0.000178s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_BUGSS_Baltimore' [ RunTime:0.000153s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_BYU_Provo' [ RunTime:0.000266s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Calgary' [ RunTime:0.000156s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_CIDEB-UANL_Mexico' [ RunTime:0.000179s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Colombia' [ RunTime:0.000348s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Dundee' [ RunTime:0.000187s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Exeter' [ RunTime:0.000178s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Freiburg' [ RunTime:0.000156s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Fudan' [ RunTime:0.000160s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Gaston_Day_School' [ RunTime:0.000156s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Georgia_State' [ RunTime:0.000181s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Hong_Kong-CUHK' [ RunTime:0.000148s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Hong_Kong_HKUST' [ RunTime:0.000156s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_ITB_Indonesia' [ RunTime:0.000158s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_KAIT_JAPAN' [ RunTime:0.000156s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_London_BioHackspace' [ RunTime:0.000153s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Macquarie_Australia' [ RunTime:0.000190s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Manchester' [ RunTime:0.000145s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Mingdao' [ RunTime:0.000145s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_NYMU-Taipei' [ RunTime:0.000243s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Pitt' [ RunTime:0.000164s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Purdue' [ RunTime:0.000184s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Reading' [ RunTime:0.000163s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Shenzhen_SFLS' [ RunTime:0.000148s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_SYSU-China' [ RunTime:0.000160s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_TAS_Taipei' [ RunTime:0.000149s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_TCU_Taiwan' [ RunTime:0.000155s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Tec-Monterrey' [ RunTime:0.000181s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Tsinghua' [ RunTime:0.000162s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_UCL' [ RunTime:0.000295s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_UGA-Georgia' [ RunTime:0.000163s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_UI-Indonesia' [ RunTime:0.000214s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_UMaryland' [ RunTime:0.000167s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Virginia' [ RunTime:0.000177s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_WLC-Milwaukee' [ RunTime:0.000146s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Aalto-Helsinki' [ RunTime:0.000173s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_AUC_TURKEY' [ RunTime:0.000180s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Austin_UTexas' [ RunTime:0.000167s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Bordeaux' [ RunTime:0.000339s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Brasil-USP' [ RunTime:0.000217s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_British_Columbia' [ RunTime:0.000445s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Carnegie_Mellon' [ RunTime:0.000628s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_CHINA_CD_UESTC' [ RunTime:0.000247s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_CityU_HK' [ RunTime:0.000233s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Columbia_NYC' [ RunTime:0.000251s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_CU_Boulder' [ RunTime:0.000301s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Edinburgh' [ RunTime:0.000310s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Georgia_State' [ RunTime:0.000385s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Groningen' [ RunTime:0.000391s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Hamburg' [ RunTime:0.000331s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Harvard_BioDesign' [ RunTime:0.000384s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Hong_Kong-CUHK' [ RunTime:0.000694s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Hong_Kong_HKU' [ RunTime:0.000319s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_IISER_Pune' [ RunTime:0.000153s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_IIT_Delhi' [ RunTime:0.000162s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Jilin_China' [ RunTime:0.000157s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_KAIT_Japan' [ RunTime:0.000150s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Macquarie_Australia' [ RunTime:0.000383s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Manchester-Graz' [ RunTime:0.000157s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_NRP-UEA-Norwich' [ RunTime:0.000269s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Paris_Bettencourt' [ RunTime:0.000156s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Pasteur_Paris' [ RunTime:0.000181s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Pitt' [ RunTime:0.000150s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Pretoria_UP' [ RunTime:0.000149s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Scut-Champion-Park' [ RunTime:0.000147s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Stony_Brook' [ RunTime:0.000152s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_TCU_Taiwan' [ RunTime:0.000232s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_TecCEM_HS' [ RunTime:0.000263s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Technion_Israel' [ RunTime:0.000158s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Toronto' [ RunTime:0.000227s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Tsinghua' [ RunTime:0.000152s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_UB_Indonesia' [ RunTime:0.000161s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_UGA-Georgia' [ RunTime:0.000156s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_UNAM-CU' [ RunTime:0.000146s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Utah_State' [ RunTime:0.000145s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Virginia' [ RunTime:0.000144s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_WashU_StLouis' [ RunTime:0.000165s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Westminster' [ RunTime:0.000192s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Yale' [ RunTime:0.000154s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_York' [ RunTime:0.000157s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_ZJU-China' [ RunTime:0.000150s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Baltimore_BioCrew' [ RunTime:0.000168s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_BIT' [ RunTime:0.000242s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Bordeaux' [ RunTime:0.000157s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Cambridge-JIC' [ RunTime:0.000153s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Cardiff_Wales' [ RunTime:0.000158s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_CIEI-BJ' [ RunTime:0.000248s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Concordia' [ RunTime:0.000192s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Denver_Biolabs' [ RunTime:0.000150s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Dundee' [ RunTime:0.000157s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Edinburgh_UG' [ RunTime:0.000155s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Evry' [ RunTime:0.000157s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_FAFU-CHINA' [ RunTime:0.000194s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Gaston_Day' [ RunTime:0.000147s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_GDSYZX-United' [ RunTime:0.000153s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Georgia_State' [ RunTime:0.000145s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Goettingen' [ RunTime:0.000222s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Guanajuato_Mx' [ RunTime:0.000241s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Hamburg' [ RunTime:0.000189s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Harvard_BioDesign' [ RunTime:0.000160s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Jilin_China' [ RunTime:0.000146s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Korea_U_Seoul' [ RunTime:0.000224s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Leiden' [ RunTime:0.000213s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Lubbock_TTU' [ RunTime:0.000162s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Macquarie_Australia' [ RunTime:0.000203s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_METU_HS_Ankara' [ RunTime:0.000159s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Nagahama' [ RunTime:0.000155s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Nanjing-China' [ RunTime:0.000193s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_NAU-CHINA' [ RunTime:0.000192s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_NCTU_Formosa' [ RunTime:0.000305s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_NEFU_China' [ RunTime:0.000510s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_NEU-China' [ RunTime:0.000886s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Newcastle' [ RunTime:0.000346s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Northeastern' [ RunTime:0.000336s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_NRP-UEA-Norwich' [ RunTime:0.000538s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_NTU-Singapore' [ RunTime:0.000235s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_NYU-AD' [ RunTime:0.000290s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Paris_Saclay' [ RunTime:0.000341s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Pretoria_UP' [ RunTime:0.000336s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Rice' [ RunTime:0.000920s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_SDU-Denmark' [ RunTime:0.000916s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_SMS_Shenzhen' [ RunTime:0.000356s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Stockholm' [ RunTime:0.000299s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Stony_Brook' [ RunTime:0.000266s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Sydney_Australia' [ RunTime:0.000159s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_SYSU-MEDICINE' [ RunTime:0.000161s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_TecCEM' [ RunTime:0.000162s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_TecCEM_HS' [ RunTime:0.000175s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Tel-Hai' [ RunTime:0.000176s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Tongji_Shanghai' [ RunTime:0.000383s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Toulouse_France' [ RunTime:0.000158s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Tsinghua' [ RunTime:0.000164s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_TU-Eindhoven' [ RunTime:0.000523s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_UCC_Ireland' [ RunTime:0.000188s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_UChicago' [ RunTime:0.000150s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_UGA-Georgia' [ RunTime:0.000154s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_UGent_Belgium' [ RunTime:0.000223s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_UiOslo_Norway' [ RunTime:0.000234s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_UoA_NewZealand' [ RunTime:0.000204s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Uppsala' [ RunTime:0.000209s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_UrbanTundra_Edmonton' [ RunTime:0.000268s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_USTC' [ RunTime:0.000266s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Westminster_UoW' [ RunTime:0.000266s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_WLC-Milwaukee' [ RunTime:0.000277s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_WPI_Worcester' [ RunTime:0.000252s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_XMU-China' [ RunTime:0.000244s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_AQA_Unesp' [ RunTime:0.000507s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_ASIJ_TOKYO' [ RunTime:0.000268s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_ASTWS-China' [ RunTime:0.000232s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Austin_UTexas_LASA' [ RunTime:0.000211s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_BIT-China' [ RunTime:0.000316s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_BNDS_China' [ RunTime:0.000247s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Calgary' [ RunTime:0.000214s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_CIEI-BJ' [ RunTime:0.000256s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_CIEI-China' [ RunTime:0.000251s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_CLSB-UK' [ RunTime:0.000229s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_DEIAGRA' [ RunTime:0.000239s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_DTU-Denmark' [ RunTime:0.000436s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Edinburgh_OG' [ RunTime:0.001400s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Exeter' [ RunTime:0.000490s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_FSU' [ RunTime:0.000377s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Gifu' [ RunTime:0.000316s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_GZHS-United' [ RunTime:0.000497s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Hong_Kong-CUHK' [ RunTime:0.000272s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Hong_Kong_UCCKE' [ RunTime:0.000248s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_IONIS-PARIS' [ RunTime:0.000218s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_ITB_Indonesia' [ RunTime:0.000436s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_iTesla-SoundBio' [ RunTime:0.000213s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Jilin_China' [ RunTime:0.000243s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_JNFLS' [ RunTime:0.000206s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Judd_UK' [ RunTime:0.000176s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_KAIT_JAPAN' [ RunTime:0.000302s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Kent' [ RunTime:0.000239s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Kingsborough_NY' [ RunTime:0.000182s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Lambert_GA' [ RunTime:0.000182s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Lund' [ RunTime:0.000209s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_McMasterU' [ RunTime:0.000184s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_McMaster_II' [ RunTime:0.000167s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Mingdao' [ RunTime:0.000172s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_MIT' [ RunTime:0.000179s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_MSU-Michigan' [ RunTime:0.000311s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Munich' [ RunTime:0.000211s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_NEU-China' [ RunTime:0.000211s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_NWU-CHINA' [ RunTime:0.000436s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Oxford' [ RunTime:0.000231s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Pittsburgh' [ RunTime:0.000219s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Queens_Canada' [ RunTime:0.000162s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Rice' [ RunTime:0.000146s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_SCU-WestChina' [ RunTime:0.000212s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_SCUT-China_A' [ RunTime:0.000159s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_SDU-Denmark' [ RunTime:0.000160s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_SDU_CHINA' [ RunTime:0.000159s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Shenzhen_SFLS' [ RunTime:0.000159s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Stony_Brook' [ RunTime:0.000706s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Sydney_Australia' [ RunTime:0.000399s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_SYSU-CHINA' [ RunTime:0.000438s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_TAS_Taipei' [ RunTime:0.000762s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_TecCEM' [ RunTime:0.000176s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_TECHNION-ISRAEL' [ RunTime:0.000166s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_TecMonterrey_GDA' [ RunTime:0.000197s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_TJU_China' [ RunTime:0.000270s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_TokyoTech' [ RunTime:0.000188s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_TUDelft' [ RunTime:0.000165s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_TUST_China' [ RunTime:0.000158s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_UChile_OpenBio-CeBiB' [ RunTime:0.000247s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_UCLouvain' [ RunTime:0.000162s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_UCSC' [ RunTime:0.000159s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_UESTC-China' [ RunTime:0.000161s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_UGA-Georgia' [ RunTime:0.000239s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_UiOslo_Norway' [ RunTime:0.000298s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_UIUC_Illinois' [ RunTime:0.000478s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_ULaVerne_Collab' [ RunTime:0.001156s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_UrbanTundra_Edmonton' [ RunTime:0.000619s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_UST_Beijing' [ RunTime:0.000428s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_UT-Knoxville' [ RunTime:0.000316s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Utrecht' [ RunTime:0.000324s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Vilnius-Lithuania' [ RunTime:0.000301s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Worldshaper-XSHS' [ RunTime:0.001185s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_ZJU-China' [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` WHERE  `Description` LIKE '%1%' LIMIT 1 [ RunTime:0.006666s ]
+---------------------------------------------------------------
+[ 2018-09-07T16:35:24+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2010/Newcastle_01.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2010/Newcastle_01.png [运行时间：0.046706s][吞吐率：21.41req/s] [内存消耗：1,562.36kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'Newcastle_01.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:35:24+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2010/Newcastle_02.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2010/Newcastle_02.png [运行时间：0.029774s][吞吐率：33.59req/s] [内存消耗：1,562.36kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'Newcastle_02.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:35:24+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2010/Newcastle_03.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2010/Newcastle_03.png [运行时间：0.048776s][吞吐率：20.50req/s] [内存消耗：1,562.36kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'Newcastle_03.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:35:24+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2011/Harvard_01.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2011/Harvard_01.png [运行时间：0.025400s][吞吐率：39.37req/s] [内存消耗：1,562.30kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'Harvard_01.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:35:24+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2011/Harvard_02.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2011/Harvard_02.png [运行时间：0.023789s][吞吐率：42.04req/s] [内存消耗：1,562.30kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'Harvard_02.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:35:24+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2011/Harvard_03.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2011/Harvard_03.png [运行时间：0.035437s][吞吐率：28.22req/s] [内存消耗：1,562.30kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'Harvard_03.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:35:24+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2011/Penn_State_02.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2011/Penn_State_02.png [运行时间：0.028608s][吞吐率：34.96req/s] [内存消耗：1,562.36kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'Penn_State_02.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:35:24+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2012/Arizona_State_01.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2012/Arizona_State_01.png [运行时间：0.023430s][吞吐率：42.68req/s] [内存消耗：1,562.36kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'Arizona_State_01.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:35:27+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2015/Georgia_State_02.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2015/Georgia_State_02.png [运行时间：0.020328s][吞吐率：49.19req/s] [内存消耗：1,562.36kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'Georgia_State_02.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:35:28+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2015/Hong_Kong_HKU_03.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2015/Hong_Kong_HKU_03.png [运行时间：0.022843s][吞吐率：43.78req/s] [内存消耗：1,562.36kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'Hong_Kong_HKU_03.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:35:28+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2015/Hong_Kong_HKU_02.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2015/Hong_Kong_HKU_02.png [运行时间：0.095831s][吞吐率：10.44req/s] [内存消耗：1,562.36kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'Hong_Kong_HKU_02.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:35:28+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2016/Cambridge-JIC_01.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2016/Cambridge-JIC_01.png [运行时间：0.028972s][吞吐率：34.52req/s] [内存消耗：1,562.36kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'Cambridge-JIC_01.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:35:28+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2016/CIEI-BJ_02.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2016/CIEI-BJ_02.png [运行时间：0.032020s][吞吐率：31.23req/s] [内存消耗：1,562.30kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'CIEI-BJ_02.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:35:28+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2016/CIEI-BJ_01.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2016/CIEI-BJ_01.png [运行时间：0.039288s][吞吐率：25.45req/s] [内存消耗：1,562.30kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'CIEI-BJ_01.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:35:28+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2016/CIEI-BJ_03.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2016/CIEI-BJ_03.png [运行时间：0.026054s][吞吐率：38.38req/s] [内存消耗：1,562.30kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'CIEI-BJ_03.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:35:29+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2016/Evry_01.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2016/Evry_01.png [运行时间：0.029721s][吞吐率：33.65req/s] [内存消耗：1,562.24kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'Evry_01.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:35:29+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2016/Evry_02.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2016/Evry_02.png [运行时间：0.025953s][吞吐率：38.53req/s] [内存消耗：1,562.24kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'Evry_02.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:35:29+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2016/Evry_03.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2016/Evry_03.png [运行时间：0.026794s][吞吐率：37.32req/s] [内存消耗：1,562.24kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'Evry_03.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:35:29+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2016/Harvard_BioDesign_01.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2016/Harvard_BioDesign_01.png [运行时间：0.025893s][吞吐率：38.62req/s] [内存消耗：1,562.45kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'Harvard_BioDesign_01.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:35:29+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2016/Harvard_BioDesign_02.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2016/Harvard_BioDesign_02.png [运行时间：0.028219s][吞吐率：35.44req/s] [内存消耗：1,562.45kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'Harvard_BioDesign_02.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:35:29+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2016/Harvard_BioDesign_03.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2016/Harvard_BioDesign_03.png [运行时间：0.027270s][吞吐率：36.67req/s] [内存消耗：1,562.45kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'Harvard_BioDesign_03.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:35:34+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/static/image/image/2017/UIUC_Illinois_01.png
+[ info ] localhost:12345/DataBase/THINKPHP/public/static/image/image/2017/UIUC_Illinois_01.png [运行时间：0.025148s][吞吐率：39.76req/s] [内存消耗：1,562.36kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'image',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  0 => 'UIUC_Illinois_01.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:37:48+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/search/by_func.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/by_func.html [运行时间：0.034046s][吞吐率：29.37req/s] [内存消耗：1,986.80kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'by_func',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Search->by_func[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\search\by_func.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:38:21+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/search/submittwo.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html [运行时间：0.177432s][吞吐率：5.64req/s] [内存消耗：3,413.82kb] [文件加载：55]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'submittwo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '24',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:12345',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_func.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'func' => 'cellulose cellusose',
+)
+[ info ] [ RUN ] app\index\controller\Search->submitTwo[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\team.html [ array (
+  0 => 'res',
+  1 => 'count',
+  2 => 'result',
+  3 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000968s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.006076s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Description` LIKE '%cellulose%' [ RunTime:0.029034s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2009_uOttawa' [ RunTime:0.002251s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_Tokyo_Metropolitan' [ RunTime:0.000457s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_Alberta' [ RunTime:0.000420s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_Edinburgh' [ RunTime:0.000421s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_TzuChiU_Formosa' [ RunTime:0.000377s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_Bielefeld-Germany' [ RunTime:0.000417s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_HUST-China' [ RunTime:0.000334s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_NYU_Gallatin' [ RunTime:0.000311s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_WHU-China' [ RunTime:0.000270s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Biwako_Nagahama' [ RunTime:0.000276s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_BV_CAPS_Kansas' [ RunTime:0.000253s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Penn_State' [ RunTime:0.000276s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Hannover' [ RunTime:0.000283s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Imperial' [ RunTime:0.000354s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_London_BioHackspace' [ RunTime:0.000223s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_StanfordBrownSpelman' [ RunTime:0.000390s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_WLC-Milwaukee' [ RunTime:0.000289s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Aalto-Helsinki' [ RunTime:0.000334s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Berlin' [ RunTime:0.000603s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_BroadRun-NorthernVA' [ RunTime:0.000531s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_MIT' [ RunTime:0.000211s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_NEAU-China' [ RunTime:0.000149s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_ZJU-China' [ RunTime:0.000162s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_British_Columbia' [ RunTime:0.000219s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Dalhousie_Halifax_NS' [ RunTime:0.000154s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Guanajuato_Mx' [ RunTime:0.000211s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Kyoto' [ RunTime:0.000191s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Saint_Rose_School_B' [ RunTime:0.000277s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_SDSZ_China' [ RunTime:0.000257s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Aalto-Helsinki' [ RunTime:0.000306s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Dalhousie' [ RunTime:0.000977s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_NKU_China' [ RunTime:0.000392s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_SDU-Denmark' [ RunTime:0.000338s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_TUST_China' [ RunTime:0.000266s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_US_AFRL_CarrollHS' [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` WHERE  `Description` LIKE '%cellulose%' LIMIT 1 [ RunTime:0.009626s ]
+---------------------------------------------------------------
+[ 2018-09-07T16:38:24+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/team_1/t/2011_Edinburgh.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/team_1/t/2011_Edinburgh.html [运行时间：0.148053s][吞吐率：6.75req/s] [内存消耗：3,353.52kb] [文件加载：58]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'team_1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  't' => '2011_Edinburgh',
+)
+[ info ] [ RUN ] app\index\controller\Display->team_1[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\team_1.html [ array (
+  0 => 'res',
+  1 => 't',
+  2 => 'count',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001170s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `team_parts` [ RunTime:0.002088s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `team_parts` WHERE  `Submit_team` = '2011_Edinburgh' LIMIT 1 [ RunTime:0.001212s ]
+[ sql ] [ SQL ] SELECT * FROM `team_parts` WHERE  `Submit_team` = '2011_Edinburgh' LIMIT 0,20 [ RunTime:0.001155s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `team_parts` WHERE  `Submit_team` = '2011_Edinburgh' LIMIT 1 [ RunTime:0.000510s ]
+---------------------------------------------------------------
+[ 2018-09-07T16:38:26+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html [运行时间：0.138380s][吞吐率：7.23req/s] [内存消耗：3,053.76kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/team_1/t/2011_Edinburgh.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_K523013',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_coding.html [ array (
+  0 => 'res_3_0',
+  1 => 'res_3_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'res_3_2',
+  6 => 'res_3_3',
+  7 => 'res_3_4',
+  8 => 'filename_3',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002072s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.001966s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.022137s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.005809s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.003501s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.004108s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.002758s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.003534s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.001785s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001150s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.002017s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.001010s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' LIMIT 1 [ RunTime:0.000509s ]
+[ sql ] [ SQL ] select
+		uniprot.Uniprot_id,
+		uniprot.Protein_Name,
+		uniprot.Gene_Name,
+		uniprot.Species,
+		uniprot.Function,
+        uniprot.Interaction,
+        uniprot.Keywords,
+        uniprot.Sequence,
+        uniprot.Uniprot_Link
+		from igem_uniprot,uniprot
+		where igem_uniprot.iGEM_ID='BBa_K523013' and igem_uniprot.Uniprot_id=uniprot.Uniprot_id [ RunTime:0.004449s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_K523013' [ RunTime:0.003376s ]
+[ sql ] [ SQL ] select
+            go.Uniprot_id,
+            go.Qualifier,
+            go.GO_Term,
+            go.Evidence,
+            go.Reference
+            from go,uniprot where go.Uniprot_id='A7ZI91' and uniprot.Uniprot_id='A7ZI91' [ RunTime:0.003218s ]
+[ sql ] [ SQL ] select reference.uniprot_id,reference.reference from reference where reference.uniprot_id='A7ZI91' [ RunTime:0.003098s ]
+[ sql ] [ SQL ] select
+            go.Uniprot_id,
+            go.Qualifier,
+            go.GO_Term,
+            go.Evidence,
+            go.Reference
+            from go,uniprot where go.Uniprot_id='O30611' and uniprot.Uniprot_id='O30611' [ RunTime:0.000825s ]
+[ sql ] [ SQL ] select reference.uniprot_id,reference.reference from reference where reference.uniprot_id='O30611' [ RunTime:0.000501s ]
+[ sql ] [ SQL ] select
+            go.Uniprot_id,
+            go.Qualifier,
+            go.GO_Term,
+            go.Evidence,
+            go.Reference
+            from go,uniprot where go.Uniprot_id='P42212' and uniprot.Uniprot_id='P42212' [ RunTime:0.000790s ]
+[ sql ] [ SQL ] select reference.uniprot_id,reference.reference from reference where reference.uniprot_id='P42212' [ RunTime:0.000858s ]
+---------------------------------------------------------------
+[ 2018-09-07T16:40:02+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/%7B$vi.image_url%7D
+[ info ] localhost:12345/DataBase/THINKPHP/public/%7B$vi.image_url%7D [运行时间：0.039300s][吞吐率：25.45req/s] [内存消耗：1,559.25kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '{$vi.image_url}',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:40:29+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/%7B$vi.image_url%7D
+[ info ] localhost:12345/DataBase/THINKPHP/public/%7B$vi.image_url%7D [运行时间：0.028708s][吞吐率：34.83req/s] [内存消耗：1,559.25kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '{$vi.image_url}',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:40:30+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/%7B$vi.image_url%7D
+[ info ] localhost:12345/DataBase/THINKPHP/public/%7B$vi.image_url%7D [运行时间：0.032959s][吞吐率：30.34req/s] [内存消耗：1,559.25kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '{$vi.image_url}',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:40:31+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/%7B$vi.image_url%7D
+[ info ] localhost:12345/DataBase/THINKPHP/public/%7B$vi.image_url%7D [运行时间：0.027362s][吞吐率：36.55req/s] [内存消耗：1,559.25kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '{$vi.image_url}',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:40:31+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/%7B$vi.image_url%7D
+[ info ] localhost:12345/DataBase/THINKPHP/public/%7B$vi.image_url%7D [运行时间：0.024289s][吞吐率：41.17req/s] [内存消耗：1,559.25kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '{$vi.image_url}',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:40:31+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/%7B$vi.image_url%7D
+[ info ] localhost:12345/DataBase/THINKPHP/public/%7B$vi.image_url%7D [运行时间：0.030639s][吞吐率：32.64req/s] [内存消耗：1,559.25kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '{$vi.image_url}',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:40:32+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/%7B$vi.image_url%7D
+[ info ] localhost:12345/DataBase/THINKPHP/public/%7B$vi.image_url%7D [运行时间：0.029068s][吞吐率：34.40req/s] [内存消耗：1,559.25kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '{$vi.image_url}',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:40:40+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/%7B$vi.image_url%7D
+[ info ] localhost:12345/DataBase/THINKPHP/public/%7B$vi.image_url%7D [运行时间：0.036174s][吞吐率：27.64req/s] [内存消耗：1,559.25kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '{$vi.image_url}',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:40:41+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/%7B$vi.image_url%7D
+[ info ] localhost:12345/DataBase/THINKPHP/public/%7B$vi.image_url%7D [运行时间：0.038213s][吞吐率：26.17req/s] [内存消耗：1,559.25kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '{$vi.image_url}',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:41:43+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/%7B$vi.image_url%7D
+[ info ] localhost:12345/DataBase/THINKPHP/public/%7B$vi.image_url%7D [运行时间：0.035033s][吞吐率：28.54req/s] [内存消耗：1,559.25kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '{$vi.image_url}',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:41:45+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html [运行时间：0.183585s][吞吐率：5.45req/s] [内存消耗：3,305.77kb] [文件加载：54]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/team_1/t/2011_Edinburgh.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_K523013',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_coding.html [ array (
+  0 => 'res_3_0',
+  1 => 'res_3_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'res_3_2',
+  6 => 'res_3_3',
+  7 => 'res_3_4',
+  8 => 'filename_3',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011757s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.010955s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.003627s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.002232s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.001691s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.001664s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.002238s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.002096s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_K523013' [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_K523013' LIMIT 1 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] select
+		uniprot.Uniprot_id,
+		uniprot.Protein_Name,
+		uniprot.Gene_Name,
+		uniprot.Species,
+		uniprot.Function,
+        uniprot.Interaction,
+        uniprot.Keywords,
+        uniprot.Sequence,
+        uniprot.Uniprot_Link
+		from igem_uniprot,uniprot
+		where igem_uniprot.iGEM_ID='BBa_K523013' and igem_uniprot.Uniprot_id=uniprot.Uniprot_id [ RunTime:0.002834s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component where component.iGEM_ID='BBa_K523013' [ RunTime:0.001425s ]
+[ sql ] [ SQL ] select
+            go.Uniprot_id,
+            go.Qualifier,
+            go.GO_Term,
+            go.Evidence,
+            go.Reference
+            from go,uniprot where go.Uniprot_id='A7ZI91' and uniprot.Uniprot_id='A7ZI91' [ RunTime:0.001616s ]
+[ sql ] [ SQL ] select reference.uniprot_id,reference.reference from reference where reference.uniprot_id='A7ZI91' [ RunTime:0.001527s ]
+[ sql ] [ SQL ] select
+            go.Uniprot_id,
+            go.Qualifier,
+            go.GO_Term,
+            go.Evidence,
+            go.Reference
+            from go,uniprot where go.Uniprot_id='O30611' and uniprot.Uniprot_id='O30611' [ RunTime:0.000504s ]
+[ sql ] [ SQL ] select reference.uniprot_id,reference.reference from reference where reference.uniprot_id='O30611' [ RunTime:0.000415s ]
+[ sql ] [ SQL ] select
+            go.Uniprot_id,
+            go.Qualifier,
+            go.GO_Term,
+            go.Evidence,
+            go.Reference
+            from go,uniprot where go.Uniprot_id='P42212' and uniprot.Uniprot_id='P42212' [ RunTime:0.000437s ]
+[ sql ] [ SQL ] select reference.uniprot_id,reference.reference from reference where reference.uniprot_id='P42212' [ RunTime:0.000451s ]
+---------------------------------------------------------------
+[ 2018-09-07T16:41:55+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/search/by_id.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/by_id.html [运行时间：0.032762s][吞吐率：30.52req/s] [内存消耗：1,986.94kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'by_id',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_K523013.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Search->by_id[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\search\by_id.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:41:57+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/search/submitone.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/submitone.html [运行时间：0.095951s][吞吐率：10.42req/s] [内存消耗：2,847.67kb] [文件加载：52]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'submitone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '28',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:12345',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_id.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_K1641208',
+  'kind' => 'iGEM_ID',
+)
+[ info ] [ RUN ] app\index\controller\Search->submitOne[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\brick.html [ array (
+  0 => 'res',
+  1 => 'kind',
+  2 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011440s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `team_parts` [ RunTime:0.001904s ]
+[ sql ] [ SQL ] SELECT * FROM `team_parts` WHERE  `iGEM_ID` LIKE '%BBa_K1641208%' [ RunTime:0.025286s ]
+---------------------------------------------------------------
+[ 2018-09-07T16:42:01+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/search/by_id.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/by_id.html [运行时间：0.023548s][吞吐率：42.47req/s] [内存消耗：1,986.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'by_id',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/submitone.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Search->by_id[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\search\by_id.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:42:04+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/search/by_func
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/by_func [运行时间：0.031483s][吞吐率：31.76req/s] [内存消耗：1,986.63kb] [文件加载：47]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'by_func',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_id.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Search->by_func[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\search\by_func.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:42:07+08:00 ] 0.0.0.0 POST /DataBase/THINKPHP/public/index/search/submittwo.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/search/submittwo.html [运行时间：0.159352s][吞吐率：6.28req/s] [内存消耗：3,687.88kb] [文件加载：57]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'search',
+    2 => 'submittwo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'content-length' => '24',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:12345',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/search/by_func',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'func' => 'cellulose cellusose',
+)
+[ info ] [ RUN ] app\index\controller\Search->submitTwo[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Search.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\team.html [ array (
+  0 => 'res',
+  1 => 'count',
+  2 => 'result',
+  3 => 'a',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001005s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.005490s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` WHERE  `Description` LIKE '%cellulose%' [ RunTime:0.020675s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2009_uOttawa' [ RunTime:0.002164s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2010_Tokyo_Metropolitan' [ RunTime:0.001086s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_Alberta' [ RunTime:0.000431s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_Edinburgh' [ RunTime:0.000761s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2011_TzuChiU_Formosa' [ RunTime:0.000584s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_Bielefeld-Germany' [ RunTime:0.000485s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_HUST-China' [ RunTime:0.000527s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_NYU_Gallatin' [ RunTime:0.000310s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2012_WHU-China' [ RunTime:0.000561s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Biwako_Nagahama' [ RunTime:0.000493s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_BV_CAPS_Kansas' [ RunTime:0.000296s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2013_Penn_State' [ RunTime:0.001074s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Hannover' [ RunTime:0.001158s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_Imperial' [ RunTime:0.000406s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_London_BioHackspace' [ RunTime:0.000298s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_StanfordBrownSpelman' [ RunTime:0.000479s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2014_WLC-Milwaukee' [ RunTime:0.000723s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Aalto-Helsinki' [ RunTime:0.000273s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_Berlin' [ RunTime:0.000333s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_BroadRun-NorthernVA' [ RunTime:0.000390s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_MIT' [ RunTime:0.000405s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_NEAU-China' [ RunTime:0.000218s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2015_ZJU-China' [ RunTime:0.000482s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_British_Columbia' [ RunTime:0.000214s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Dalhousie_Halifax_NS' [ RunTime:0.000270s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Guanajuato_Mx' [ RunTime:0.000280s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Kyoto' [ RunTime:0.000250s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_Saint_Rose_School_B' [ RunTime:0.000263s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2016_SDSZ_China' [ RunTime:0.000164s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Aalto-Helsinki' [ RunTime:0.000370s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_Dalhousie' [ RunTime:0.000368s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_NKU_China' [ RunTime:0.000633s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_SDU-Denmark' [ RunTime:0.000641s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_TUST_China' [ RunTime:0.000933s ]
+[ sql ] [ SQL ] select image_url from image where submit_team='2017_US_AFRL_CarrollHS' [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` WHERE  `Description` LIKE '%cellulose%' LIMIT 1 [ RunTime:0.010334s ]
+---------------------------------------------------------------
+[ 2018-09-07T16:42:59+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/%7B$vi.image_url%7D
+[ info ] localhost:12345/DataBase/THINKPHP/public/%7B$vi.image_url%7D [运行时间：0.034930s][吞吐率：28.63req/s] [内存消耗：1,559.25kb] [文件加载：40]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '{$vi.image_url}',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

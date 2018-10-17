@@ -1,0 +1,1939 @@
+---------------------------------------------------------------
+[ 2018-08-14T10:30:12+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/display
+[ error ] [2]Declaration of app\index\controller\Display::display() should be compatible with think\Controller::display($content = '', $vars = Array, $replace = Array, $config = Array)
+---------------------------------------------------------------
+[ 2018-08-14T10:31:34+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/display
+[ error ] [2]Declaration of app\index\controller\Display::display() should be compatible with think\Controller::display($content = '', $vars = Array, $replace = Array, $config = Array)
+---------------------------------------------------------------
+[ 2018-08-14T10:31:46+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/display.html
+[ error ] [2]Declaration of app\index\controller\Display::display() should be compatible with think\Controller::display($content = '', $vars = Array, $replace = Array, $config = Array)
+---------------------------------------------------------------
+[ 2018-08-14T10:31:54+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/Display/display.html
+[ error ] [2]Declaration of app\index\controller\Display::display() should be compatible with think\Controller::display($content = '', $vars = Array, $replace = Array, $config = Array)
+---------------------------------------------------------------
+[ 2018-08-14T10:33:13+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/display
+[ error ] [2]Declaration of app\index\controller\Display::display() should be compatible with think\Controller::display($content = '', $vars = Array, $replace = Array, $config = Array)
+---------------------------------------------------------------
+[ 2018-08-14T10:33:14+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/display
+[ error ] [2]Declaration of app\index\controller\Display::display() should be compatible with think\Controller::display($content = '', $vars = Array, $replace = Array, $config = Array)
+---------------------------------------------------------------
+[ 2018-08-14T10:33:59+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/display
+[ error ] [2]Declaration of app\index\controller\Display::display() should be compatible with think\Controller::display($content = '', $vars = Array, $replace = Array, $config = Array)
+---------------------------------------------------------------
+[ 2018-08-14T10:35:58+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/display
+[ error ] [2]Declaration of app\index\controller\Display::display() should be compatible with think\Controller::display($content = '', $vars = Array, $replace = Array, $config = Array)
+---------------------------------------------------------------
+[ 2018-08-14T10:36:07+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/display
+[ error ] [2]Declaration of app\index\controller\Display::display() should be compatible with think\Controller::display($content = '', $vars = Array, $replace = Array, $config = Array)
+---------------------------------------------------------------
+[ 2018-08-14T10:37:31+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/display
+[ error ] [2]Declaration of app\index\controller\Display::display() should be compatible with think\Controller::display($content = '', $vars = Array, $replace = Array, $config = Array)
+---------------------------------------------------------------
+[ 2018-08-14T10:37:32+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/display
+[ error ] [2]Declaration of app\index\controller\Display::display() should be compatible with think\Controller::display($content = '', $vars = Array, $replace = Array, $config = Array)
+---------------------------------------------------------------
+[ 2018-08-14T10:37:36+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/display
+[ error ] [2]Declaration of app\index\controller\Display::display() should be compatible with think\Controller::display($content = '', $vars = Array, $replace = Array, $config = Array)
+---------------------------------------------------------------
+[ 2018-08-14T10:39:07+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/display
+[ error ] [2]Declaration of app\index\controller\Display::display() should be compatible with think\Controller::display($content = '', $vars = Array, $replace = Array, $config = Array)
+---------------------------------------------------------------
+[ 2018-08-14T10:39:08+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/display
+[ error ] [2]Declaration of app\index\controller\Display::display() should be compatible with think\Controller::display($content = '', $vars = Array, $replace = Array, $config = Array)
+---------------------------------------------------------------
+[ 2018-08-14T10:39:28+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/display
+[ error ] [2]Declaration of app\index\controller\Display::display() should be compatible with think\Controller::display($content = '', $vars = Array, $replace = Array, $config = Array)
+---------------------------------------------------------------
+[ 2018-08-14T10:39:28+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/display
+[ error ] [2]Declaration of app\index\controller\Display::display() should be compatible with think\Controller::display($content = '', $vars = Array, $replace = Array, $config = Array)
+---------------------------------------------------------------
+[ 2018-08-14T10:41:29+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/display/
+[ error ] [2]Declaration of app\index\controller\Display::display() should be compatible with think\Controller::display($content = '', $vars = Array, $replace = Array, $config = Array)
+---------------------------------------------------------------
+[ 2018-08-14T10:45:03+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/display
+[ error ] [2]Declaration of app\index\controller\Display::display() should be compatible with think\Controller::display($content = '', $vars = Array, $replace = Array, $config = Array)
+---------------------------------------------------------------
+[ 2018-08-14T10:45:19+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/display.html
+[ error ] [2]Declaration of app\index\controller\Display::display() should be compatible with think\Controller::display($content = '', $vars = Array, $replace = Array, $config = Array)
+---------------------------------------------------------------
+[ 2018-08-14T10:48:12+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/display.html
+[ error ] [2]Declaration of app\index\controller\Display::display() should be compatible with think\Controller::display($content = '', $vars = Array, $replace = Array, $config = Array)
+---------------------------------------------------------------
+[ 2018-08-14T10:48:23+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/display.html
+[ error ] [2]Declaration of app\index\controller\Display::display() should be compatible with think\Controller::display($content = '', $vars = Array, $replace = Array, $config = Array)
+---------------------------------------------------------------
+[ 2018-08-14T10:48:24+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/display.html
+[ error ] [2]Declaration of app\index\controller\Display::display() should be compatible with think\Controller::display($content = '', $vars = Array, $replace = Array, $config = Array)
+---------------------------------------------------------------
+[ 2018-08-14T10:48:47+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/display.html
+[ error ] [2]Declaration of app\index\controller\Display::display() should be compatible with think\Controller::display($content = '', $vars = Array, $replace = Array, $config = Array)
+---------------------------------------------------------------
+[ 2018-08-14T10:48:47+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/display.html
+[ error ] [2]Declaration of app\index\controller\Display::display() should be compatible with think\Controller::display($content = '', $vars = Array, $replace = Array, $config = Array)
+---------------------------------------------------------------
+[ 2018-08-14T11:16:21+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-08-14T11:18:45+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-08-14T11:18:46+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-08-14T11:18:46+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+---------------------------------------------------------------
+[ 2018-08-14T11:22:43+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011297s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.015164s ]
+[ sql ] [ SQL ] SELECT * FROM `igem_epd` [ RunTime:0.002934s ]
+---------------------------------------------------------------
+[ 2018-08-14T11:29:03+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001913s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] select fp,iGEM_ID from igem_epd [ RunTime:0.001900s ]
+---------------------------------------------------------------
+[ 2018-08-14T13:02:48+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ error ] [0]语法解析错误: syntax error, unexpected '}'
+---------------------------------------------------------------
+[ 2018-08-14T13:02:50+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ error ] [0]语法解析错误: syntax error, unexpected '}'
+---------------------------------------------------------------
+[ 2018-08-14T13:03:40+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001710s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.003478s ]
+[ sql ] [ SQL ] SELECT * FROM `igem_epd` WHERE  `fp` = 'FP029348' LIMIT 1 [ RunTime:0.000722s ]
+---------------------------------------------------------------
+[ 2018-08-14T13:04:48+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ error ] [0]method not exist:think\db\Query->filed
+---------------------------------------------------------------
+[ 2018-08-14T13:05:17+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001484s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.001734s ]
+[ sql ] [ SQL ] SELECT `fp`,`iGEM_ID` FROM `igem_epd` WHERE  `fp` = 'FP029348' LIMIT 1 [ RunTime:0.000442s ]
+---------------------------------------------------------------
+[ 2018-08-14T13:07:20+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011572s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.002074s ]
+[ sql ] [ SQL ] SELECT `fp`,`iGEM_ID` FROM `igem_epd` WHERE  `fp` = 'FP029348' LIMIT 1 [ RunTime:0.000511s ]
+---------------------------------------------------------------
+[ 2018-08-14T13:10:15+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010495s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.001856s ]
+[ sql ] [ SQL ] SELECT `fp`,`iGEM_ID` FROM `igem_epd` [ RunTime:0.000770s ]
+---------------------------------------------------------------
+[ 2018-08-14T13:14:43+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024811s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.003010s ]
+[ sql ] [ SQL ] SELECT `fp`,`iGEM_ID` FROM `igem_epd` WHERE  (  ( `fp` = 'FP029348' AND `fp` = 'FP029348' ) ) LIMIT 1 [ RunTime:0.000509s ]
+---------------------------------------------------------------
+[ 2018-08-14T13:14:49+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ error ] [0]语法解析错误: syntax error, unexpected '}'
+---------------------------------------------------------------
+[ 2018-08-14T13:14:54+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001724s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.002007s ]
+[ sql ] [ SQL ] SELECT `fp`,`iGEM_ID` FROM `igem_epd` WHERE  (  ( `fp` = 'FP029348' AND `fp` = 'FP029348' ) ) LIMIT 1 [ RunTime:0.000555s ]
+---------------------------------------------------------------
+[ 2018-08-14T13:16:35+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011408s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.002888s ]
+[ sql ] [ SQL ] SELECT `fp`,`iGEM_ID` FROM `igem_epd` WHERE  (  ( `fp` = 'FP029348' AND `fp` = 'FP029348' ) ) LIMIT 1 [ RunTime:0.000548s ]
+---------------------------------------------------------------
+[ 2018-08-14T13:38:56+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ error ] [0]语法解析错误: syntax error, unexpected '-', expecting ',' or ';'
+---------------------------------------------------------------
+[ 2018-08-14T13:44:03+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ error ] [0]语法解析错误: syntax error, unexpected '-', expecting ',' or ';'
+---------------------------------------------------------------
+[ 2018-08-14T13:44:04+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ error ] [0]语法解析错误: syntax error, unexpected '-', expecting ',' or ';'
+---------------------------------------------------------------
+[ 2018-08-14T13:45:27+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012409s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bio-master.bio_master' doesn't exist
+---------------------------------------------------------------
+[ 2018-08-14T13:45:28+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010513s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bio-master.bio_master' doesn't exist
+---------------------------------------------------------------
+[ 2018-08-14T13:50:08+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002042s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000904s ]
+[ sql ] [ SQL ] SELECT * FROM `igem_epd` WHERE  `fp` = 'FP029348' LIMIT 1 [ RunTime:0.000578s ]
+---------------------------------------------------------------
+[ 2018-08-14T13:52:09+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011342s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.001751s ]
+[ sql ] [ SQL ] SELECT * FROM `igem_epd` WHERE  `fp` = 'FP029348' LIMIT 1 [ RunTime:0.000551s ]
+---------------------------------------------------------------
+[ 2018-08-14T13:57:14+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ error ] [0]语法解析错误: syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+---------------------------------------------------------------
+[ 2018-08-14T13:59:05+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ error ] [0]语法解析错误: syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+---------------------------------------------------------------
+[ 2018-08-14T13:59:06+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ error ] [0]语法解析错误: syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+---------------------------------------------------------------
+[ 2018-08-14T14:03:57+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003436s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.002216s ]
+[ sql ] [ SQL ] SELECT * FROM `igem_epd` WHERE  `fp` = 'FP029348' LIMIT 1 [ RunTime:0.000596s ]
+[ error ] [0]类型错误: Argument 1 passed to think\Model::getRelationData() must be an instance of think\model\Relation, string given, called in D:\Apache24\htdocs\数据库\THINKPHP\thinkphp\library\think\Model.php on line 620
+---------------------------------------------------------------
+[ 2018-08-14T14:03:57+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004166s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.001761s ]
+[ sql ] [ SQL ] SELECT * FROM `igem_epd` WHERE  `fp` = 'FP029348' LIMIT 1 [ RunTime:0.000640s ]
+[ error ] [0]类型错误: Argument 1 passed to think\Model::getRelationData() must be an instance of think\model\Relation, string given, called in D:\Apache24\htdocs\数据库\THINKPHP\thinkphp\library\think\Model.php on line 620
+---------------------------------------------------------------
+[ 2018-08-14T14:04:10+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001298s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.001885s ]
+[ sql ] [ SQL ] SELECT * FROM `igem_epd` WHERE  `fp` = 'FP029348' LIMIT 1 [ RunTime:0.000543s ]
+---------------------------------------------------------------
+[ 2018-08-14T14:05:01+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ error ] [0]致命错误: Undefined class constant 'all'
+---------------------------------------------------------------
+[ 2018-08-14T14:05:14+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001274s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SELECT * FROM `igem_epd` [ RunTime:0.000871s ]
+---------------------------------------------------------------
+[ 2018-08-14T14:05:16+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001461s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SELECT * FROM `igem_epd` [ RunTime:0.001159s ]
+---------------------------------------------------------------
+[ 2018-08-14T14:10:53+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001791s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000921s ]
+[ sql ] [ SQL ] SELECT * FROM `igem_epd` WHERE  `fp` = 'FP029348' LIMIT 1 [ RunTime:0.001061s ]
+---------------------------------------------------------------
+[ 2018-08-14T14:11:00+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001566s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT * FROM `igem_epd` WHERE  `fp` = 'FP029348' LIMIT 1 [ RunTime:0.000609s ]
+---------------------------------------------------------------
+[ 2018-08-14T14:17:13+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001696s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.001012s ]
+[ sql ] [ SQL ] SELECT `fp`,`iGEM_ID` FROM `igem_epd` WHERE  `fp` = 'FP029348' LIMIT 1 [ RunTime:0.000453s ]
+[ error ] [0]类型错误: Argument 1 passed to think\Model::getRelationData() must be an instance of think\model\Relation, array given, called in D:\Apache24\htdocs\数据库\THINKPHP\thinkphp\library\think\Model.php on line 620
+---------------------------------------------------------------
+[ 2018-08-14T14:18:02+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001359s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000763s ]
+[ sql ] [ SQL ] SELECT `fp`,`iGEM_ID` FROM `igem_epd` WHERE  `fp` = 'FP029348' LIMIT 1 [ RunTime:0.000484s ]
+---------------------------------------------------------------
+[ 2018-08-14T14:19:07+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001781s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000767s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` WHERE  `fp` = 'FP029348' LIMIT 1 [ RunTime:0.000490s ]
+---------------------------------------------------------------
+[ 2018-08-14T14:20:23+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001568s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000862s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` WHERE  `fp` = 'FP029348' [ RunTime:0.000559s ]
+[ error ] [0]致命错误: Call to a member function getData() on array
+---------------------------------------------------------------
+[ 2018-08-14T14:20:59+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001462s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` WHERE  `fp` = 'FP029348' [ RunTime:0.000474s ]
+[ error ] [0]致命错误: Call to a member function getData() on array
+---------------------------------------------------------------
+[ 2018-08-14T14:21:07+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012140s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.001822s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` WHERE  `fp` = 'FP029348' LIMIT 1 [ RunTime:0.000440s ]
+---------------------------------------------------------------
+[ 2018-08-14T14:22:01+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015481s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000840s ]
+[ error ] [0]查询表达式错误:!=
+---------------------------------------------------------------
+[ 2018-08-14T14:22:12+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010968s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000754s ]
+[ error ] [0]查询表达式错误:!=
+---------------------------------------------------------------
+[ 2018-08-14T14:25:05+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ error ] [0]语法解析错误: syntax error, unexpected '}'
+---------------------------------------------------------------
+[ 2018-08-14T14:25:21+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001575s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000894s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` [ RunTime:0.000755s ]
+[ error ] [0]致命错误: Call to a member function getData() on array
+---------------------------------------------------------------
+[ 2018-08-14T14:25:22+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001312s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000827s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` [ RunTime:0.000766s ]
+[ error ] [0]致命错误: Call to a member function getData() on array
+---------------------------------------------------------------
+[ 2018-08-14T14:25:30+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001519s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000862s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` LIMIT 1 [ RunTime:0.000341s ]
+---------------------------------------------------------------
+[ 2018-08-14T14:26:17+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011245s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000798s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` [ RunTime:0.000746s ]
+[ error ] [0]致命错误: Call to a member function getData() on array
+---------------------------------------------------------------
+[ 2018-08-14T14:26:35+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011657s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000885s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` [ RunTime:0.000793s ]
+[ error ] [0]致命错误: Call to a member function getData() on array
+---------------------------------------------------------------
+[ 2018-08-14T14:32:09+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001758s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000979s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` [ RunTime:0.000887s ]
+[ error ] [0]致命错误: Call to a member function getData() on array
+---------------------------------------------------------------
+[ 2018-08-14T14:32:10+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001960s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000810s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` [ RunTime:0.000790s ]
+[ error ] [0]致命错误: Call to a member function getData() on array
+---------------------------------------------------------------
+[ 2018-08-14T14:32:10+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001592s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000704s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` [ RunTime:0.000756s ]
+[ error ] [0]致命错误: Call to a member function getData() on array
+---------------------------------------------------------------
+[ 2018-08-14T14:32:10+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001271s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` [ RunTime:0.000695s ]
+[ error ] [0]致命错误: Call to a member function getData() on array
+---------------------------------------------------------------
+[ 2018-08-14T14:32:11+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002297s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000968s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` [ RunTime:0.000675s ]
+[ error ] [0]致命错误: Call to a member function getData() on array
+---------------------------------------------------------------
+[ 2018-08-14T14:32:11+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001319s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` [ RunTime:0.000738s ]
+[ error ] [0]致命错误: Call to a member function getData() on array
+---------------------------------------------------------------
+[ 2018-08-14T14:32:11+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001390s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000829s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` [ RunTime:0.000774s ]
+[ error ] [0]致命错误: Call to a member function getData() on array
+---------------------------------------------------------------
+[ 2018-08-14T14:32:11+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011977s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.001335s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` [ RunTime:0.002569s ]
+[ error ] [0]致命错误: Call to a member function getData() on array
+---------------------------------------------------------------
+[ 2018-08-14T14:32:21+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001239s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.001994s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` LIMIT 1 [ RunTime:0.000552s ]
+---------------------------------------------------------------
+[ 2018-08-14T14:33:28+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001559s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000779s ]
+[ sql ] [ SQL ] SELECT * FROM `igem_epd` LIMIT 1 [ RunTime:0.000649s ]
+---------------------------------------------------------------
+[ 2018-08-14T14:33:40+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013286s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT * FROM `igem_epd` [ RunTime:0.001321s ]
+[ error ] [0]致命错误: Call to a member function getData() on array
+---------------------------------------------------------------
+[ 2018-08-14T14:33:55+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011834s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000723s ]
+[ sql ] [ SQL ] SELECT * FROM `igem_epd` [ RunTime:0.000900s ]
+[ error ] [0]致命错误: Call to a member function getData() on array
+---------------------------------------------------------------
+[ 2018-08-14T14:34:22+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005276s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000913s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` LIMIT 1 [ RunTime:0.000289s ]
+---------------------------------------------------------------
+[ 2018-08-14T14:36:36+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ error ] [0]method not exist:think\db\Query->findall
+---------------------------------------------------------------
+[ 2018-08-14T14:51:10+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ error ] [0]语法解析错误: syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+---------------------------------------------------------------
+[ 2018-08-14T14:51:16+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012171s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.001422s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` WHERE  `fp` = 'FP029348' LIMIT 1 [ RunTime:0.000462s ]
+---------------------------------------------------------------
+[ 2018-08-14T14:51:28+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013999s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` WHERE  `fp` = 'FP029348' [ RunTime:0.000472s ]
+[ error ] [0]致命错误: Call to a member function getData() on array
+---------------------------------------------------------------
+[ 2018-08-14T14:52:11+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009327s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.001078s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` WHERE  `fp` = 'FP029348' [ RunTime:0.000986s ]
+[ error ] [0]致命错误: Call to a member function getData() on array
+---------------------------------------------------------------
+[ 2018-08-14T14:52:21+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001308s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.001086s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` WHERE  `fp` = 'FP029348' LIMIT 1 [ RunTime:0.000409s ]
+---------------------------------------------------------------
+[ 2018-08-14T14:53:31+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011306s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000880s ]
+[ sql ] [ SQL ] SELECT * FROM `igem_epd` WHERE  `fp` = 'FP029348' LIMIT 1 [ RunTime:0.000597s ]
+---------------------------------------------------------------
+[ 2018-08-14T14:53:41+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001765s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000771s ]
+[ sql ] [ SQL ] SELECT * FROM `igem_epd` WHERE  `fp` = 'FP029348' [ RunTime:0.000479s ]
+[ error ] [0]致命错误: Call to a member function myTest() on array
+---------------------------------------------------------------
+[ 2018-08-14T14:57:25+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001725s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000751s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` WHERE  `fp` = 'FP029348' LIMIT 1 [ RunTime:0.000435s ]
+---------------------------------------------------------------
+[ 2018-08-14T14:57:38+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004181s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.001030s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` WHERE  `fp` = 'FP029348' [ RunTime:0.000532s ]
+---------------------------------------------------------------
+[ 2018-08-14T14:57:56+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001477s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000717s ]
+[ error ] [0]查询表达式错误:!=
+---------------------------------------------------------------
+[ 2018-08-14T14:58:03+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011514s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.001029s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` WHERE  `fp` = 'FP029348' [ RunTime:0.000435s ]
+---------------------------------------------------------------
+[ 2018-08-14T14:58:15+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001471s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` [ RunTime:0.000663s ]
+---------------------------------------------------------------
+[ 2018-08-14T15:00:08+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001570s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000849s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` [ RunTime:0.000801s ]
+---------------------------------------------------------------
+[ 2018-08-14T15:00:42+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001522s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000818s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` [ RunTime:0.000724s ]
+[ error ] [0]类型错误: Argument 1 passed to think\Model::getRelationData() must be an instance of think\model\Relation, array given, called in D:\Apache24\htdocs\数据库\THINKPHP\thinkphp\library\think\Model.php on line 620
+---------------------------------------------------------------
+[ 2018-08-14T15:00:56+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004673s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000731s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` [ RunTime:0.000736s ]
+---------------------------------------------------------------
+[ 2018-08-14T15:01:32+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001392s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000872s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` [ RunTime:0.000758s ]
+---------------------------------------------------------------
+[ 2018-08-14T15:01:57+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011560s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.001062s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` [ RunTime:0.002676s ]
+---------------------------------------------------------------
+[ 2018-08-14T15:02:23+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001409s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` [ RunTime:0.000697s ]
+---------------------------------------------------------------
+[ 2018-08-14T15:05:58+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ error ] [0]语法解析错误: syntax error, unexpected '}', expecting ',' or ';'
+---------------------------------------------------------------
+[ 2018-08-14T15:06:03+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ error ] [0]语法解析错误: syntax error, unexpected '}', expecting ',' or ';'
+---------------------------------------------------------------
+[ 2018-08-14T15:06:16+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001700s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000978s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` [ RunTime:0.000776s ]
+[ error ] [0]类的属性不存在:app\index\model\Igem_epd->iGEM_ID
+---------------------------------------------------------------
+[ 2018-08-14T15:06:35+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001565s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.003927s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` [ RunTime:0.000931s ]
+[ error ] [0]类的属性不存在:app\index\model\Igem_epd->iGEM_ID
+---------------------------------------------------------------
+[ 2018-08-14T15:06:43+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001349s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` [ RunTime:0.000614s ]
+[ error ] [0]类的属性不存在:app\index\model\Igem_epd->iGEM_ID
+---------------------------------------------------------------
+[ 2018-08-14T15:22:40+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012195s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT `fp`,`iGEM_ID` FROM `igem_epd` [ RunTime:0.000706s ]
+---------------------------------------------------------------
+[ 2018-08-14T15:26:20+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010641s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.002078s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` [ RunTime:0.001202s ]
+[ error ] [0]类的属性不存在:app\index\model\Igem_epd->iGEM_ID
+---------------------------------------------------------------
+[ 2018-08-14T15:26:56+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003178s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.001256s ]
+[ sql ] [ SQL ] SELECT `fp` AS `工资`,`iGEM_ID` AS `姓名` FROM `igem_epd` [ RunTime:0.000859s ]
+[ error ] [0]类的属性不存在:app\index\model\Igem_epd->iGEM_ID
+---------------------------------------------------------------
+[ 2018-08-14T15:27:30+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013323s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.001227s ]
+[ sql ] [ SQL ] SELECT `fp`,`iGEM_ID` FROM `igem_epd` [ RunTime:0.000766s ]
+---------------------------------------------------------------
+[ 2018-08-14T15:35:25+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012075s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.002088s ]
+[ sql ] [ SQL ] SELECT `fp`,`iGEM_ID` FROM `igem_epd` WHERE  `fp` = 'FP029348' [ RunTime:0.001024s ]
+---------------------------------------------------------------
+[ 2018-08-14T15:35:40+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010674s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000762s ]
+[ sql ] [ SQL ] SELECT `fp`,`iGEM_ID` FROM `igem_epd` WHERE  `fp` = 'FP029348' [ RunTime:0.000562s ]
+[ error ] [0]致命错误: Call to a member function getData() on array
+---------------------------------------------------------------
+[ 2018-08-14T15:37:08+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002693s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000893s ]
+[ sql ] [ SQL ] SELECT `fp`,`iGEM_ID` FROM `igem_epd` WHERE  `fp` = 'FP029348' [ RunTime:0.000473s ]
+---------------------------------------------------------------
+[ 2018-08-14T15:37:29+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/displayer
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001353s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `igem_epd` [ RunTime:0.000889s ]
+[ sql ] [ SQL ] SELECT `fp`,`iGEM_ID` FROM `igem_epd` WHERE  `fp` = 'FP029348' [ RunTime:0.000396s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:08:09+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001670s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.004208s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.005145s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:12:44+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011544s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001475s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004614s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:15:38+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018064s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.002316s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004585s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:16:12+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001592s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001783s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.007836s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:16:28+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001309s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001761s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004299s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:17:04+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011840s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.003232s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.005298s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:21:28+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001485s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001984s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.006450s ]
+[ error ] [0]致命错误: Call to a member function paginate() on array
+---------------------------------------------------------------
+[ 2018-08-14T16:23:23+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012198s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001840s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004621s ]
+[ error ] [0]致命错误: Call to a member function paginate() on array
+---------------------------------------------------------------
+[ 2018-08-14T16:23:23+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001353s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001739s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004320s ]
+[ error ] [0]致命错误: Call to a member function paginate() on array
+---------------------------------------------------------------
+[ 2018-08-14T16:23:30+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001259s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.002146s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004154s ]
+[ error ] [0]致命错误: Call to a member function paginate() on array
+---------------------------------------------------------------
+[ 2018-08-14T16:24:09+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001376s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.005167s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004543s ]
+[ error ] [0]致命错误: Call to a member function paginate() on array
+---------------------------------------------------------------
+[ 2018-08-14T16:26:55+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001424s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001889s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004416s ]
+[ error ] [0]致命错误: Call to a member function paginate() on array
+---------------------------------------------------------------
+[ 2018-08-14T16:26:56+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011407s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.002152s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004835s ]
+[ error ] [0]致命错误: Call to a member function paginate() on array
+---------------------------------------------------------------
+[ 2018-08-14T16:27:23+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001476s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001966s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004238s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:47:28+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001756s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001914s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004448s ]
+[ error ] [0]致命错误: Call to a member function paginate() on array
+---------------------------------------------------------------
+[ 2018-08-14T16:51:28+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001672s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001856s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004471s ]
+[ error ] [0]致命错误: Call to a member function paginate() on array
+---------------------------------------------------------------
+[ 2018-08-14T16:52:15+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003204s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000967s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004514s ]
+[ error ] [0]致命错误: Call to a member function render() on array
+---------------------------------------------------------------
+[ 2018-08-14T16:52:26+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001396s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.006808s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:53:08+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014850s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000940s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004777s ]
+---------------------------------------------------------------
+[ 2018-08-14T16:58:22+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001661s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000838s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000947s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 0,5 [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001273s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.005700s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:02:30+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010508s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001978s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000926s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 0,5 [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000832s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004583s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:02:58+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001555s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001140s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001591s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 0,5 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000935s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.005219s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:03:01+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001502s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 0,5 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000611s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.005891s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:04:08+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001371s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000796s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000856s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 0,5 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.008528s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:04:17+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010809s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000836s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 30,5 [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000716s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004525s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:04:18+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010981s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000828s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000901s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 25,5 [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004082s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:04:19+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012380s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000724s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 20,5 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000844s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004332s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:04:19+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011291s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000866s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000823s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 10,5 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000763s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.005202s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:04:19+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002155s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000883s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 5,5 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001604s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004397s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:04:20+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010831s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000913s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 10,5 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004087s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:04:20+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001358s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 15,5 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004063s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:04:21+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001568s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001287s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001731s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 20,5 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004202s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:04:22+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=355
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011596s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000909s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001103s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 1770,5 [ RunTime:0.001578s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004740s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:04:23+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=353
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011108s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000864s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000831s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 1760,5 [ RunTime:0.002124s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004298s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:04:23+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=354
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011439s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000788s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000780s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 1765,5 [ RunTime:0.001469s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004192s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:08:43+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=354
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001667s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 1765,5 [ RunTime:0.002063s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000953s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.005234s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:08:48+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=354
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011824s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.003082s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001024s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 1765,5 [ RunTime:0.001569s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000752s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004503s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:09:00+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=354
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012225s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000885s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000813s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 1765,5 [ RunTime:0.001529s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.007117s ]
+---------------------------------------------------------------
+[ 2018-08-14T17:09:36+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=354
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001264s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.002016s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.002700s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 1765,5 [ RunTime:0.001684s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000870s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.005071s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:22:48+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=354
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025335s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.009515s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001218s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 1765,5 [ RunTime:0.001448s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001010s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004585s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:22:50+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002697s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001861s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001568s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 5,5 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004177s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:22:51+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011996s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001686s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 0,5 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004157s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:22:51+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001941s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.002941s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 5,5 [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004069s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:22:52+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011251s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001960s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000774s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 10,5 [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000743s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004879s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:22:52+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001306s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001897s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 15,5 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004167s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:22:53+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001585s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.002042s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001819s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 20,5 [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.005421s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:22:53+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001300s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001694s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000881s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 25,5 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000873s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.005559s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:22:54+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012016s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001720s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000795s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 30,5 [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000753s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004556s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:23:12+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012224s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001668s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 35,5 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004715s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:23:14+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=356
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002299s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001958s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000729s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 1775,5 [ RunTime:0.001404s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000766s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004735s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:23:17+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=349
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001606s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001736s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 1740,5 [ RunTime:0.001488s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.005616s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:37:20+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=349
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011137s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.003351s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000827s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 1740,5 [ RunTime:0.001386s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004971s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:37:22+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011716s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001713s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 5,5 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000716s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.005029s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:37:24+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011092s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.002107s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 10,5 [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000829s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004231s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:37:25+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001475s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001739s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 20,5 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000683s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004068s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:38:16+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001549s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 20,5 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001070s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.006558s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:38:30+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012203s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001075s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000747s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 20,5 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000940s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.005443s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:41:02+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001489s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000849s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000721s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 20,5 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004824s ]
+[ error ] [8]未定义变量: team
+---------------------------------------------------------------
+[ 2018-08-14T21:41:03+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011018s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000889s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000864s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 20,5 [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.005631s ]
+[ error ] [8]未定义变量: team
+---------------------------------------------------------------
+[ 2018-08-14T21:41:20+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011387s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000783s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 20,5 [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000787s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.005420s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:41:24+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001638s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.002075s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000724s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 5,5 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000682s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.003979s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:44:34+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005973s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001417s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001667s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 5,5 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000801s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004358s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:44:36+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001515s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001158s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001550s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 10,5 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004154s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:44:38+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001398s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000856s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 5,5 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004234s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:44:40+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002656s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000804s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000768s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 0,5 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000712s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004024s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:44:45+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011148s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000762s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 25,5 [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000786s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` [ RunTime:0.004035s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:45:06+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001577s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001859s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.002411s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 25,5 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000679s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:48:18+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011632s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000877s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000772s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 25,5 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000897s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:48:21+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011052s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 30,5 [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001294s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:48:23+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001547s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000970s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000729s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 15,5 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000754s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:48:24+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010845s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 25,5 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000651s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:48:25+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002800s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001740s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 20,5 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000903s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:48:26+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011205s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001783s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001165s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 30,5 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000709s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:48:27+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=9
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002118s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000944s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000741s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 40,5 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000677s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:48:27+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=11
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011149s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000802s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 50,5 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001209s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:48:28+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=13
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011435s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000728s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 60,5 [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001219s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:48:28+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=16
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011589s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001417s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 75,5 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000603s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:48:29+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=355
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001829s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 1770,5 [ RunTime:0.001388s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001441s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:48:31+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=350
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001364s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000713s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 1745,5 [ RunTime:0.001509s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000705s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:48:34+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=349
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001476s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000731s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000762s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 1740,5 [ RunTime:0.001491s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000687s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:48:36+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=347
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011135s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000884s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000695s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 1730,5 [ RunTime:0.001491s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000779s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:48:37+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001712s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001832s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001060s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 5,5 [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000708s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:48:39+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013073s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000711s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 15,5 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000667s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:48:42+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011194s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 20,5 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000653s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:49:05+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011444s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000721s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000747s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 30,5 [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000755s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:50:19+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001476s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000877s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 25,5 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000709s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:50:21+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002463s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000741s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000727s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 15,5 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000666s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:50:22+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010687s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000815s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000782s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 30,5 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000911s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:50:23+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001597s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001825s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000856s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 35,5 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000804s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:50:23+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010590s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000728s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001411s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 45,5 [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000770s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:50:25+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=11
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012959s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000787s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 50,5 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000723s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:50:26+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=13
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003372s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000825s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000854s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 60,5 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000728s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:50:29+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=15
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011301s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000762s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000779s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 70,5 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000856s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:50:30+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=17
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011803s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 80,5 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000674s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:50:31+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001283s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000802s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 90,5 [ RunTime:0.000569s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000718s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:50:32+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=22
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001596s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000817s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 105,5 [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000693s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:56:06+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=22
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001632s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000848s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 105,5 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000660s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:56:07+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=22
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011575s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.002091s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001343s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 105,5 [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001272s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:56:07+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=22
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001496s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000706s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 105,5 [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000731s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:56:13+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=24
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001556s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001649s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000819s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 115,5 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000746s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:56:14+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=25
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001259s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000873s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 120,5 [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000682s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:56:16+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=24
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021832s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000853s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 115,5 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000691s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:56:25+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=23
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001499s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 110,5 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000765s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:56:27+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=22
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002637s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000912s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000861s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 105,5 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000744s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:56:28+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=21
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001638s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001971s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 100,5 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000681s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:56:29+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=20
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011011s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.002327s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001472s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 95,5 [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000719s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:56:29+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001906s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.002046s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000822s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 90,5 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000802s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:56:29+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=18
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001601s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.002067s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001044s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 85,5 [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000896s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:56:30+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001707s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.002233s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000727s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 0,5 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000685s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:56:32+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011412s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000796s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 5,5 [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000710s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:56:34+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001853s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001204s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001593s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 10,5 [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000768s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:57:05+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001491s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000753s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000769s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 10,5 [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000769s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:57:06+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001451s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001270s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 10,5 [ RunTime:0.000938s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000811s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:57:07+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001965s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001194s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001007s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 15,5 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000689s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:57:15+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011054s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000835s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 20,5 [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000669s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:57:16+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001823s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.003899s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000775s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 25,5 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000915s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:57:17+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001977s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 15,5 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000752s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:57:17+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003491s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000765s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 10,5 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001126s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:57:18+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001926s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001823s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000741s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 5,5 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000675s ]
+---------------------------------------------------------------
+[ 2018-08-14T21:57:18+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002172s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000936s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000851s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 0,5 [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000920s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:03:01+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001630s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000955s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000857s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 0,5 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000689s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:06:40+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011215s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000958s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 0,5 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000725s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:06:42+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001366s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000763s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000731s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 10,5 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000679s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:06:42+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016551s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000728s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 15,5 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000671s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:06:43+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010486s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001005s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000805s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 20,5 [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000729s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:06:43+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011169s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000779s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000998s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 20,5 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000764s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:06:44+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001368s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000922s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000861s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 25,5 [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000794s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:06:44+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001392s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000805s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000774s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 30,5 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000734s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:06:44+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010708s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000900s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000957s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 30,5 [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000833s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:06:45+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010719s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000796s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 10,5 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000734s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:06:45+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001335s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000694s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 5,5 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000674s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:06:46+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010017s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000765s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 25,5 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000644s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:06:46+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009574s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000713s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 20,5 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000668s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:06:47+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011972s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000801s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000706s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 15,5 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000697s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:06:47+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011411s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000805s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 10,5 [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001030s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:06:47+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011880s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000813s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 5,5 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000693s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:06:48+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=356
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005423s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000782s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000744s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 1775,5 [ RunTime:0.001377s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000633s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:06:49+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=355
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010219s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000708s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 1770,5 [ RunTime:0.001517s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000702s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:06:49+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008185s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000804s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001077s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 35,5 [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000769s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:06:49+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001228s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000791s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000712s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 25,5 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000711s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:06:50+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010919s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 10,5 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000677s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:26:27+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001635s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000891s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000818s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 0,5 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000681s ]
+[ error ] [0]模板文件不存在:
+---------------------------------------------------------------
+[ 2018-08-14T22:27:12+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001434s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 0,5 [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000601s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:28:38+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001642s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000716s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 0,5 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000748s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:30:20+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001428s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000781s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000727s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 0,5 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000718s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:30:21+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001711s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 5,5 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000717s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:30:22+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001381s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000798s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 10,5 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000707s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:30:22+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012015s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000720s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 15,5 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000745s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:30:23+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011822s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000862s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000746s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 20,5 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000686s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:30:23+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011552s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000852s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000708s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 25,5 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000642s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:30:23+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001364s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001167s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 30,5 [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000723s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:30:24+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011526s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000867s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 35,5 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000765s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:30:25+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006556s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000801s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 15,5 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000678s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:30:26+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001366s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000696s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 10,5 [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000844s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:30:26+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001340s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 15,5 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000675s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:30:29+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009961s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 25,5 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000679s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:34:20+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003991s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001130s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000799s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 0,5 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000827s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:34:22+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011449s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001076s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 10,5 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000652s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:34:22+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015220s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001226s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 5,5 [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001170s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:34:22+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013686s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000782s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 10,5 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000635s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:34:23+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011403s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000966s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 15,5 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000654s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:34:25+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001833s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000768s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 30,5 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000715s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:34:25+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010869s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000831s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000763s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 35,5 [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000667s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:34:25+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011124s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001122s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000886s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 25,5 [ RunTime:0.000566s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001146s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:34:26+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003596s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000986s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000731s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 10,5 [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000736s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:34:26+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001791s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000772s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 5,5 [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000674s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:39:23+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002158s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000785s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 0,5 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000743s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:39:24+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011839s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 5,5 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000717s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:39:25+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001773s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 10,5 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000685s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:40:30+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011068s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001150s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000766s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 0,5 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000733s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:40:32+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001341s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000885s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000917s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 5,5 [ RunTime:0.001176s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000728s ]
+[ error ] [0]模板文件不存在:D:\Apache24\htdocs\数据库\THINKPHP\public/../application/index\view\display\mytable.html
+---------------------------------------------------------------
+[ 2018-08-14T22:40:32+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011718s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 10,5 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000728s ]
+[ error ] [0]模板文件不存在:D:\Apache24\htdocs\数据库\THINKPHP\public/../application/index\view\display\mytable.html
+---------------------------------------------------------------
+[ 2018-08-14T22:40:33+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011991s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000707s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 15,5 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001417s ]
+[ error ] [0]模板文件不存在:D:\Apache24\htdocs\数据库\THINKPHP\public/../application/index\view\display\mytable.html
+---------------------------------------------------------------
+[ 2018-08-14T22:40:33+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001550s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001104s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 15,5 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000712s ]
+[ error ] [0]模板文件不存在:D:\Apache24\htdocs\数据库\THINKPHP\public/../application/index\view\display\mytable.html
+---------------------------------------------------------------
+[ 2018-08-14T22:40:33+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001965s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000832s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000835s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 20,5 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000670s ]
+[ error ] [0]模板文件不存在:D:\Apache24\htdocs\数据库\THINKPHP\public/../application/index\view\display\mytable.html
+---------------------------------------------------------------
+[ 2018-08-14T22:40:55+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001237s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 0,5 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000632s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:40:56+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020281s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000695s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 10,5 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000855s ]
+[ error ] [0]模板文件不存在:D:\Apache24\htdocs\数据库\THINKPHP\public/../application/index\view\display\mytable.html
+---------------------------------------------------------------
+[ 2018-08-14T22:40:56+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007304s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000694s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 5,5 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000667s ]
+[ error ] [0]模板文件不存在:D:\Apache24\htdocs\数据库\THINKPHP\public/../application/index\view\display\mytable.html
+---------------------------------------------------------------
+[ 2018-08-14T22:40:57+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011417s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000810s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000935s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 30,5 [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000965s ]
+[ error ] [0]模板文件不存在:D:\Apache24\htdocs\数据库\THINKPHP\public/../application/index\view\display\mytable.html
+---------------------------------------------------------------
+[ 2018-08-14T22:41:09+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011027s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000795s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 0,5 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000711s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:41:09+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011496s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000783s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 10,5 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000760s ]
+[ error ] [0]模板文件不存在:D:\Apache24\htdocs\数据库\THINKPHP\public/../application/index\view\display\mytable.html
+---------------------------------------------------------------
+[ 2018-08-14T22:41:10+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026681s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000798s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000807s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 5,5 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000791s ]
+[ error ] [0]模板文件不存在:D:\Apache24\htdocs\数据库\THINKPHP\public/../application/index\view\display\mytable.html
+---------------------------------------------------------------
+[ 2018-08-14T22:41:16+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011339s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000811s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 0,5 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001234s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:41:17+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012045s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001391s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001015s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 5,5 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000712s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:41:19+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011818s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000823s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000697s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 15,5 [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000777s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:41:20+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=5
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011658s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001369s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001016s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 20,5 [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000762s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:41:20+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001447s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001437s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001260s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 25,5 [ RunTime:0.001278s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001661s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:41:21+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002075s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.002503s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000747s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 30,5 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001744s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:41:21+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001311s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000801s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000678s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 15,5 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001019s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:41:22+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012172s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.002105s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000804s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 10,5 [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000789s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:41:23+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001955s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.002186s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 5,5 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000757s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:41:23+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002633s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000775s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000797s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 0,5 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000765s ]
+---------------------------------------------------------------
+[ 2018-08-14T22:41:24+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001603s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000813s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 25,5 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000689s ]
+---------------------------------------------------------------
+[ 2018-08-14T23:07:33+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011310s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.001576s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.001229s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 25,5 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000695s ]
+---------------------------------------------------------------
+[ 2018-08-14T23:07:34+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001350s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000767s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000934s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 10,5 [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000853s ]
+---------------------------------------------------------------
+[ 2018-08-14T23:07:36+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001689s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.000776s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 5,5 [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000740s ]
+---------------------------------------------------------------
+[ 2018-08-14T23:07:36+08:00 ] 0.0.0.0 GET /%E6%95%B0%E6%8D%AE%E5%BA%93/THINKPHP/public/index/display/team?page=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003427s ] mysql:host=127.0.0.1;dbname=bio-master;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `wiki_information` [ RunTime:0.002159s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT * FROM `wiki_information` LIMIT 15,5 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `wiki_information` LIMIT 1 [ RunTime:0.000851s ]

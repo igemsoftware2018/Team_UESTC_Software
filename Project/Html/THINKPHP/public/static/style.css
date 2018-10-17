@@ -1,0 +1,208 @@
+@media only screen and (max-width:760px) {
+    #bd {
+        padding-left: 183px;
+        height: 95px
+    }
+
+    #bd_1 {
+        padding-left: 183px;
+        height: 75px
+    }
+    #x2 {
+        width: 180px
+    }
+    #bd_2 {
+        padding-left: 188px;
+        height: 95px
+    }
+    #submit {
+        width: 180px
+    }
+    #bd-2 {
+        height: 110px;
+        padding-left: 215px;
+    }
+    #bd-2-1 {
+        height: 80px;
+        padding-left: 215px;
+    }
+
+    #bd_1-2 {
+        height: 70px;
+        padding-left: 90px
+    }
+    #exp {
+        height: 40px;
+        padding-left: 215px
+    }
+    #exp_1 {
+        height: 70px;
+        padding-left: 215px
+    }
+    #exa_1 {
+        position: absolute ;
+        left: 277px
+    }
+    #bd_2-2 {
+        padding-left: 215px
+    }
+}
+
+@media only screen and (max-width:2000px) and (min-width:760px) {
+    #bd {
+        padding-left: 113px;
+        height: 95px
+    }
+
+
+    #bd_1 {
+        padding-left: 113px;
+        height: 75px
+    }
+
+    #bd_2 {
+        padding-left: 148px;
+        height: 95px
+    }
+
+    #bd-2 {
+        height: 110px;
+        padding-left: 90px;
+    }
+    #bd-2-1 {
+        height: 80px;
+        padding-left: 90px;
+    }
+
+    #bd_1-2 {
+        height: 70px;
+        padding-left: 90px
+    }
+    #exp {
+        height: 40px;
+        padding-left: 90px;
+    }
+    #exp_1 {
+        height: 70px;
+        padding-left: 90px;
+    }
+    #exa_1 {
+        position: absolute;
+        left: 152px
+    }
+    #bd_2-2 {
+        padding-left: 145px
+    }
+
+}
+
+
+#line {
+    position: relative;
+    top: 100px;
+}
+.sc{
+    position: relative;
+    top: 40px;
+    background: url('image/search_1.png') no-repeat center top;
+    height: 600px
+}
+#body {
+    position: relative;
+    top: 120px;
+}
+
+#body-l ul a,
+#body-l ul a:hover {
+    color: #0088a8;
+}
+
+#body-l ul li {
+    margin-top: 10px;
+    position: relative;
+    font-size: 15px
+}
+
+#body-l ul li:hover {
+
+    cursor: pointer
+}
+#body-l ul li img{
+    position: absolute;
+    right: 50px;
+    width: 20px;
+    height: 20px
+}
+
+#body-r-con {
+    background:url('image/search.png');
+    height: 380px;
+}
+
+#body-r-con form {
+    position: relative;
+    top: 20px
+}
+
+#body-r-con > p {
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: 15px
+}
+
+
+
+
+#submit {
+    background-color: #bbffee;
+    border: solid 1px #ccccff;
+    font-size: 20px;
+    color: blueviolet;
+    position: relative;
+    top: 40px
+}
+
+#submit:hover {
+    background-color: #00ddaa;
+    -webkit-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+.return {
+    height: 30px;
+    background-color: #77ddff;
+    color: #009fcc;
+    text-align: center;
+    line-height: 30px;
+}
+
+.return:hover {
+    background-color: #0088a8;
+    color: aliceblue;
+    -webkit-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+#body a {
+    text-decoration: none
+}
+
+table thead .col-1 {
+    width: 200px
+}
+
+table thead .col-2 {
+    width: 300px
+}
+
+table thead .col-3 {
+    width: 600px;
+    overflow: hidden
+}

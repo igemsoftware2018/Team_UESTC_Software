@@ -1,0 +1,8 @@
+First, run MyAppInstaller_web.exe to build the compiling environment.£¨This process will last for an hour, please be patient.Thank you£©
+Second, run BPNeuralNetwork.exe to predict promoter.
+
+P.S: 
+1¡¢This software currently only supports 64-bit windows system
+2¡¢It may take about five minutes to run the software for the first time. Please wait patiently. Thank you.
+3¡¢In order to prevent the software from being accidentally deleted during installation and operation, we recommend that you turn off anti-virus software.
+

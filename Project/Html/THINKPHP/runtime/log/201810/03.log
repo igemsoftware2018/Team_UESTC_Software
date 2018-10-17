@@ -1,0 +1,64 @@
+---------------------------------------------------------------
+[ 2018-10-03T09:47:49+08:00 ] 0.0.0.0 GET /DataBase/THINKPHP/public/index/display/displayer/id/BBa_B1204.html
+[ info ] localhost:12345/DataBase/THINKPHP/public/index/display/displayer/id/BBa_B1204.html [运行时间：1.275051s][吞吐率：0.78req/s] [内存消耗：3,306.88kb] [文件加载：54]
+[ info ] [ LANG ] D:\Apache24\htdocs\DataBase\THINKPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'display',
+    2 => 'displayer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:12345',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost:12345/DataBase/THINKPHP/public/index/catalog/catalogall/type/composite_parts.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_080836300300be57b7f34f4b3e97d911=1533451670; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1533519552; PHPSESSID=7uuhrvn49u2ea0irn6i9j2o4bq',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'BBa_B1204',
+)
+[ info ] [ RUN ] app\index\controller\Display->displayer[ D:\Apache24\htdocs\DataBase\THINKPHP\application\index\controller\Display.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Apache24\htdocs\DataBase\THINKPHP\public/../application/index\view\display\displayer_composite.html [ array (
+  0 => 'res_2_0',
+  1 => 'res_2_1',
+  2 => 'a',
+  3 => 'b',
+  4 => 'id',
+  5 => 'filename_2',
+  6 => 'len',
+  7 => 'color',
+  8 => 'color_1',
+  9 => 'color_2',
+  10 => 'color_3',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.040634s ] mysql:host=127.0.0.1;dbname=biomaster;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interaction` [ RunTime:0.030615s ]
+[ sql ] [ SQL ] SELECT * FROM `interaction` WHERE  `iGEM_ID` = 'BBa_B1204' [ RunTime:0.008928s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `promoter` [ RunTime:0.003285s ]
+[ sql ] [ SQL ] SELECT * FROM `promoter` WHERE  `iGEM_ID` = 'BBa_B1204' [ RunTime:0.002376s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `composite_parts` [ RunTime:0.003305s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B1204' [ RunTime:0.001326s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_coding_sequences` [ RunTime:0.002936s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_coding_sequences` WHERE  `iGEM_ID` = 'BBa_B1204' [ RunTime:0.002497s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rbs` [ RunTime:0.003148s ]
+[ sql ] [ SQL ] SELECT * FROM `rbs` WHERE  `iGEM_ID` = 'BBa_B1204' [ RunTime:0.001505s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `terminators` [ RunTime:0.002761s ]
+[ sql ] [ SQL ] SELECT * FROM `terminators` WHERE  `iGEM_ID` = 'BBa_B1204' [ RunTime:0.001593s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dna` [ RunTime:0.002873s ]
+[ sql ] [ SQL ] SELECT * FROM `dna` WHERE  `iGEM_ID` = 'BBa_B1204' [ RunTime:0.002475s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `protein_domains` [ RunTime:0.002847s ]
+[ sql ] [ SQL ] SELECT * FROM `protein_domains` WHERE  `iGEM_ID` = 'BBa_B1204' [ RunTime:0.001722s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `reporters` [ RunTime:0.002979s ]
+[ sql ] [ SQL ] SELECT * FROM `reporters` WHERE  `iGEM_ID` = 'BBa_B1204' [ RunTime:0.002224s ]
+[ sql ] [ SQL ] SELECT * FROM `composite_parts` WHERE  `iGEM_ID` = 'BBa_B1204' LIMIT 1 [ RunTime:0.000843s ]
+[ sql ] [ SQL ] select component.composition,component.Locus,component.Type from component,composite_parts where component.iGEM_ID='BBa_B1204' and composite_parts.iGEM_ID='BBa_B1204' [ RunTime:0.114596s ]
