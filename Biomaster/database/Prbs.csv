@@ -1,0 +1,368 @@
+"iGEM_ID";"Description";"Efficiency";"Submit_team";"iGEM_Link";"type";"sequence";"Sample_Statu";"Uses";"Twin";"Nickname";"Designer";"Categories";"Green";"Red"
+"BBa_B0030";"RBS.1 (strong) -- modified from R. Weiss";"0.6";"2003_Antiquity";"http://parts.igem.org/wiki/index.php?title=Part:BBa_B0030";"Rbs";"attaaagaggagaaa";"In stock";"830 Uses";"3 Twins";"";"Vinay S Mahajan, Voichita D. Marinescu, Brian Chow, Alexander D Wissner-Gross and Peter Carr IAP, 2003. ";"//rbs/prokaryote/constitutive/community
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_B0031";"RBS.2 (weak) -- derivative of BBa_0030";"0.07";"2003_Antiquity";"http://parts.igem.org/wiki/index.php?title=Part:BBa_B0031";"Rbs";"tcacacaggaaacc";"In stock";"213 Uses";"1 Twin";"";"Vinay S Mahajan, Voichita D. Marinescu, Brian Chow, Alexander      D Wissner-Gross and Peter Carr IAP, 2003.";"//rbs/prokaryote/constitutive/community
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_B0032";"RBS.3 (medium) -- derivative of BBa_0030";"0.3";"2003_Antiquity";"http://parts.igem.org/wiki/index.php?title=Part:BBa_B0032";"Rbs";"tcacacaggaaag";"In stock";"765 Uses";"5 Twins";"";"Vinay S Mahajan, Voichita D. Marinescu, Brian Chow, Alexander      D Wissner-Gross and Peter Carr IAP, 2003. ";"//rbs/prokaryote/constitutive/community
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_B0033";"RBS.4 (weaker) -- derivative of BBa_0030";"0.01";"2003_Antiquity";"http://parts.igem.org/wiki/index.php?title=Part:BBa_B0033";"Rbs";"tcacacaggac";"In stock";"160 Uses";"2 Twins";"";"Vinay S Mahajan, Voichita D. Marinescu, Brian Chow, Alexander      D Wissner-Gross and Peter Carr IAP, 2003. ";"//rbs/prokaryote/constitutive/community
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_B0034";"RBS (Elowitz 1999) -- defines RBS efficiency";"1";"2003_Antiquity";"http://parts.igem.org/wiki/index.php?title=Part:BBa_B0034";"Rbs";"aaagaggagaaa";"In stock";"4572 Uses";"8 Twins";"";"Vinay S Mahajan, Voichita D. Marinescu, Brian Chow, Alexander      D Wissner-Gross and Peter Carr IAP, 2003. ";"//chassis/prokaryote/ecoli
+//direction/forward
+//function/coliroid
+//rbs/prokaryote/constitutive/community
+//regulation/constitutive
+//ribosome/prokaryote/ecoli
+";"10;12;21;23;25;1000;";""
+"BBa_J176012";"Kozak";"";"2011_Haynes_Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J176012";"Rbs";"cccgccgccaccatggag";"In stock";"56 Uses";"3 Twins";"K";"Brady Laughlin";"";"10;12;21;23;25;1000;";""
+"BBa_J23080";"b0034 derived RBS to match spacing of J01122";"";"2006_Berkeley";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J23080";"Rbs";"aaagaggaga";"In stock";"2 Uses";"1 Twin";"";"bryan hernandez";"//rbs/prokaryote/constitutive/community
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J34801";"ribosome binding site";"";"2006_ETHZ";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J34801";"Rbs";"aaagaggagaaa";"In stock";"11 Uses";"8 Twins";"";"Alexandra Choutko";"//rbs/prokaryote/constitutive/miscellaneous
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J34803";"ribosome binding site";"";"2006_ETHZ";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J34803";"Rbs";"tcacacaggaaag";"In stock";"12 Uses";"5 Twins";"";"Alexandra Choutko";"//rbs/prokaryote/constitutive/miscellaneous
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J44001";"Reverse RBS (RBS<sub>rev</sub>)  -- corresponds to BBa_B0030";"n/a";"2006_Missouri";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J44001";"Rbs";"tttctcctctttaat";"In stock";"17 Uses";"";"";"Todd Eckdahl";"//rbs/prokaryote/constitutive/miscellaneous
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/reverse
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61100";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61100";"Rbs";"aaagaggggaca";"In stock";"123 Uses";"3 Twins";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61101";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61101";"Rbs";"aaagacaggacc";"In stock";"77 Uses";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61102";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61102";"Rbs";"aaagatccgatg";"In stock";"9 Uses";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61103";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61103";"Rbs";"aaagattagaca";"In stock";"3 Uses";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61104";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61104";"Rbs";"aaagaagggaca";"In stock";"4 Uses";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61105";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61105";"Rbs";"aaagacatgacg";"In stock";"2 Uses";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61106";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61106";"Rbs";"aaagataggaga";"In stock";"2 Uses";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61107";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61107";"Rbs";"aaagaagagact";"In stock";"17 Uses";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61108";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61108";"Rbs";"aaagacgagata";"In stock";"1 Uses";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61109";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61109";"Rbs";"aaagactggaga";"In stock";"2 Uses";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61110";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61110";"Rbs";"aaagaggcgaat";"In stock";"Not Used";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61111";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61111";"Rbs";"aaagaggcgata";"In stock";"Not Used";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61112";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61112";"Rbs";"aaagaggtgaca";"In stock";"Not Used";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61113";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61113";"Rbs";"aaagagtggaaa";"In stock";"Not Used";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61114";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61114";"Rbs";"aaagatgagaag";"In stock";"Not Used";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61115";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61115";"Rbs";"aaagaagggata";"In stock";"Not Used";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61116";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61116";"Rbs";"aaagacatgagg";"In stock";"Not Used";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61117";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61117";"Rbs";"aaagacatgagt";"In stock";"9 Uses";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61118";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61118";"Rbs";"aaagagacgaat";"In stock";"Not Used";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61119";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61119";"Rbs";"aaagatttgata";"In stock";"Not Used";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61120";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61120";"Rbs";"aaagacgcgaga";"In stock";"Not Used";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61121";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61121";"Rbs";"aaagagacgagt";"In stock";"Not Used";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61123";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61123";"Rbs";"aaagagatgact";"In stock";"Not Used";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61124";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61124";"Rbs";"aaagagccgaca";"In stock";"Not Used";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61125";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61125";"Rbs";"aaagagccgagt";"In stock";"Not Used";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61126";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61126";"Rbs";"aaagaggtgact";"In stock";"Not Used";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61127";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61127";"Rbs";"aaagagtggaac";"In stock";"18 Uses";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61128";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61128";"Rbs";"aaagataggact";"In stock";"Not Used";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61129";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61129";"Rbs";"aaagattggacg";"In stock";"1 Uses";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61130";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61130";"Rbs";"aaagaaacgaca";"In stock";"Not Used";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61131";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61131";"Rbs";"aaagaaccgaat";"In stock";"Not Used";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61132";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61132";"Rbs";"aaagacaggatt";"In stock";"3 Uses";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61133";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61133";"Rbs";"aaagacccgaga";"In stock";"Not Used";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61134";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61134";"Rbs";"aaagaccggaaa";"In stock";"1 Uses";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61136";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61136";"Rbs";"aaagagctgagc";"In stock";"Not Used";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61137";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61137";"Rbs";"aaagagtagatc";"In stock";"Not Used";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61138";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61138";"Rbs";"aaagatatgaat";"In stock";"Not Used";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J61139";"Ribosome Binding Site Family Member";"";"2007_Arkin Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J61139";"Rbs";"aaagattagagt";"In stock";"1 Uses";"";"";"John Anderson";"//rbs/prokaryote/constitutive/anderson
+//ribosome/prokaryote/ecoli
+//chassis/prokaryote/ecoli
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J63003";"designed yeast Kozak sequence";"n/a";"2006_Silver Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J63003";"Rbs";"cccgccgccaccatggag";"In stock";"21 Uses";"3 Twins";"Kozak & st";"Caroline Ajo-Franklin";"//ribosome/eukaryote/yeast
+//chassis/eukaryote/yeast
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_J70591";"RFC12 Elowitz RBS";"";"2010_Knight Lab";"http://parts.igem.org/wiki/index.php?title=Part:BBa_J70591";"Rbs";"aaagaggagaaa";"In stock";"1 Uses";"8 Twins";"";"Joseph Lynch";"";"10;12;21;23;25;1000;";""
+"BBa_K1017202";"Regulation RBS-2";"";"2013_NCTU_Formosa";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1017202";"Rbs";"gaaaaaaagcatgagggtaat";"In stock";"1 Uses";"";"rRBS-2";"Wen-Hui Cheng";"";"10;12;21;23;25;1000;";""
+"BBa_K1045010";"RBS BBa_B0034 with inversed Pre- and Suffix";"";"2013_Goettingen";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1045010";"Rbs";"tttctcctcttt";"In stock";"32 Uses";"1 Twin";"";"iGEM Team Gttingen 2013";"";"10;12;21;23;25;1000;";""
+"BBa_K1084101";"SD2";"";"2013_HokkaidoU_Japan";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1084101";"Rbs";"gctctttaacaatttatcagatccaattcctgg";"In stock";"3 Uses";"";"";"Ryotaro Nouda";"";"10;12;21;23;25;1000;";""
+"BBa_K1084103";"SD6";"";"2013_HokkaidoU_Japan";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1084103";"Rbs";"gctctttaacaatttatcagatccaataggagg";"In stock";"1 Uses";"";"";"Ami Kawahata";"";"10;12;21;23;25;1000;";""
+"BBa_K1084104";"SD8";"";"2013_HokkaidoU_Japan";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1084104";"Rbs";"gctctttaacaatttatcagatccataaggagg";"In stock";"1 Uses";"";"";"Ami Kawahata";"";"10;12;21;23;25;1000;";""
+"BBa_K1100014";"ALeaderT (with insulator)";"";"2013_Fudan";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1100014";"Rbs";"ctgccgtataggcagctaaggagcagcaacgatgttacgcagcagggcagtcgccctaaaacaaagttaggcagcacggagacacttcagcatgggtggaggtagc";"In stock";"Not Used";"";"";"Hao-tian Guo, Chenxi He";"";"10;12;21;23;25;1000;";""
+"BBa_K1114100";"MoClo format of a modified version of BBa_B0030 with BC fusion sites.";"";"2013_BostonU";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1114100";"Rbs";"tactagagattaaagaggagaaatactaaatg";"In stock";"Not Used";"";"";"Traci Haddock";"";"10;12;21;23;25;1000;";""
+"BBa_K1114101";"MoClo format of a modified version of BBa_B0031 with BC fusion sites.";"";"2013_BostonU";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1114101";"Rbs";"tactagagtcacacaggaaacctactaaatg";"In stock";"Not Used";"";"";"Traci Haddock";"";"10;12;21;23;25;1000;";""
+"BBa_K1114102";"MoClo format of a modified version of BBa_B0032 with BC fusion sites";"";"2013_BostonU";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1114102";"Rbs";"tactagagtcacacaggaaagtactaaatg";"In stock";"Not Used";"";"";"Traci Haddock";"";"10;12;21;23;25;1000;";""
+"BBa_K1114103";"MoClo formatted version of B0033 with BC fusion sites";"";"2013_BostonU";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1114103";"Rbs";"tactagagtcacacaggactactaaatg";"In stock";"Not Used";"";"";"Traci Haddock";"";"10;12;21;23;25;1000;";""
+"BBa_K1114104";"MoClo formatted version of B0034 with BC fusion sites";"";"2013_BostonU";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1114104";"Rbs";"tactagagaaagaggagaaatactaaatg";"In stock";"Not Used";"";"";"Traci Haddock";"";"10;12;21;23;25;1000;";""
+"BBa_K1114107";"Bicistronic Design RBS 2, MoClo Format with BC fusion sites";"";"2013_BostonU";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1114107";"Rbs";"tactgggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgctaaggaggttttctaatg";"In stock";"24 Uses";"";"";"Traci Haddock";"";"10;12;21;23;25;1000;";""
+"BBa_K1114108";"Bicistronic design RBS 8, MoClo Format with BC fusion sites";"";"2013_BostonU";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1114108";"Rbs";"tactgggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgcatcggaccgtttctaatg";"In stock";"1 Uses";"";"";"Traci Haddock";"";"10;12;21;23;25;1000;";""
+"BBa_K1114109";"Bicistronic design RBS 12, MoClo Format with BC fusion sites";"";"2013_BostonU";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1114109";"Rbs";"tactgggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgctgcggagggtttctaatg";"In stock";"2 Uses";"";"";"Traci Haddock";"";"10;12;21;23;25;1000;";""
+"BBa_K1114110";"Bicistronic design RBS 13, MoClo Format with BC fusion sites";"";"2013_BostonU";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1114110";"Rbs";"tactgggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgcaatggaggctttctaatg";"In stock";"2 Uses";"1 Twin";"";"Traci Haddock";"";"10;12;21;23;25;1000;";""
+"BBa_K1114111";"Bicistronic design RBS 16, MoClo Format with BC fusion sites";"";"2013_BostonU";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1114111";"Rbs";"tactgggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgcttaggagtctttctaatg";"In stock";"2 Uses";"";"";"Traci Haddock";"";"10;12;21;23;25;1000;";""
+"BBa_K1159300";"Polioviral Internal Ribosome Entry Site (IRES) for polycistronic expression in eukaryotes";"";"2013_TU-Munich";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1159300";"Rbs";"ttaaaacagctctggggttgtacccaccccagaggcccacgtggcggctagtactccggtattgcggtacccttgtacgcctgttttatactcccttcccgtaacttagacgcacaaaaccaagttcaatagaagggggtacaaaccagtaccaccacgaacaagcacttctgtttccccggtgatgtcgtatagactgcttgcgtggttgaaagcgacggatccgttatccgcttatgtacttcgagaagcccagtaccacctcggaatcttcgatgcgttgcgctcagcactcaaccccagagtgtagcttaggctgatgagtctggacatccctcaccggtgacggtggtccaggctgcgttggcggcctacctatggctaacgccatgggacgctagttgtgaacaaggtgtgaagagcctattgagctacataagaatcctccggcccctgaatgcggctaatcccaacctcggagcaggtggtcacaaaccagtgattggcctgtcgtaacgcgcaagtccgtggcggaaccgactactttgggtgtccgtgtttccttttattttattgtggctgcttatggtgacaatcacagattgttatcataaagcgaattggatt";"In stock";"8 Uses";"";"";"Dong-Jiunn Jeffery TRUONG";"//chassis/eukaryote
+";"10;12;23;1000;";"21;25;"
+"BBa_K1231002";"Lpp-RBS is a constitutive promoter";"";"2013_Northwestern";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1231002";"Rbs";"ggtttcccgactggaatcaaaaaaatattctcaacataaaaaactttgtgtaatacttgtgaaataattttgtttaactttaagaaggag";"In stock";"3 Uses";"";"";"Brendan Tran";"";"10;12;21;23;25;1000;";""
+"BBa_K1323016";"Translational initiation region (RBS) for Staphylococcus aureus";"";"2014_Waterloo";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1323016";"Rbs";"tgattaactttataaggaggaaaaacat";"In stock";"Not Used";"";"";"Julia Manalil";"";"10;12;21;23;25;1000;";""
+"BBa_K1351028";"LMU Bacillus RBS collection 1";"";"2014_LMU-Munich";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1351028";"Rbs";"aaggagggata";"In stock";"Not Used";"";"";"Florian Riemer";"//chassis/prokaryote/bsubtilis
+//rbs/prokaryote/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_K1351029";"LMU Bacillus RBS collection 2";"";"2014_LMU-Munich";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1351029";"Rbs";"agaggaggata";"In stock";"Not Used";"";"";"Florian Riemer";"//chassis/prokaryote/bsubtilis
+//rbs/prokaryote/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_K1351030";"LMU Bacillus RBS collection 3";"";"2014_LMU-Munich";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1351030";"Rbs";"aaggagagata";"In stock";"Not Used";"";"";"Florian Riemer";"//chassis/prokaryote/bsubtilis
+//rbs/prokaryote/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_K1351031";"LMU Bacillus RBS collection 4";"";"2014_LMU-Munich";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1351031";"Rbs";"aggagaggata";"In stock";"Not Used";"";"";"Florian Riemer";"//chassis/prokaryote/bsubtilis
+//rbs/prokaryote/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_K1351032";"LMU Bacillus RBS collection 5";"";"2014_LMU-Munich";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1351032";"Rbs";"aagaggagata";"In stock";"Not Used";"";"";"Florian Riemer";"//chassis/prokaryote/bsubtilis
+//rbs/prokaryote/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_K1351033";"LMU Bacillus RBS collection 6";"";"2014_LMU-Munich";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1351033";"Rbs";"agaaagggata";"In stock";"Not Used";"";"";"Florian Riemer";"//chassis/prokaryote/bsubtilis
+//rbs/prokaryote/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_K1351034";"LMU Bacillus RBS collection 7";"";"2014_LMU-Munich";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1351034";"Rbs";"aagaagagata";"In stock";"Not Used";"";"";"Florian Riemer";"//chassis/prokaryote/bsubtilis
+//rbs/prokaryote/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_K1379015";"B0032 derivate for RBS used in Lock 3C";"";"2014_Hong_Kong_HKUST";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1379015";"Rbs";"acgaagaggaga";"In stock";"1 Uses";"";"";"Medina Cuellar Raul Guillermo";"";"10;12;21;23;25;1000;";""
+"BBa_K143021";"SpoVG ribosome binding site (RBS) for B. subtilis";"";"2008_Imperial_College";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K143021";"Rbs";"aaaggtggtgaa";"In stock";"35 Uses";"2 Twins";"RBS-spoVG";"James Chappell";"//rbs/prokaryote/constitutive/miscellaneous
+//ribosome/prokaryote/bsubtilis
+//chassis/prokaryote/bsubtilis
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_K1442023";"EMCV IRES";"";"2014_Warwick";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1442023";"Rbs";"ggcgcgccagaccacaacggtttccctctagcgggatcaattccgcccctctccctccccccccggtaacgttactggccgaagccgcttggaataaggccggtgtgcgtttgtctatatgttattttccaccatattgccgtcttttggcaatgtgagggcccggaaacctggccctgtcttcttgacgagcattcctaggggtctttcccctctcgccaaaggaatgcaaggtctgttgaatgtcgtgaaggaagcagttcctctggaagcttcttgaagacaaacaacgtctgtagcgaccctttgcaggcagcggaaccccccacctggcgacaggtgcctctgcggccaaaagccacgtgtataagatacacctgcaaaggcggcacaaccccagtgccacgttgtgagttggatagttgtggaaagagtcaaatggctctcctcaagcgtattcaacaaggggctgaaggatgcccagaaggtaccccattgtatgggatctgatctggggcctcggtgcacatgctttacatgtgtttagtcgaggttaaaaaacgtctaggccccccgaaccacggggacgtggttttcctttgaaaaacacgataatacctgtaca";"In stock";"2 Uses";"";"EMCV";"Caroline de Cock";"";"10;12;21;23;25;1000;";""
+"BBa_K1442024";"NKRF IRES";"";"2014_Warwick";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1442024";"Rbs";"ggcgcgcccagagtaatgacatggttccttccatcctccaaaggtgaccaataatagtttgtaagtatcattatgaactaatgaattttcaacatatttgatatatttcaatccattgccatcattgttcttatcgatatttgagttggctcactttgccagtaagagtctattcaaattggcttctgagtccatttgacacaacacctttgatctttgacagtttccttggttttaggtgctagatgatttctcaggctcaccttagacatttcctgccacagacttagaatcagccatttctctaaggaccctgattccatttcatgagaaatgatagagaccacaatcaaaacaagtcatgaatttatactgatattttcaattcaaattaaagatgaggtttttgctaaatttttttgagtttatatttgtatgtcttatgctgaaaaatcttgtttcctaattagtaacataattattcatttgatgggtaaatattttagggccgattctttggttttatagccaagataccctgttgataaagtcttgtgggagcaattataagactggcttattttgaagctttttaaaaaagacatccttacctgttttaactgtagattatattaacttaaataggtacagcccacgcttgtgtaca";"In stock";"1 Uses";"";"NKRF";"Caroline de Cock";"";"10;12;21;23;25;";"1000;"
+"BBa_K1461000";"crRBS";"";"2014_UT-Tokyo";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1461000";"Rbs";"gaactctaccattcacctcttggatttgggtattaaagaggagaaaggtacc";"In stock";"3 Uses";"";"";"Takefumi Yoshikawa";"";"10;12;21;23;25;1000;";""
+"BBa_K1529997";"aa";"";"2014_Tokyo_Tech";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1529997";"Rbs";"aaagaggagaaa";"In stock";"Not Used";"8 Twins";"";"Kino Yuta";"";"10;12;21;23;25;1000;";""
+"BBa_K1583061";"RBS ";"";"2015_TU_Delft";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1583061";"Rbs";"aaagaggagaaa";"In stock";"3 Uses";"8 Twins";"";"Stefan Robert Marsden";"";"10;12;21;23;25;1000;";""
+"BBa_K165002";"Kozak sequence (yeast RBS)";"";"2008_BrownTwo";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K165002";"Rbs";"cccgccgccaccatggag";"In stock";"37 Uses";"3 Twins";"";"John Szymanski";"//ribosome/eukaryote/yeast
+//chassis/eukaryote/yeast
+//direction/forward
+//regulation/constitutive
+";"10;12;21;23;25;1000;";""
+"BBa_K1725317";"Member of the RBS library - derived from BBa_B0032";"";"2015_Glasgow";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1725317";"Rbs";"tcacacaggaaag";"In stock";"Not Used";"5 Twins";"";"Vilija Lomeikaite";"";"10;12;21;23;25;1000;";""
+"BBa_K1789002";"RBS30";"";"2015_NUDT_CHINA";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1789002";"Rbs";"attaaagaggagaaa";"In stock";"9 Uses";"3 Twins";"";"Xinyuan Qiu";"";"10;12;21;23;25;1000;";""
+"BBa_K1799011";"LsrA RBS";"";"2015_Genspace";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1799011";"Rbs";"ctgaacgggg";"In stock";"Not Used";"";"";"Will Shindel";"";"10;12;21;23;25;1000;";""
+"BBa_K1799012";"LsrC RBS";"";"2015_Genspace";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1799012";"Rbs";"cgtcaggagg";"In stock";"Not Used";"";"";"Will Shindel";"";"10;12;21;23;25;1000;";""
+"BBa_K1799013";"LsrD RBS";"";"2015_Genspace";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1799013";"Rbs";"aaacgggagg";"In stock";"Not Used";"";"";"Will Shindel";"";"10;12;21;23;25;1000;";""
+"BBa_K1799014";"LsrB RBS";"";"2015_Genspace";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K1799014";"Rbs";"ataaaggata";"In stock";"Not Used";"";"";"Will Shindel";"";"10;12;21;23;25;1000;";""
+"BBa_K2066549";"Synthetic Enhancer Project: RBS";"";"2016_William_and_Mary";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K2066549";"Rbs";"a";"In stock";"14 Uses";"13 Twins";"";"Kalen Clifton, Christine Gao, Andrew Halleran, Ethan Jones, &#65532;Likhitha Kolla, Joseph Maniaci, John Marken, John Mitchell, Callan Monette, Adam Reiss";"";"10;12;21;23;25;1000;";""
+"BBa_K2205098";"B0034 (Reversed)";"";"2017_Newcastle";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K2205098";"Rbs";"tttctcctcttt";"In stock";"1 Uses";"1 Twin";"";"Bradley Brown";"";"10;12;21;23;25;1000;";""
+"BBa_K545006";"mag ";"0.04";"2011_Grenoble";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K545006";"Rbs";"tcatgaatcgcacgaccagggattgatcatgt";"In stock";"2 Uses";"";"";"Grenoble 2011";"//function/regulation/transcriptional
+";"10;12;21;23;25;1000;";""
+"BBa_K545666";"rpos leader sequence";"";"2011_Grenoble";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K545666";"Rbs";"cccataacgacacaatgctggtccgggaacaacaagaagttaaggcggggcaaaaaatagcgaccatgggtagcaccggaaccagttcaacacgcttgcattttgaaattcgttacaaggggaaatccgtaaacccgctgcgttatttgccgcagcgataaatcggcggaaccaggcttttgcttgaatgttccgtcaagggatcacgggtaggagccacctt";"In stock";"Not Used";"";"";"Grenoble 2011";"";"10;12;21;23;25;1000;";""
+"BBa_K606061";"SpoVG Ribosome Binding Site (RBS) for B. subtilis";"";"2011_Paris_Bettencourt";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K606061";"Rbs";"aaaggtggtgaa";"In stock";"4 Uses";"2 Twins";"";"Axel Séguret";"";"10;12;21;23;25;1000;";""
+"BBa_K737033";"galK is the leader sequence of galactokinase (GalK)";"";"2012_OUC-China";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K737033";"Rbs";"gtcgacagtcagcgatatccattttcgcgaatccggagtgtaagaaatgagtctgaaagaaaaaacacaatctctgtttgccaacgcatttggctaccctgccactcacaccattcaggcgatcgat";"In stock";"11 Uses";"";"";"Peiran Zhang";"";"10;12;21;23;25;1000;";""
+"BBa_K783047";"This is a MoClo converted version of BBa_B0030";"";"2012_BostonU";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K783047";"Rbs";"attaaagaggagaaa";"In stock";"Not Used";"3 Twins";"";"Traci Haddock";"";"10;12;21;23;25;1000;";""
+"BBa_K783048";"This is a MoClo converted version of BBa_B0031";"";"2012_BostonU";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K783048";"Rbs";"tcacacaggaaacc";"In stock";"Not Used";"1 Twin";"";"Traci Haddock";"";"10;12;21;23;25;1000;";""
+"BBa_K783049";"This is a MoClo converted version of BBa_B0032";"";"2012_BostonU";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K783049";"Rbs";"tcacacaggaaag";"In stock";"Not Used";"5 Twins";"";"Traci Haddock";"";"10;12;21;23;25;1000;";""
+"BBa_K783050";"This is a MoClo converted version of BBa_B0033";"";"2012_BostonU";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K783050";"Rbs";"tcacacaggac";"In stock";"Not Used";"2 Twins";"";"Traci Haddock";"";"10;12;21;23;25;1000;";""
+"BBa_K783051";"This is a MoClo converted version of BBa_B0034";"";"2012_BostonU";"http://parts.igem.org/wiki/index.php?title=Part:BBa_K783051";"Rbs";"aaagaggagaaa";"In stock";"Not Used";"8 Twins";"";"Traci Haddock";"";"10;12;21;23;25;1000;";""
+"BBa_M36781";"BCD13";"";"2013_Stanford BIOE44 - S11";"http://parts.igem.org/wiki/index.php?title=Part:BBa_M36781";"Rbs";"tactgggcccaagttcacttaaaaaggagatcaacaatgaaagcaattttcgtactgaaacatcttaatcatgcaatggaggctttctaatg";"In stock";"1 Uses";"1 Twin";"";"Sylvia Yang";"";"10;12;21;23;25;1000;";""
