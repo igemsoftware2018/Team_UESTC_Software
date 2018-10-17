@@ -1,7 +1,7 @@
 ﻿Biomaster
 =========
  - UESTC_Software_2018  
-[Visit Website](http://igem.uestc.edu.cn/biomaster)  
+[Visit Biomaster Website](http://igem.uestc.edu.cn/biomaster)  
 
 Our Project
 ___________________________
