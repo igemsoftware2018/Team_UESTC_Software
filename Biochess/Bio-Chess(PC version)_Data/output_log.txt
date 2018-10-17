@@ -1,0 +1,54 @@
+Initialize engine version: 5.5.4p4 (e92bef0ab5a4)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940MX (ID=0x134d)
+    Vendor:   NVIDIA
+    VRAM:     2010 MB
+    Driver:   22.20.16.4836
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Unity3D\工程\BioChess\Bio-Chess1.6\Bio-Chess(PC version)_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Unity3D\工程\BioChess\Bio-Chess1.6\Bio-Chess(PC version)_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Unity3D\工程\BioChess\Bio-Chess1.6\Bio-Chess(PC version)_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Unity3D\工程\BioChess\Bio-Chess1.6\Bio-Chess(PC version)_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Unity3D\工程\BioChess\Bio-Chess1.6\Bio-Chess(PC version)_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Unity3D\工程\BioChess\Bio-Chess1.6\Bio-Chess(PC version)_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Unity3D\工程\BioChess\Bio-Chess1.6\Bio-Chess(PC version)_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Unity3D\工程\BioChess\Bio-Chess1.6\Bio-Chess(PC version)_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Unity3D\工程\BioChess\Bio-Chess1.6\Bio-Chess(PC version)_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading D:\Unity3D\工程\BioChess\Bio-Chess1.6\Bio-Chess(PC version)_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.423 seconds
+Platform assembly: D:\Unity3D\工程\BioChess\Bio-Chess1.6\Bio-Chess(PC version)_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Unity3D\工程\BioChess\Bio-Chess1.6\Bio-Chess(PC version)_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 6.673063 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 345c -> priority: 1 
+UnloadTime: 4.421544 ms
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1343.
+Total: 0.639146 ms (FindLiveObjects: 0.115626 ms CreateObjectMapping: 0.086186 ms MarkObjects: 0.417279 ms  DeleteObjects: 0.017919 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.861652 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1343.
+Total: 0.504319 ms (FindLiveObjects: 0.083626 ms CreateObjectMapping: 0.046933 ms MarkObjects: 0.366506 ms  DeleteObjects: 0.006826 ms)
+
+player2骰子的点数为1
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.925439 ms
+
+Unloading 107 unused Assets to reduce memory usage. Loaded Objects now: 492.
+Total: 0.671999 ms (FindLiveObjects: 0.063999 ms CreateObjectMapping: 0.044799 ms MarkObjects: 0.322986 ms  DeleteObjects: 0.239359 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.673279 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1344.
+Total: 3.246505 ms (FindLiveObjects: 0.509439 ms CreateObjectMapping: 0.463359 ms MarkObjects: 2.243412 ms  DeleteObjects: 0.026879 ms)
+
